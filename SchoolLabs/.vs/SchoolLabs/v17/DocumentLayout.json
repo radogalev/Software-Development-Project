@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\Info.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:Info.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\rados\\onedrive\\desktop\\project conec\\software-development-project\\schoollabs\\schoollabs.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A9CD17-70E7-4536-85CC-DBB4EBAAE945}|SchoolLabs.Services\\SchoolLabs.Services.csproj|c:\\users\\rados\\onedrive\\desktop\\project conec\\software-development-project\\schoollabs\\schoollabs.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A9CD17-70E7-4536-85CC-DBB4EBAAE945}|SchoolLabs.Services\\SchoolLabs.Services.csproj|solutionrelative:schoollabs.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\rados\\onedrive\\desktop\\project conec\\software-development-project\\schoollabs\\schoollabs.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\rados\\onedrive\\desktop\\project conec\\software-development-project\\schoollabs\\schoollabs.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Info.txt",
+              "DocumentMoniker": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\Info.txt",
+              "RelativeDocumentMoniker": "Info.txt",
+              "ToolTip": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\Info.txt",
+              "RelativeToolTip": "Info.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-19T11:22:05.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Class1.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:21:51.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Services\\Class1.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Services\\Class1.cs",
+              "RelativeToolTip": "SchoolLabs.Services\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:21:34.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Class1.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:21:14.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Form1.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Form1.cs [Design]",
+              "RelativeToolTip": "SchoolLabs.UI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:20:43.616Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
