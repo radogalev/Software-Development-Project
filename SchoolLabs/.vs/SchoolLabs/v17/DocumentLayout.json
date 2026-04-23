@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\admin\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\admin\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\admin\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\schoollabs.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\schoollabs.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -27,19 +35,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SchoolLabs.Data",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\User.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\User.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:30:17.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Roles.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Roles.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Roles.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:28:36.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SchoolLabs.Data.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
               "RelativeDocumentMoniker": "SchoolLabs.Data\\SchoolLabs.Data.csproj",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
               "RelativeToolTip": "SchoolLabs.Data\\SchoolLabs.Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-23T10:22:46.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T10:22:46.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Info.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\Info.txt",
               "RelativeDocumentMoniker": "Info.txt",
@@ -47,17 +80,16 @@
               "RelativeToolTip": "Info.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-19T11:22:05.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T11:22:05.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Form1.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Form1.cs",
-              "ToolTip": "C:\\Users\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Rados\\OneDrive\\Desktop\\Project Conec\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Form1.cs [Design]",
+              "RelativeToolTip": "SchoolLabs.UI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T11:20:43.616Z"
             }
