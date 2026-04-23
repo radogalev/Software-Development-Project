@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
         "projectName": "SchoolLabs.Core",
-        "projectPath": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
