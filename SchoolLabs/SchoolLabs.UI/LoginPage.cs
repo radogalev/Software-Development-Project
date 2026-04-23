@@ -21,5 +21,16 @@ namespace SchoolLabs.UI
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Dashboard d = new Dashboard();
+
+            // pri zatvarqne na dashboard prozoreca se zatvarq i tozi prozorec
+            d.FormClosed += (s, args) => this.Close();
+
+            d.Show();
+            this.Hide();
+        }
     }
 }

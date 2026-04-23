@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\schoollabs.ui\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\schoollabs.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\schoollabs.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\schoollabs.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\schoollabs.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\loginpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\loginpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Dashboard.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Dashboard.cs",
+              "RelativeToolTip": "SchoolLabs.UI\\Dashboard.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:45:11.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\LoginPage.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\LoginPage.cs [Design]",
+              "RelativeToolTip": "SchoolLabs.UI\\LoginPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:42:32.887Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\LoginPage.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\LoginPage.cs",
+              "RelativeToolTip": "SchoolLabs.UI\\LoginPage.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvx8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T22:23:00.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Program.cs",
+              "RelativeToolTip": "SchoolLabs.UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:42:31.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SchoolLabs.UI",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\SchoolLabs.UI.csproj",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
+              "RelativeToolTip": "SchoolLabs.UI\\SchoolLabs.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-22T12:44:45.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SchoolLabs.Data",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\SchoolLabs.Data.csproj",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
+              "RelativeToolTip": "SchoolLabs.Data\\SchoolLabs.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-22T13:39:15.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Dashboard.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Dashboard.cs [Design]",
+              "RelativeToolTip": "SchoolLabs.UI\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:45:38.067Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Dashboard.Designer.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Dashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Dashboard.Designer.cs",
+              "RelativeToolTip": "SchoolLabs.UI\\Dashboard.Designer.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAtwJMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:44:21.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\LoginPage.Designer.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\LoginPage.Designer.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\LoginPage.Designer.cs",
+              "RelativeToolTip": "SchoolLabs.UI\\LoginPage.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:42:31.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 37,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

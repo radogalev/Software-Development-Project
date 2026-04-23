@@ -59,7 +59,6 @@
             label2.Size = new Size(59, 15);
             label2.TabIndex = 1;
             label2.Text = "username";
-            label2.Click += this.label2_Click;
             // 
             // label3
             // 
@@ -115,7 +114,6 @@
             button4.TabIndex = 7;
             button4.Text = "Users";
             button4.UseVisualStyleBackColor = true;
-            button4.Click += this.button4_Click;
             // 
             // dataGridView1
             // 
@@ -147,7 +145,6 @@
             Controls.Add(label1);
             Name = "Dashboard";
             Text = "Form1";
-            Load += this.Dashboard_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
