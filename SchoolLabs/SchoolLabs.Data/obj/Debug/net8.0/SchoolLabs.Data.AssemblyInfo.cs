@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolLabs.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4105521ea30da3fe0d5fa3068effd32fa70cf98a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a41ee21e8c4a1e5d07d60d895750d245385835a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolLabs.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolLabs.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
