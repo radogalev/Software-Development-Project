@@ -59,7 +59,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SchoolLabs.Core",
+              "Title": "SchoolLabs.Core.csproj",
               "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
               "RelativeDocumentMoniker": "SchoolLabs.Core\\SchoolLabs.Core.csproj",
               "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
@@ -85,7 +85,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SchoolLabs.UI",
+              "Title": "SchoolLabs.UI.csproj",
               "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\SchoolLabs.UI.csproj",
               "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
@@ -98,7 +98,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SchoolLabs.Services",
+              "Title": "SchoolLabs.Services.csproj",
               "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Services\\SchoolLabs.Services.csproj",
               "RelativeDocumentMoniker": "SchoolLabs.Services\\SchoolLabs.Services.csproj",
               "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Services\\SchoolLabs.Services.csproj",
