@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolLabs.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9254f5e513a928f7b375e5e27660d861ad03ca9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+808c753be018b7f7105f63c2f139f835dbf34835")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolLabs.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolLabs.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
