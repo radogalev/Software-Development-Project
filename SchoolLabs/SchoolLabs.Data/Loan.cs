@@ -16,11 +16,13 @@ namespace SchoolLabs.Data
         public DateTime? ReturnDate { get; set; }
         public enum Status
         {
-
+            Pending,
+            Approroved,
+            Under_review
         }
         public Asset Asset { get; set; }
         public User IssuedByUser { get; set; }
-        public ICollection<Damage_Reports> Damage_Reports { get; set; }
+        public ICollection<Damage_Report> Damage_Reports { get; set; }
 
     }
 }
