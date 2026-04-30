@@ -42,6 +42,7 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "Damage_Report.cs",
               "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Damage_Report.cs",
@@ -51,11 +52,64 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T09:49:41.778Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "SchoolLabs.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\SchoolLabs.Core.csproj",
+              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
+              "RelativeToolTip": "SchoolLabs.Core\\SchoolLabs.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-27T13:51:35.356Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
+=======
+              "Title": "SchoolLabs.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\SchoolLabs.Data.csproj",
+              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
+              "RelativeToolTip": "SchoolLabs.Data\\SchoolLabs.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T10:27:36.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SchoolLabs.UI.csproj",
+              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\SchoolLabs.UI.csproj",
+              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
+              "RelativeToolTip": "SchoolLabs.UI\\SchoolLabs.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-27T13:52:48.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SchoolLabs.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Services\\SchoolLabs.Services.csproj",
+              "RelativeDocumentMoniker": "SchoolLabs.Services\\SchoolLabs.Services.csproj",
+              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Services\\SchoolLabs.Services.csproj",
+              "RelativeToolTip": "SchoolLabs.Services\\SchoolLabs.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-27T13:52:47.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "Loan.cs",
               "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Loan.cs",
               "RelativeDocumentMoniker": "SchoolLabs.Data\\Loan.cs",

@@ -14,12 +14,13 @@ namespace SchoolLabs.Data
         public string SerialNumber { get; set; }
         public enum Status
         {
-
+            Available_for_loaning,
+            Borrowed,
+            Unavailable
         }
         public enum Condition
         {
             Available,
-            Borrowed,
             In_Repair,
             Scrapped
         }
