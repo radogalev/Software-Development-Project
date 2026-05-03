@@ -12,8 +12,9 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\1\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\1\\.nuget\\packages"
+      "C:\\Users\\stilq\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\stilq\\.nuget\\packages",
+      "D:\\Stilqn-Varna\\vsshared\\NuGetPackages"
     ],
     "configProperties": {
       "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
