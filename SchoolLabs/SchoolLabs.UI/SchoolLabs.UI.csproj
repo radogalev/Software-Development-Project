@@ -8,4 +8,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolLabs.Core\SchoolLabs.Core.csproj" />
+    <ProjectReference Include="..\SchoolLabs.Data\SchoolLabs.Data.csproj" />
+    <ProjectReference Include="..\SchoolLabs.Services\SchoolLabs.Services.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,15 @@
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\bin\Debug\net8.0\SchoolLabs.Data.deps.json
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\bin\Debug\net8.0\SchoolLabs.Data.runtimeconfig.json
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\bin\Debug\net8.0\SchoolLabs.Data.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\bin\Debug\net8.0\SchoolLabs.Data.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.csproj.AssemblyReference.cache
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.AssemblyInfoInputs.cache
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.AssemblyInfo.cs
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.csproj.CoreCompileInputs.cache
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.sourcelink.json
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\refint\SchoolLabs.Data.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.genruntimeconfig.cache
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\ref\SchoolLabs.Data.dll

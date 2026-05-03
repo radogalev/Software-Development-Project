@@ -7,19 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SchoolLabs.Core.Enums;
 
-namespace SchoolLabs.UI.Shells
+namespace SchoolLabs.UI.Controls
 {
-    public partial class LoginForm : Form
+    public partial class AssetListBox : UserControl
     {
-        public LoginForm()
+        public AssetListBox(string name, LoanedStatus status)
         {
             InitializeComponent();
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-
+            Name_lbl.Text = name;
+            Status_lbl.Text = status.ToString();
         }
     }
 }
