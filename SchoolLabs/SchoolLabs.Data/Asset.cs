@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Import the folder with all enums
+using SchoolLabs.Data.Enums;
+
 namespace SchoolLabs.Data
 {
     internal class Asset
@@ -12,27 +15,16 @@ namespace SchoolLabs.Data
         public string Name { get; set; }
         public string InventoryNumber {  get; set; }
         public string SerialNumber { get; set; }
-        public enum Status
-        {
-            Available_for_loaning,
-            Borrowed,
-            Unavailable
-        }
-        public enum Condition
-        {
-            Available,
-            In_Repair,
-            Scrapped
-        }
-        public enum Category
-        {
-            Laptop,
-            Computer,
-            Arduino,
-            Furniture,
-            Sports_Equipment
-        }
+        //Used as if making a class object
+        public AssetStatus status { get; set; }
+        public AssetCondition condition { get; set; }
+        public AssetCategory category { get; set; }
         public Location Locations { get; set; }
         public ICollection <Loan> Loans { get; set; }
+        public void ExampleUsage()
+        {
+            //       Name       .Value
+            status = AssetStatus.Borrowed;
+        }
     }
 }

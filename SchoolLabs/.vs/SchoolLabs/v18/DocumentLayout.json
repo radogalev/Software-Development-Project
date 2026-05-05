@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\assetcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\enums\\assetcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\assetcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\enums\\assetcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +50,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetCondition.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCondition.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\AssetCondition.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCondition.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Enums\\AssetCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T09:53:39.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AssetCategory.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCategory.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\AssetCategory.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCategory.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Enums\\AssetCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T09:53:26.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Asset.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Asset.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Asset.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Asset.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T09:52:37.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssetStatus.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetStatus.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\AssetStatus.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetStatus.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Enums\\AssetStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T09:53:18.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LoginForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\LoginForm.Designer.cs",
@@ -47,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Program.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Program.cs",
@@ -60,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginForm.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\LoginForm.cs",
@@ -73,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginForm.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\LoginForm.cs",
