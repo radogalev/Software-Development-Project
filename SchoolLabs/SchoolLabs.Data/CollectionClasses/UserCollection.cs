@@ -20,10 +20,16 @@ namespace SchoolLabs.Data.CollectionClasses
         {
             return Users.Where(x => x.Role == role).ToList<User>();
         }
+
         public User GetUsersName(string name)
         {
             return Users.Where(x => x.UserName == name).First();
         }
+
+
+
+
+
 
         }
 }
