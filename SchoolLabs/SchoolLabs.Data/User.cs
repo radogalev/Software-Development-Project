@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SchoolLabs.Data.Enums;
 
 namespace SchoolLabs.Data
 {
@@ -11,7 +12,7 @@ namespace SchoolLabs.Data
         public int UserId { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-        public Roles Roles { get; set; }
+        public RoleName Role { get; set; }
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }
         public int RoleId { get; set; }
