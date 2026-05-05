@@ -29,42 +29,61 @@
         private void InitializeComponent()
         {
             AddAsset_btn_Temp = new Button();
+            MainSplit_sc = new SplitContainer();
             ListHolder_pnl = new FlowLayoutPanel();
             SuspendLayout();
             // 
             // AddAsset_btn_Temp
-            // 
-            AddAsset_btn_Temp.Location = new Point(453, 373);
+            // (placed in the left panel; docked to bottom so it's always visible)
+            AddAsset_btn_Temp.Margin = new Padding(3, 2, 3, 2);
             AddAsset_btn_Temp.Name = "AddAsset_btn_Temp";
-            AddAsset_btn_Temp.Size = new Size(94, 29);
+            AddAsset_btn_Temp.Height = 26;
+            AddAsset_btn_Temp.Dock = DockStyle.Bottom;
             AddAsset_btn_Temp.TabIndex = 0;
-            AddAsset_btn_Temp.Text = "button1";
+            AddAsset_btn_Temp.Text = "Add test asset";
             AddAsset_btn_Temp.UseVisualStyleBackColor = true;
             AddAsset_btn_Temp.Click += AddAsset_btn_Temp_Click;
             // 
-            // ListHolder_pnl
+            // MainSplit_sc
             // 
-            ListHolder_pnl.Location = new Point(9, 14);
+            MainSplit_sc.Dock = DockStyle.Fill;
+            MainSplit_sc.Location = new Point(8, 10);
+            MainSplit_sc.Name = "MainSplit_sc";
+            MainSplit_sc.Size = new Size(471, 265);
+            MainSplit_sc.SplitterDistance = 360;
+            MainSplit_sc.TabIndex = 1;
+            // 
+            // ListHolder_pnl (left panel)
+            // 
+            ListHolder_pnl.Dock = DockStyle.Fill;
+            ListHolder_pnl.Margin = new Padding(3, 2, 3, 2);
             ListHolder_pnl.Name = "ListHolder_pnl";
-            ListHolder_pnl.Size = new Size(538, 353);
-            ListHolder_pnl.TabIndex = 1;
+            //ListHolder_pnl.FlowDirection = FlowDirection.TopDown;
+            ListHolder_pnl.WrapContents = true;
+            ListHolder_pnl.AutoScroll = true;
+            ListHolder_pnl.Padding = new Padding(0, 0, 0, 28);
+            ListHolder_pnl.TabIndex = 0;
             ListHolder_pnl.Paint += ListHolder_pnl_Paint;
+            // add the list first, then the test button so the bottom-docked button remains visible
+            MainSplit_sc.Panel1.Controls.Add(ListHolder_pnl);
+            MainSplit_sc.Panel1.Controls.Add(AddAsset_btn_Temp);
             // 
             // AssetListHolder
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightCyan;
-            Controls.Add(ListHolder_pnl);
-            Controls.Add(AddAsset_btn_Temp);
+            Controls.Add(MainSplit_sc);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "AssetListHolder";
-            Size = new Size(550, 405);
+            Size = new Size(481, 304);
             ResumeLayout(false);
         }
 
         #endregion
 
         private Button AddAsset_btn_Temp;
+        private SplitContainer MainSplit_sc;
         private FlowLayoutPanel ListHolder_pnl;
     }
 }

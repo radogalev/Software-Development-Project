@@ -10,3 +10,15 @@ C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLa
 C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\refint\SchoolLabs.Core.dll
 C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\SchoolLabs.Core.pdb
 C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\ref\SchoolLabs.Core.dll
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\bin\Debug\net8.0\SchoolLabs.Core.deps.json
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\bin\Debug\net8.0\SchoolLabs.Core.dll
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\bin\Debug\net8.0\SchoolLabs.Core.pdb
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\SchoolLabs.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\SchoolLabs.Core.AssemblyInfoInputs.cache
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\SchoolLabs.Core.AssemblyInfo.cs
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\SchoolLabs.Core.csproj.CoreCompileInputs.cache
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\SchoolLabs.Core.sourcelink.json
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\SchoolLabs.Core.dll
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\refint\SchoolLabs.Core.dll
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\SchoolLabs.Core.pdb
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Core\obj\Debug\net8.0\ref\SchoolLabs.Core.dll

@@ -10,3 +10,15 @@ C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLa
 C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\refint\SchoolLabs.Services.dll
 C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\SchoolLabs.Services.pdb
 C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\ref\SchoolLabs.Services.dll
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\bin\Debug\net8.0\SchoolLabs.Services.deps.json
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\bin\Debug\net8.0\SchoolLabs.Services.dll
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\bin\Debug\net8.0\SchoolLabs.Services.pdb
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\SchoolLabs.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\SchoolLabs.Services.AssemblyInfoInputs.cache
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\SchoolLabs.Services.AssemblyInfo.cs
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\SchoolLabs.Services.csproj.CoreCompileInputs.cache
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\SchoolLabs.Services.sourcelink.json
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\SchoolLabs.Services.dll
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\refint\SchoolLabs.Services.dll
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\SchoolLabs.Services.pdb
+C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Services\obj\Debug\net8.0\ref\SchoolLabs.Services.dll

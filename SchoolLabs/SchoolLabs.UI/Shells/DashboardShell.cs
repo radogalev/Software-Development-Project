@@ -19,13 +19,22 @@ namespace SchoolLabs.UI.Shells
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             Welcome_lbl.Text = $"Welcome,\n{username}!";
+
             AssetListHolder hold = new AssetListHolder();
             ControlHolder_pnl.Controls.Add(hold);
+
         }
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void AssetsWindow_btn_Click(object sender, EventArgs e)
+        {
+            ControlHolder_pnl.Controls.Clear();
+            AssetListHolder hold = new AssetListHolder();
+            ControlHolder_pnl.Controls.Add(hold);
         }
     }
 }

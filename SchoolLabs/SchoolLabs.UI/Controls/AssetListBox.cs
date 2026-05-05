@@ -13,11 +13,32 @@ namespace SchoolLabs.UI.Controls
 {
     public partial class AssetListBox : UserControl
     {
+        public event EventHandler MoreInfoClicked;
+
+        public string AssetName
+        {
+            get => Name_lbl.Text;
+            set => Name_lbl.Text = value;
+        }
+
+        public string StatusText
+        {
+            get => Status_lbl.Text;
+            set => Status_lbl.Text = value;
+        }
+
         public AssetListBox(string name, LoanedStatus status)
         {
             InitializeComponent();
-            Name_lbl.Text = name;
-            Status_lbl.Text = status.ToString();
+            AssetName = name;
+            StatusText = status.ToString();
+
+            Info_btn.Click += Info_btn_Click;
+        }
+
+        private void Info_btn_Click(object? sender, EventArgs e)
+        {
+            MoreInfoClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }
