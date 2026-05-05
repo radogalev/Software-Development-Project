@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SchoolLabs.Data.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,9 +15,12 @@ namespace SchoolLabs.Data
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public DateTime? ReturnDate { get; set; }
+        public Status Status { get; set; }
         public Asset Asset { get; set; }
         public User IssuedByUser { get; set; }
         public ICollection<Damage_Report> Damage_Reports { get; set; }
+
+        
 
     }
         

@@ -1,49 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\",
+  "WorkspaceRootPath": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\rolename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\rolename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\loanstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\loanstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\damageseverity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\damageseverity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\damage_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\damage_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\damage_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\loanstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\enums\\loanstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\assetcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\damageseverity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\enums\\damageseverity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\assetcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\enums\\assetcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\qsenr\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\assetcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\1\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\enums\\assetcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\enums\\assetcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,42 +50,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DamageSeverity.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\DamageSeverity.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.Data\\DamageSeverity.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\DamageSeverity.cs",
-              "RelativeToolTip": "SchoolLabs.Data\\DamageSeverity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T10:10:25.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Damage_Report.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Damage_Report.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Damage_Report.cs",
               "RelativeDocumentMoniker": "SchoolLabs.Data\\Damage_Report.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Damage_Report.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Damage_Report.cs",
               "RelativeToolTip": "SchoolLabs.Data\\Damage_Report.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T10:09:46.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "LoanStatus.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\LoanStatus.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.Data\\LoanStatus.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\LoanStatus.cs",
-              "RelativeToolTip": "SchoolLabs.Data\\LoanStatus.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\LoanStatus.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\LoanStatus.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\LoanStatus.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Enums\\LoanStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T10:08:49.246Z",
@@ -97,107 +80,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Loan.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Loan.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Loan.cs",
               "RelativeDocumentMoniker": "SchoolLabs.Data\\Loan.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Loan.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Loan.cs",
               "RelativeToolTip": "SchoolLabs.Data\\Loan.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T10:08:27.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoleName.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\RoleName.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.Data\\RoleName.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\RoleName.cs",
-              "RelativeToolTip": "SchoolLabs.Data\\RoleName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T10:07:52.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Roles.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Roles.cs",
               "RelativeDocumentMoniker": "SchoolLabs.Data\\Roles.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Roles.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Roles.cs",
               "RelativeToolTip": "SchoolLabs.Data\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T10:06:44.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Location.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.Data\\Location.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Location.cs",
-              "RelativeToolTip": "SchoolLabs.Data\\Location.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T10:06:38.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AssetCondition.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCondition.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\AssetCondition.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCondition.cs",
-              "RelativeToolTip": "SchoolLabs.Data\\Enums\\AssetCondition.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T09:53:39.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AssetCategory.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCategory.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\AssetCategory.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCategory.cs",
-              "RelativeToolTip": "SchoolLabs.Data\\Enums\\AssetCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T09:53:26.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Asset.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Asset.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Asset.cs",
               "RelativeDocumentMoniker": "SchoolLabs.Data\\Asset.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Asset.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Asset.cs",
               "RelativeToolTip": "SchoolLabs.Data\\Asset.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T09:52:37.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DamageSeverity.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\DamageSeverity.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\DamageSeverity.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\DamageSeverity.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Enums\\DamageSeverity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T10:10:25.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Location.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Location.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Location.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T10:06:38.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssetCondition.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCondition.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\AssetCondition.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCondition.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Enums\\AssetCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T09:53:39.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssetCategory.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCategory.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\AssetCategory.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetCategory.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Enums\\AssetCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T09:53:26.117Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AssetStatus.cs",
-              "DocumentMoniker": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetStatus.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetStatus.cs",
               "RelativeDocumentMoniker": "SchoolLabs.Data\\Enums\\AssetStatus.cs",
-              "ToolTip": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetStatus.cs",
+              "ToolTip": "C:\\Users\\1\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Enums\\AssetStatus.cs",
               "RelativeToolTip": "SchoolLabs.Data\\Enums\\AssetStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T09:53:18.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T09:53:18.093Z"
             }
           ]
         }
