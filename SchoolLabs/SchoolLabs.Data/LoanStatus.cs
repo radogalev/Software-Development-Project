@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace SchoolLabs.Data.Enums
 {
-    public enum AssetCategory
+
+    public enum Status
     {
-        Laptop,
-        Computer,
-        Arduino,
-        
-            //fill in the rest
+        Pending,
+        Approroved,
+        Under_review
     }
 }

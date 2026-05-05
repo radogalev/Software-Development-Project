@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace SchoolLabs.Data.Enums
 {
-    public enum AssetCategory
+    public enum Severity
     {
-        Laptop,
-        Computer,
-        Arduino,
-        
-            //fill in the rest
+        Low,
+        Medium,
+        High
     }
 }

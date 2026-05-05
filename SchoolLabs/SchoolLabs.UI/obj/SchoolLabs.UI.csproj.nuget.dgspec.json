@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj": {}
+    "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj": {
+    "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
+        "projectUniqueName": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
         "projectName": "SchoolLabs.UI",
-        "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
-        "packagesPath": "C:\\Users\\stilq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\obj\\",
+        "projectPath": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\SchoolLabs.UI.csproj",
+        "packagesPath": "C:\\Users\\qsenr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qsenr\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Stilqn-Varna\\vsshared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\stilq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\qsenr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0-windows": {
@@ -70,7 +70,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

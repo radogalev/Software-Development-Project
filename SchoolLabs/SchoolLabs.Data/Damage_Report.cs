@@ -11,12 +11,7 @@ namespace SchoolLabs.Data
         public int DamagedId {  get; set; }
         public int LoanId { get; set; }
         public string Description { get; set; }
-        public enum Severity
-        {
-            Low,
-            Medium,
-            High
-        }
+        
     }
     
 }

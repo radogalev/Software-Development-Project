@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace SchoolLabs.Data.Enums
 {
-    public enum AssetCategory
+    public enum RoleName
     {
-        Laptop,
-        Computer,
-        Arduino,
-        
-            //fill in the rest
+        Administrator,
+        Lab_Assistant,
+        Viewer
     }
 }
