@@ -1,54 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\",
+  "WorkspaceRootPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\projects\\resqsofia\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\dashboardshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\dashboardshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\schoollabs.ui\\shells\\dashboardshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\dashboardshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.data\\context\\schoollabdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A756E7F2-1217-44E1-9DDD-53FB8D655A09}|SchoolLabs.Data\\SchoolLabs.Data.csproj|solutionrelative:schoollabs.data\\context\\schoollabdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\projects\\resqsofia\\software-development-project\\schoollabs\\schoollabs.ui\\controls\\assetlistholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\projects\\resqsofia\\software-development-project\\schoollabs\\schoollabs.ui\\controls\\assetlistholder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistholder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\projects\\resqsofia\\software-development-project\\schoollabs\\schoollabs.ui\\controls\\assetlistbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\schoollabs.ui\\controls\\assetlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\projects\\resqsofia\\software-development-project\\schoollabs\\schoollabs.ui\\controls\\assetlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\schoollabs.ui\\controls\\assetlistholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\projects\\resqsofia\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\projects\\resqsofia\\software-development-project\\schoollabs\\schoollabs.core\\enums\\loanedstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\enums\\loanedstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\schoollabs.ui\\shells\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\schoollabs.ui\\shells\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\projects\\resqsofia\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\models\\damagereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\models\\damagereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\enums\\assetcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\enums\\assetcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\enums\\assetcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\enums\\assetcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\enums\\assetstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\enums\\damageseverity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\enums\\damageseverity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\enums\\loanstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\enums\\loanstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.core\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFD24F45-BA90-47A2-BACE-FB5EC104E722}|SchoolLabs.Core\\SchoolLabs.Core.csproj|solutionrelative:schoollabs.core\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\controls\\assetlistholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\shells\\dashboardshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\dashboardshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\schoollabs.ui\\shells\\dashboardshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\shells\\dashboardshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\controls\\assetlistholder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistholder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\controls\\assetlistbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\schoollabs.ui\\controls\\assetlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabs\\schoollabs.ui\\controls\\assetlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\schoollabs.ui\\controls\\assetlistholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5EE62CEA-6AC1-4E1B-88DE-0BEC0A83D0FD}|SchoolLabs.UI\\SchoolLabs.UI.csproj|solutionrelative:schoollabs.ui\\controls\\assetlistholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,111 +106,257 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AssetListHolder.Designer.cs",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.Designer.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.UI\\Controls\\AssetListHolder.Designer.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.Designer.cs",
-              "RelativeToolTip": "SchoolLabs.UI\\Controls\\AssetListHolder.Designer.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAD0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T07:03:37.848Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AssetListBox.Designer.cs",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.Designer.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.UI\\Controls\\AssetListBox.Designer.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.Designer.cs",
-              "RelativeToolTip": "SchoolLabs.UI\\Controls\\AssetListBox.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAgAAAAAAAAAA==",
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\Location.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T17:30:11.406Z"
+              "WhenOpened": "2026-05-08T11:51:15.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginForm.resx",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginForm.resx",
-              "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\LoginForm.resx",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginForm.resx",
-              "RelativeToolTip": "SchoolLabs.UI\\Shells\\LoginForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-05-03T17:29:47.528Z"
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\User.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:34:11.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginPage.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginPage.cs [Design]",
+              "RelativeToolTip": "SchoolLabs.UI\\Shells\\LoginPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T15:34:15.443Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginPage.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginPage.cs",
+              "RelativeToolTip": "SchoolLabs.UI\\Shells\\LoginPage.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T12:27:45.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SchoolLabDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Context\\SchoolLabDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Data\\Context\\SchoolLabDbContext.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\Context\\SchoolLabDbContext.cs",
+              "RelativeToolTip": "SchoolLabs.Data\\Context\\SchoolLabDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:16:08.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\Loan.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Models\\Loan.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\Loan.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Models\\Loan.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:50:15.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DamageReport.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\DamageReport.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Models\\DamageReport.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\DamageReport.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Models\\DamageReport.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:49:41.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\Asset.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Models\\Asset.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Models\\Asset.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Models\\Asset.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:46:56.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssetCategory.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\AssetCategory.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Enums\\AssetCategory.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\AssetCategory.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Enums\\AssetCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:36:25.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssetCondition.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\AssetCondition.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Enums\\AssetCondition.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\AssetCondition.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Enums\\AssetCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:37:14.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssetStatus.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\AssetStatus.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Enums\\AssetStatus.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\AssetStatus.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Enums\\AssetStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T16:04:43.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DamageSeverity.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\DamageSeverity.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Enums\\DamageSeverity.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\DamageSeverity.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Enums\\DamageSeverity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:40:39.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoanStatus.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\LoanStatus.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Enums\\LoanStatus.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\LoanStatus.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Enums\\LoanStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:41:58.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\Roles.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.Core\\Enums\\Roles.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\Roles.cs",
+              "RelativeToolTip": "SchoolLabs.Core\\Enums\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:45:09.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AssetListHolder.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Controls\\AssetListHolder.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.cs",
+              "RelativeToolTip": "SchoolLabs.UI\\Controls\\AssetListHolder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T16:37:29.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "DashboardShell.cs",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\DashboardShell.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\DashboardShell.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\DashboardShell.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\DashboardShell.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\DashboardShell.cs",
               "RelativeToolTip": "SchoolLabs.UI\\Shells\\DashboardShell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-03T12:52:18.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
+              "Title": "AssetListHolder.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.Designer.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Controls\\AssetListHolder.Designer.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.Designer.cs",
+              "RelativeToolTip": "SchoolLabs.UI\\Controls\\AssetListHolder.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIBZwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:03:37.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AssetListBox.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.Designer.cs",
+              "RelativeDocumentMoniker": "SchoolLabs.UI\\Controls\\AssetListBox.Designer.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.Designer.cs",
+              "RelativeToolTip": "SchoolLabs.UI\\Controls\\AssetListBox.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:30:11.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "AssetListBox.cs",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Controls\\AssetListBox.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.cs",
               "RelativeToolTip": "SchoolLabs.UI\\Controls\\AssetListBox.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T16:05:13.03Z"
+              "WhenOpened": "2026-05-03T16:05:13.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssetListHolder.cs",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.UI\\Controls\\AssetListHolder.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.cs",
-              "RelativeToolTip": "SchoolLabs.UI\\Controls\\AssetListHolder.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T16:37:29.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoanedStatus.cs",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\LoanedStatus.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.Core\\Enums\\LoanedStatus.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\Enums\\LoanedStatus.cs",
-              "RelativeToolTip": "SchoolLabs.Core\\Enums\\LoanedStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T16:04:43.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginPage.cs",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginPage.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\LoginPage.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginPage.cs",
-              "RelativeToolTip": "SchoolLabs.UI\\Shells\\LoginPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAhwBMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T12:27:45.779Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "DashboardShell.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\DashboardShell.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\DashboardShell.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\DashboardShell.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\DashboardShell.cs [Design]",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\DashboardShell.cs [Design]",
               "RelativeToolTip": "SchoolLabs.UI\\Shells\\DashboardShell.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-03T13:04:00.329Z",
@@ -178,36 +364,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "AssetListBox.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Controls\\AssetListBox.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.cs [Design]",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListBox.cs [Design]",
               "RelativeToolTip": "SchoolLabs.UI\\Controls\\AssetListBox.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T15:51:58.081Z"
+              "WhenOpened": "2026-05-03T15:51:58.081Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "AssetListHolder.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.cs",
               "RelativeDocumentMoniker": "SchoolLabs.UI\\Controls\\AssetListHolder.cs",
-              "ToolTip": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.cs [Design]",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Controls\\AssetListHolder.cs [Design]",
               "RelativeToolTip": "SchoolLabs.UI\\Controls\\AssetListHolder.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T16:35:32.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginPage.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginPage.cs",
-              "RelativeDocumentMoniker": "SchoolLabs.UI\\Shells\\LoginPage.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginPage.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.UI\\Shells\\LoginPage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T15:34:15.443Z"
+              "WhenOpened": "2026-05-03T16:35:32.15Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

@@ -159,6 +159,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "LoginPage";
             Text = "LoginPage";
+            Load += LoginPage_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

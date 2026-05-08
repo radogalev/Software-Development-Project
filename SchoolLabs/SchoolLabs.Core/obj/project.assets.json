@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {}
   },
@@ -8,20 +8,20 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\stilq\\.nuget\\packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\stilq\\.nuget\\packages\\": {},
+    "D:\\Stilqn-Varna\\vsshared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
+      "projectUniqueName": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
       "projectName": "SchoolLabs.Core",
-      "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
-      "packagesPath": "C:\\Users\\stilq\\.nuget\\packages",
-      "outputPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\obj\\",
+      "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj",
+      "packagesPath": "C:\\Users\\stilq\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Stilqn-Varna\\vsshared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\stilq\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,9 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Projects\\LocalLibs": {},
-        "C:\\Users\\stilq\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -55,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -77,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

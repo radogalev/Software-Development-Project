@@ -28,3 +28,8 @@ C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Data\ob
 C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.pdb
 C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLabs.Data.genruntimeconfig.cache
 C:\Projects\ResQSofia\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\ref\SchoolLabs.Data.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\bin\Debug\net8.0\SchoolLabs.Core.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\bin\Debug\net8.0\SchoolLabs.Services.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\bin\Debug\net8.0\SchoolLabs.Core.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\bin\Debug\net8.0\SchoolLabs.Services.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabs\SchoolLabs.Data\obj\Debug\net8.0\SchoolLa.54CF6C06.Up2Date

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Azure.Core/1.38.0": {
@@ -1506,6 +1506,26 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "SchoolLabs.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SchoolLabs.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolLabs.Core.dll": {}
+        }
+      },
+      "SchoolLabs.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SchoolLabs.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolLabs.Services.dll": {}
         }
       }
     }
@@ -4024,6 +4044,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SchoolLabs.Core/1.0.0": {
+      "type": "project",
+      "path": "../SchoolLabs.Core/SchoolLabs.Core.csproj",
+      "msbuildProject": "../SchoolLabs.Core/SchoolLabs.Core.csproj"
+    },
+    "SchoolLabs.Services/1.0.0": {
+      "type": "project",
+      "path": "../SchoolLabs.Services/SchoolLabs.Services.csproj",
+      "msbuildProject": "../SchoolLabs.Services/SchoolLabs.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4032,24 +4062,26 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.25",
       "Microsoft.EntityFrameworkCore.InMemory >= 8.0.25",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.25",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.25"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.25",
+      "SchoolLabs.Core >= 1.0.0",
+      "SchoolLabs.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stilq\\.nuget\\packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\stilq\\.nuget\\packages\\": {},
+    "D:\\Stilqn-Varna\\vsshared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
+      "projectUniqueName": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
       "projectName": "SchoolLabs.Data",
-      "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
-      "packagesPath": "C:\\Users\\stilq\\.nuget\\packages",
-      "outputPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\obj\\",
+      "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\SchoolLabs.Data.csproj",
+      "packagesPath": "C:\\Users\\stilq\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Stilqn-Varna\\vsshared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\stilq\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4061,16 +4093,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Projects\\LocalLibs": {},
-        "C:\\Users\\stilq\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "framework": "net8.0",
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj": {
+              "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Core\\SchoolLabs.Core.csproj"
+            },
+            "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Services\\SchoolLabs.Services.csproj": {
+              "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabs\\SchoolLabs.Services\\SchoolLabs.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4083,7 +4119,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4131,7 +4167,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

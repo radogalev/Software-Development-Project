@@ -27,7 +27,7 @@ namespace SchoolLabs.UI.Controls
             set => Status_lbl.Text = value;
         }
 
-        public AssetListBox(string name, LoanedStatus status)
+        public AssetListBox(string name, AssetStatus status)
         {
             InitializeComponent();
             AssetName = name;

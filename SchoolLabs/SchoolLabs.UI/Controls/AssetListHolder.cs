@@ -22,7 +22,7 @@ namespace SchoolLabs.UI.Controls
 
         private void AddAsset_btn_Temp_Click(object sender, EventArgs e)
         {
-            AssetListBox box = new AssetListBox("TestItem", Core.Enums.LoanedStatus.Loaned)
+            AssetListBox box = new AssetListBox("TestItem", Core.Enums.AssetStatus.Borrowed)
             {
                 Margin = new Padding(10)
             };

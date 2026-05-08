@@ -34,6 +34,8 @@ namespace SchoolLabs.UI
 
             d.Show();
             this.Hide();
+
+
         }
 
         private void showPass_chk_CheckedChanged(object sender, EventArgs e)
@@ -46,6 +48,11 @@ namespace SchoolLabs.UI
             {
                 password_txt.UseSystemPasswordChar = true;
             }
+        }
+
+        private void LoginPage_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

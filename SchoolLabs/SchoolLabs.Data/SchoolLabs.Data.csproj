@@ -20,4 +20,15 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolLabs.Core\SchoolLabs.Core.csproj" />
+    <ProjectReference Include="..\SchoolLabs.Services\SchoolLabs.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="Repositories\Interfaces\" />
+    <Folder Include="Repositories\Implementations\" />
+  </ItemGroup>
+
 </Project>
