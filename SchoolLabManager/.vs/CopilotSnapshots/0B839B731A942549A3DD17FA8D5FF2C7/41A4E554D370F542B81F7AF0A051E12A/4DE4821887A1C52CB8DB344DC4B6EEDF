@@ -1,0 +1,281 @@
+﻿using SchoolLab.Core.Models;
+using SchoolLab.Data.Context;
+using SchoolLab.Services.Implementations;
+using SchoolLab.Services.Interfaces;
+using SchoolLab.WinFormsUI.Helpers;
+using System;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using SchoolLab.Data.Repositories.Implementations;
+
+namespace SchoolLab.WinFormsUI.Controls
+{
+    public partial class AsssetsMain : UserControl, IDashboardTab
+    {
+        public AssetItem selectedItem;
+        private readonly IAssetService? _assetService;
+        private FlowLayoutPanel flowLayoutPanelAssets;
+
+        // Optional injection: if not provided, the control will create short-lived services per operation
+        public AsssetsMain(IAssetService? assetService = null)
+        {
+            InitializeComponent();
+            _assetService = assetService;
+            Load += AsssetsMain_Load;
+        }
+
+        
+        // When no IAssetService is injected we create short-lived context/repo/service per operation
+
+        private async Task DeleteSelectedItemAsync()
+        {
+            if (selectedItem == null) return;
+
+            try
+            {
+                bool deleted;
+                if (_assetService != null)
+                {
+                    deleted = await _assetService.DeleteAssetAsync(selectedItem.AssetId);
+                }
+                else
+                {
+                    using var ctx = new SchoolLabDbContext();
+                    var repo = new AssetRepository(ctx);
+                    var svc = new AssetService(repo);
+                    deleted = await svc.DeleteAssetAsync(selectedItem.AssetId);
+                }
+
+                if (deleted)
+                {
+                    MessageBox.Show("Asset deleted.");
+                    // remove from UI
+                    flowLayoutPanelAssets.Controls.Remove(selectedItem);
+                    selectedItem = null;
+                }
+                else
+                {
+                    MessageBox.Show("Could not delete asset. It may have active loans or doesn't exist.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error deleting asset: {ex.Message}");
+            }
+        }
+
+        private async Task AddItemAsync()
+        {
+            try
+            {
+                // Show dialog to collect asset details
+                using var dlg = new AssetInputDialog();
+                var dr = dlg.ShowDialog();
+                if (dr != DialogResult.OK)
+                    return;
+
+                var input = dlg.Result;
+                if (input == null)
+                    return;
+
+                // Example: show collected details. Replace/comment this with actual service call.
+                MessageBox.Show(
+                    $"Collected asset details:\n\n" +
+                    $"Name: {input.Name}\n" +
+                    $"Serial: {input.SerialNumber}\n" +
+                    $"Purchase Date: {input.PurchaseDate:d}\n" +
+                    $"Price: {input.Price:C}",
+                    "Asset Details",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+
+                // TODO: If you have an _assetService, create your domain Asset and call:
+                // await _assetService.CreateAssetAsync(newAsset);
+                // then refresh the UI/list (call your existing method to reload assets).
+                await Task.CompletedTask;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error adding asset: {ex.Message}");
+            }
+        }
+
+        public async void ActionOne()
+        {
+            await AddItemAsync();
+        }
+
+        public async void ActionTwo()
+        {
+            await DeleteSelectedItemAsync();
+        }
+
+        private async void AsssetsMain_Load(object? sender, EventArgs e)
+        {
+            await LoadAllAssetsAsync();
+        }
+
+        private async Task LoadAllAssetsAsync()
+        {
+            try
+            {
+                IEnumerable<Asset> assets;
+                if (_assetService != null)
+                {
+                    assets = await _assetService.GetAllAssetsAsync();
+                }
+                else
+                {
+                    var context = new SchoolLabDbContext();
+                    var repo = new AssetRepository(context);
+                    var svc = new AssetService(repo);
+                    assets = await svc.GetAllAssetsAsync();
+                }
+
+                flowLayoutPanelAssets.Controls.Clear();
+                foreach (var a in assets)
+                {
+                    var item = new AssetItem();
+                    item.Bind(a);
+                    item.Click += AssetItem_Click;
+                    flowLayoutPanelAssets.Controls.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading assets: {ex.Message}");
+            }
+        }
+
+        private void AssetItem_Click(object? sender, EventArgs e)
+        {
+            if (sender is AssetItem ai)
+            {
+                
+                if (selectedItem != null) selectedItem.Selected = false;
+                selectedItem = ai;
+                selectedItem.Selected = true;
+            }
+        }
+
+        private class AssetInputResult
+        {
+            public string Name { get; init; } = string.Empty;
+            public string SerialNumber { get; init; } = string.Empty;
+            public DateTime PurchaseDate { get; init; } = DateTime.Today;
+            public decimal Price { get; init; } = 0m;
+        }
+
+        private class AssetInputDialog : Form
+        {
+            public AssetInputResult? Result { get; private set; }
+
+            private readonly TextBox _txtName = new();
+            private readonly TextBox _txtSerial = new();
+            private readonly DateTimePicker _dtpPurchase = new();
+            private readonly NumericUpDown _nudPrice = new();
+            private readonly Button _btnOk = new();
+            private readonly Button _btnCancel = new();
+
+            public AssetInputDialog()
+            {
+                Text = "Add Asset";
+                FormBorderStyle = FormBorderStyle.FixedDialog;
+                StartPosition = FormStartPosition.CenterParent;
+                MaximizeBox = false;
+                MinimizeBox = false;
+                ShowInTaskbar = false;
+                ClientSize = new Size(360, 220);
+
+                var lblName = new Label { Text = "Name:", AutoSize = true, TextAlign = ContentAlignment.MiddleLeft };
+                var lblSerial = new Label { Text = "Serial #:", AutoSize = true, TextAlign = ContentAlignment.MiddleLeft };
+                var lblPurchase = new Label { Text = "Purchase Date:", AutoSize = true, TextAlign = ContentAlignment.MiddleLeft };
+                var lblPrice = new Label { Text = "Price:", AutoSize = true, TextAlign = ContentAlignment.MiddleLeft };
+
+                _nudPrice.DecimalPlaces = 2;
+                _nudPrice.Maximum = 1_000_000;
+                _nudPrice.ThousandsSeparator = true;
+
+                _btnOk.Text = "OK";
+                _btnOk.DialogResult = DialogResult.OK;
+                _btnOk.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+                _btnOk.Click += BtnOk_Click;
+
+                _btnCancel.Text = "Cancel";
+                _btnCancel.DialogResult = DialogResult.Cancel;
+                _btnCancel.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+
+                // Simple layout using TableLayoutPanel
+                var tl = new TableLayoutPanel
+                {
+                    Dock = DockStyle.Top,
+                    ColumnCount = 2,
+                    RowCount = 4,
+                    Padding = new Padding(8),
+                    AutoSize = true
+                };
+                tl.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 35f));
+                tl.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65f));
+                tl.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+                tl.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+                tl.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+                tl.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+
+                tl.Controls.Add(lblName, 0, 0);
+                tl.Controls.Add(_txtName, 1, 0);
+                tl.Controls.Add(lblSerial, 0, 1);
+                tl.Controls.Add(_txtSerial, 1, 1);
+                tl.Controls.Add(lblPurchase, 0, 2);
+                tl.Controls.Add(_dtpPurchase, 1, 2);
+                tl.Controls.Add(lblPrice, 0, 3);
+                tl.Controls.Add(_nudPrice, 1, 3);
+
+                _txtName.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+                _txtSerial.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+                _dtpPurchase.Anchor = AnchorStyles.Left;
+                _nudPrice.Anchor = AnchorStyles.Left;
+
+                var panelButtons = new Panel
+                {
+                    Dock = DockStyle.Bottom,
+                    Height = 48
+                };
+                _btnCancel.Location = new Point(ClientSize.Width - 94, 12);
+                _btnOk.Location = new Point(ClientSize.Width - 176, 12);
+                _btnOk.Size = new Size(80, 24);
+                _btnCancel.Size = new Size(80, 24);
+                _btnOk.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+                _btnCancel.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+
+                panelButtons.Controls.Add(_btnOk);
+                panelButtons.Controls.Add(_btnCancel);
+
+                Controls.Add(tl);
+                Controls.Add(panelButtons);
+
+                AcceptButton = _btnOk;
+                CancelButton = _btnCancel;
+            }
+
+            private void BtnOk_Click(object? sender, EventArgs e)
+            {
+                // Basic validation
+                if (string.IsNullOrWhiteSpace(_txtName.Text))
+                {
+                    MessageBox.Show("Please enter a name.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    DialogResult = DialogResult.None; // keep dialog open
+                    return;
+                }
+
+                Result = new AssetInputResult
+                {
+                    Name = _txtName.Text.Trim(),
+                    SerialNumber = _txtSerial.Text.Trim(),
+                    PurchaseDate = _dtpPurchase.Value.Date,
+                    Price = _nudPrice.Value
+                };
+                // DialogResult will already be OK due to button settings
+            }
+        }
+    }
+}

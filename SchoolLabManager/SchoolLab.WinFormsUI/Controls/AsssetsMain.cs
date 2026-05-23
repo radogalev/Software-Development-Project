@@ -1,0 +1,203 @@
+﻿using SchoolLab.Core.Models;
+using SchoolLab.Data.Context;
+using SchoolLab.Services.Implementations;
+using SchoolLab.Services.Interfaces;
+using SchoolLab.WinFormsUI.Helpers;
+using System;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using System.Windows.Forms;
+using SchoolLab.Data.Repositories.Implementations;
+using SchoolLab.WinFormsUI.Dialogs;
+using SchoolLab.Core.Enums;
+
+namespace SchoolLab.WinFormsUI.Controls
+{
+    public partial class AsssetsMain : UserControl, IDashboardTab
+    {
+        public AssetItem selectedItem;
+        private readonly IAssetService? _assetService;
+        private FlowLayoutPanel flowLayoutPanelAssets;
+
+        
+        public AsssetsMain(IAssetService? assetService = null)
+        {
+            InitializeComponent();
+            _assetService = assetService;
+            Load += AsssetsMain_Load;
+        }
+
+        
+        
+
+        private async Task DeleteSelectedItemAsync()
+        {
+            if (selectedItem == null) return;
+
+            try
+            {
+                bool deleted;
+                if (_assetService != null)
+                {
+                    deleted = await _assetService.DeleteAssetAsync(selectedItem.AssetId);
+                }
+                else
+                {
+                    // Use a short-lived context and repository to perform delete.
+                    using var ctx = new SchoolLabDbContext();
+                    var repo = new AssetRepository(ctx);
+                    var svc = new AssetService(repo);
+                    deleted = await svc.DeleteAssetAsync(selectedItem.AssetId);
+                }
+
+                if (deleted)
+                {
+                    MessageBox.Show("Asset deleted.");
+                    flowLayoutPanelAssets.Controls.Remove(selectedItem);
+                    selectedItem = null;
+                }
+                else
+                {
+                    MessageBox.Show("Could not delete asset. It may have active loans or doesn't exist.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error deleting asset: {ex.Message}");
+            }
+        }
+
+        private async Task AddItemAsync()
+        {
+            try
+            {
+                
+                var dlg = new AddItemDialog();
+                DialogResult res = dlg.ShowDialog();
+                if (res != DialogResult.OK)
+                    return;
+
+                var input = dlg.Result;
+                if (input == null)
+                    return;
+
+                
+                MessageBox.Show(
+                    $"Collected asset details:\n\n" +
+                    $"Name: {input.Name}\n" +
+                    $"Serial: {input.SerialNumber}\n" +
+                    $"Purchase Date: {input.PurchaseDate:d}\n" +
+                    $"Location: {input.Location.Name}\n" +
+                    $"Category: {input.Category.Name}",
+                    "Asset Details",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+
+                
+
+                Asset newAsset = new Asset
+                {
+                    Name = input.Name,
+                    CategoryId = input.Category.Id,
+                    LocationId = input.Location.Id,
+                    SerialNumber = input.SerialNumber,
+                    DateOfPurchase = input.PurchaseDate,
+                    Condition = AssetCondition.Excellent,
+                    Status = AssetStatus.Available,
+                    Description = input.Description,
+                };
+
+                Asset? created = null;
+                if (_assetService != null)
+                {
+                    created = await _assetService.CreateAssetAsync(newAsset);
+                }
+                else
+                {
+                    // Fallback: construct short-lived repository+service and use service API
+                    using var ctx2 = new SchoolLabDbContext();
+                    var repo = new AssetRepository(ctx2);
+                    var svc = new AssetService(repo);
+                    created = await svc.CreateAssetAsync(newAsset);
+                }
+
+                if (created == null)
+                {
+                    MessageBox.Show("Could not create asset.");
+                    return;
+                }
+
+                // Refresh UI after successful save
+                await LoadAllAssetsAsync();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error adding asset: {ex.Message}\n{ex.InnerException}");
+            }
+        }
+
+        public async void ActionOne()
+        {
+            await AddItemAsync();
+        }
+
+        public async void ActionTwo()
+        {
+            await DeleteSelectedItemAsync();
+        }
+
+        private async void AsssetsMain_Load(object? sender, EventArgs e)
+        {
+            await LoadAllAssetsAsync();
+        }
+
+        private async Task LoadAllAssetsAsync()
+        {
+            try
+            {
+                // Prefer service when available; service may provide richer data/loading strategy.
+                IEnumerable<Asset> assets;
+                if (_assetService != null)
+                {
+                    assets = await _assetService.GetAllAssetsAsync();
+                }
+                else
+                {
+                    using var context = new SchoolLabDbContext();
+                    assets = await context.Assets
+                        .Include(a => a.Category)
+                        .Include(a => a.StoredLocation)
+                        .Include(a => a.Loans)
+                        .Include(a => a.DamageReports)
+                        .ToListAsync();
+                }
+
+                flowLayoutPanelAssets.Controls.Clear();
+                foreach (var a in assets)
+                {
+                    var item = new AssetItem();
+                    item.Bind(a);
+                    item.Click += AssetItem_Click;
+                    flowLayoutPanelAssets.Controls.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading assets: {ex.Message}");
+            }
+        }
+
+        private void AssetItem_Click(object? sender, EventArgs e)
+        {
+            if (sender is AssetItem ai)
+            {
+                
+                if (selectedItem != null) selectedItem.Selected = false;
+                selectedItem = ai;
+                selectedItem.Selected = true;
+            }
+        }
+
+        
+    }
+}

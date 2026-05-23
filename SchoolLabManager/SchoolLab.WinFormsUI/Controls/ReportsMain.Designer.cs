@@ -1,0 +1,43 @@
+namespace SchoolLab.WinFormsUI.Controls
+{
+    partial class ReportsMain
+    {
+        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelReports = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.flowLayoutPanelReports = new System.Windows.Forms.FlowLayoutPanel();
+            this.SuspendLayout();
+            // 
+            // flowLayoutPanelReports
+            // 
+            this.flowLayoutPanelReports.AutoScroll = true;
+            this.flowLayoutPanelReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanelReports.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanelReports.Name = "flowLayoutPanelReports";
+            this.flowLayoutPanelReports.Size = new System.Drawing.Size(600, 400);
+            this.flowLayoutPanelReports.TabIndex = 0;
+            // 
+            // ReportsMain
+            // 
+            this.Controls.Add(this.flowLayoutPanelReports);
+            this.Name = "ReportsMain";
+            this.Size = new System.Drawing.Size(600, 400);
+            this.ResumeLayout(false);
+        }
+
+        #endregion
+    }
+}

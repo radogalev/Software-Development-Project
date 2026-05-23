@@ -1,0 +1,77 @@
+﻿using SchoolLab.Data.Context;
+using SchoolLab.Data.Repositories.Implementations;
+using SchoolLab.Data.Repositories.Interfaces;
+using SchoolLab.Services.Implementations;
+using SchoolLab.Services.Interfaces;
+using SchoolLab.WinFormsUI.Helpers;
+using System;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SchoolLab.WinFormsUI.Controls
+{
+    public partial class AsssetsMain : UserControl, IDashboardTab
+    {
+        public AssetItem selectedItem;
+        private readonly IAssetService _assetService;
+
+        // Prefer constructor injection (compose this control from the form or DI container)
+        public AsssetsMain(IAssetService assetService)
+        {
+            InitializeComponent();
+            _assetService = assetService ?? throw new ArgumentNullException(nameof(assetService));
+        }
+
+        
+        private async Task DeleteSelectedItemAsync()
+        {
+            if (selectedItem == null) return;
+
+            try
+            {
+                
+                bool deleted = await _assetService.DeleteAssetAsync(selectedItem.Id);
+                if (deleted)
+                {
+                    MessageBox.Show("Asset deleted.");
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Could not delete asset. It may have active loans or doesn't exist.");
+                }
+            }
+            catch (Exception ex)
+            {
+                // log or show error
+                MessageBox.Show($"Error deleting asset: {ex.Message}");
+            }
+        }
+
+        private async Task AddItemAsync()
+        {
+            try
+            {
+                // Build a new Asset or show dialog to collect details, then:
+                // await _assetService.CreateAssetAsync(newAsset);
+                // refresh UI/list
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error adding asset: {ex.Message}");
+            }
+        }
+
+        // IDashboardTab implementations - call async methods from here.
+        // Use async void only for top-level UI callbacks / interface methods that must be void.
+        public async void ActionOne()
+        {
+            await AddItemAsync();
+        }
+
+        public async void ActionTwo()
+        {
+            await DeleteSelectedItemAsync();
+        }
+    }
+}

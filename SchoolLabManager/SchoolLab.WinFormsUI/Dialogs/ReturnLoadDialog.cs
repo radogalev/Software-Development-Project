@@ -1,0 +1,47 @@
+﻿using SchoolLab.Core.Enums;
+using SchoolLab.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace SchoolLab.WinFormsUI.Dialogs
+{
+    public partial class ReturnLoadDialog : Form
+    {
+        public ReturnResult? Result { get; private set; }
+        public ReturnLoadDialog(Loan l)
+        {
+            InitializeComponent();
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            StartPosition = FormStartPosition.CenterParent;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            ShowInTaskbar = false;
+            AcceptButton = Save_btn;
+            CancelButton = Cancel_btn;
+            comboBox1.DataSource = Enum.GetValues(typeof(AssetCondition));
+            comboBox1.SelectedIndex = 0;
+            this.Text = $"Return Loan#{l.Id}";
+            Title_lbl.Text = $"Loan#{l.Id}, {l.BorrowedAsset.Name}";
+            User_lbl.Text = $"{l.Borrower.DisplayName}";
+        }
+
+        private void Save_btn_Click_1(object sender, EventArgs e)
+        {
+            Result = new ReturnResult
+            {
+                Condition = (AssetCondition)comboBox1.SelectedItem
+            };
+            this.DialogResult = DialogResult.OK;
+        }
+    }
+
+    public class ReturnResult
+    {
+        public AssetCondition Condition { get; init; } = AssetCondition.Excellent;
+    }
+}

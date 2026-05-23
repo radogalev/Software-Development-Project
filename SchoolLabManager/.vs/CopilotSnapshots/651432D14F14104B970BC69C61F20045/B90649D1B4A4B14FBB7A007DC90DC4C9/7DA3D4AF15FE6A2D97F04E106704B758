@@ -1,0 +1,69 @@
+﻿using SchoolLab.WinFormsUI.Helpers;
+using SchoolLab.Data.Context;
+using System;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace SchoolLab.WinFormsUI.Dialogs
+{
+    public partial class AddLoanDialog : Form
+    {
+        public AddLoanInput? Result { get; private set; }
+
+        public AddLoanDialog()
+        {
+            InitializeComponent();
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            StartPosition = FormStartPosition.CenterParent;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            ShowInTaskbar = false;
+            AcceptButton = Save_btn;
+            CancelButton = Cancel_btn;
+
+            try
+            {
+                var ctx = new SchoolLabDbContext();
+                var assets = ctx.Assets.OrderBy(a => a.Name).ToList();
+                var users = ctx.Users.OrderBy(u => u.Username).ToList();
+
+                Asset_cbox.DataSource = assets;
+                Asset_cbox.DisplayMember = "Name";
+                Asset_cbox.ValueMember = "Id";
+                Asset_cbox.SelectedIndex = -1;
+
+                Borrower_cbox.DataSource = users;
+                Borrower_cbox.DisplayMember = "Username";
+                Borrower_cbox.ValueMember = "Id";
+                Borrower_cbox.SelectedIndex = -1;
+            }
+            catch { }
+        }
+
+        private void Save_btn_Click(object sender, EventArgs e)
+        {
+            if (Asset_cbox.SelectedValue == null || Borrower_cbox.SelectedValue == null)
+            {
+                MessageBox.Show("Please select asset and borrower.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                DialogResult = DialogResult.None;
+                return;
+            }
+
+            Result = new AddLoanInput
+            {
+                AssetId = Convert.ToInt32(Asset_cbox.SelectedValue),
+                BorrowerId = Convert.ToInt32(Borrower_cbox.SelectedValue),
+                LeaserId = 1, // default
+                DueDate = DueDate_pick.Value.Date
+            };
+        }
+    }
+
+    public class AddLoanInput
+    {
+        public int AssetId { get; set; }
+        public int BorrowerId { get; set; }
+        public int LeaserId { get; set; }
+        public DateTime DueDate { get; set; }
+    }
+}

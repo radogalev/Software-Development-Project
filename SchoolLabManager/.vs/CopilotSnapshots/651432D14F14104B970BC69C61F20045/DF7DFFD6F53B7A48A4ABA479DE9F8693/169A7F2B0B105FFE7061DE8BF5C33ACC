@@ -1,0 +1,138 @@
+﻿using SchoolLab.Core.Models;
+using SchoolLab.Data.Context;
+using SchoolLab.Data.Repositories.Implementations;
+using SchoolLab.Services.Implementations;
+using SchoolLab.WinFormsUI.Dialogs;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SchoolLab.WinFormsUI.Controls
+{
+    public partial class UsersMain : UserControl, SchoolLab.WinFormsUI.Helpers.IDashboardTab
+    {
+        public UserItem selectedItem;
+
+        public UsersMain()
+        {
+            InitializeComponent();
+            Load += UsersMain_Load;
+        }
+
+        private async Task DeleteSelectedItemAsync()
+        {
+            if (selectedItem == null) return;
+
+            try
+            {
+                bool deleted;
+                using var ctx = new SchoolLabDbContext();
+                var repo = new UserRepository(ctx);
+                var user = await repo.GetByIdAsync(selectedItem.UserId);
+                if (user == null) { deleted = false; }
+                else
+                {
+                    ctx.Users.Remove(user);
+                    await ctx.SaveChangesAsync();
+                    deleted = true;
+                }
+
+                if (deleted)
+                {
+                    MessageBox.Show("User deleted.");
+                    flowLayoutPanelUsers.Controls.Remove(selectedItem);
+                    selectedItem = null;
+                }
+                else
+                {
+                    MessageBox.Show("Could not delete user. It may have related records or doesn't exist.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error deleting user: {ex.Message}");
+            }
+        }
+
+        private async Task AddItemAsync()
+        {
+            try
+            {
+                var dlg = new AddUserDialog();
+                DialogResult res = dlg.ShowDialog();
+                if (res != DialogResult.OK) return;
+
+                var input = dlg.Result;
+                if (input == null) return;
+
+                using var ctx = new SchoolLabDbContext();
+                User newUser = new User
+                {
+                    Username = input.Username,
+                    DisplayName = input.FullName,
+                    PasswordHash = input.PasswordHash
+                };
+
+                await ctx.Users.AddAsync(newUser);
+                await ctx.SaveChangesAsync();
+
+                await LoadAllUsersAsync();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error adding user: {ex.Message}\n{ex.InnerException}");
+            }
+        }
+
+        public async void ActionOne()
+        {
+            await AddItemAsync();
+        }
+
+        public async void ActionTwo()
+        {
+            await DeleteSelectedItemAsync();
+        }
+
+        private async void UsersMain_Load(object? sender, EventArgs e)
+        {
+            await LoadAllUsersAsync();
+        }
+
+        private async Task LoadAllUsersAsync()
+        {
+            try
+            {
+                IEnumerable<User> users;
+                using var context = new SchoolLabDbContext();
+                var users = await context.Users
+                    .ToListAsync();
+
+                flowLayoutPanelUsers.Controls.Clear();
+                foreach (var u in users)
+                {
+                    var item = new UserItem();
+                    item.Bind(u);
+                    item.Click += UserItem_Click;
+                    flowLayoutPanelUsers.Controls.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading users: {ex.Message}");
+            }
+        }
+
+        private void UserItem_Click(object? sender, EventArgs e)
+        {
+            if (sender is UserItem ui)
+            {
+                if (selectedItem != null) selectedItem.Selected = false;
+                selectedItem = ui;
+                selectedItem.Selected = true;
+            }
+        }
+    }
+}

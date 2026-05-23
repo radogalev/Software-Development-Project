@@ -1,0 +1,138 @@
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.exe
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.deps.json
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.runtimeconfig.json
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Azure.Core.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Azure.Identity.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Identity.Client.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.SqlServer.Server.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\System.ClientModel.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\System.Memory.Data.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\System.Runtime.Caching.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Core.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Data.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Services.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Core.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Data.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Services.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.csproj.AssemblyReference.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.LoginForm.resources
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.csproj.GenerateResource.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.AssemblyInfoInputs.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.AssemblyInfo.cs
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.csproj.CoreCompileInputs.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLa.4DF4903E.Up2Date
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\refint\SchoolLab.WinFormsUI.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.genruntimeconfig.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\ref\SchoolLab.WinFormsUI.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Forms.MainDashboard.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.exe
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.deps.json
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.runtimeconfig.json
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.WinFormsUI.pdb
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Azure.Core.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Azure.Identity.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Identity.Client.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.SqlServer.Server.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\System.ClientModel.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\System.Memory.Data.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\System.Runtime.Caching.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Core.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Data.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Services.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Core.pdb
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Data.pdb
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\SchoolLab.Services.pdb
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.csproj.AssemblyReference.cache
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.LoginForm.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Forms.MainDashboard.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.csproj.GenerateResource.cache
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.AssemblyInfoInputs.cache
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.AssemblyInfo.cs
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.csproj.CoreCompileInputs.cache
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLa.4DF4903E.Up2Date
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\refint\SchoolLab.WinFormsUI.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.pdb
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.genruntimeconfig.cache
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\ref\SchoolLab.WinFormsUI.dll
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Properties.Resources.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Controls.AssetItem.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Controls.AsssetsMain.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Dialogs.AddItemDialog.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Dialogs.ShowInfoDialog.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Controls.LoanItem.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Controls.LoansMain.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Dialogs.AddLoanDialog.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Dialogs.AddUserDialog.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Dialogs.ReturnLoadDialog.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Controls.ReportItem.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Controls.ReportsMain.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\obj\Debug\net10.0-windows\SchoolLab.WinFormsUI.Controls.UsersMain.resources
+E:\SchoolLabManager\SchoolLab.WinFormsUI\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.InMemory.dll

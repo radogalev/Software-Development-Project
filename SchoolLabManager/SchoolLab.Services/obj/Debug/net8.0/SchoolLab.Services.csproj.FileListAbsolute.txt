@@ -1,0 +1,34 @@
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Services.deps.json
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Services.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Services.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Core.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Data.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Core.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Data.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.csproj.AssemblyReference.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.AssemblyInfoInputs.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.AssemblyInfo.cs
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.csproj.CoreCompileInputs.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLa.906C5764.Up2Date
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\refint\SchoolLab.Services.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\ref\SchoolLab.Services.dll
+E:\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Services.deps.json
+E:\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Services.dll
+E:\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Services.pdb
+E:\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Core.dll
+E:\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Data.dll
+E:\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Core.pdb
+E:\SchoolLabManager\SchoolLab.Services\bin\Debug\net8.0\SchoolLab.Data.pdb
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.csproj.AssemblyReference.cache
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.AssemblyInfoInputs.cache
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.AssemblyInfo.cs
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.csproj.CoreCompileInputs.cache
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLa.906C5764.Up2Date
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.dll
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\refint\SchoolLab.Services.dll
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\SchoolLab.Services.pdb
+E:\SchoolLabManager\SchoolLab.Services\obj\Debug\net8.0\ref\SchoolLab.Services.dll

@@ -1,0 +1,58 @@
+﻿using SchoolLab.Core.Models;
+using SchoolLab.Core.Enums;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using SchoolLab.WinFormsUI.Helpers;
+using SchoolLab.WinFormsUI.Controls;
+
+namespace SchoolLab.WinFormsUI.Forms
+{
+    public partial class MainDashboard : Form
+    {
+        private readonly User _currentUser;
+        public MainDashboard(User user)
+        {
+            InitializeComponent();
+            _currentUser = user;
+
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+
+            lblWelcomeName.Text = $"Welcome,\n{user.DisplayName}";
+            lblWelcomeRole.Text = user.Role.ToString();
+
+            if (_currentUser.Role != UserRole.Administrator)
+            {
+                btnManageUsers.Visible = false;
+            }
+        }
+
+        private void btnManageAssets_Click(object sender, EventArgs e)
+        {
+            AsssetsMain dsh = new AsssetsMain();
+            MainControl_pnl.Controls.Clear();
+            MainControl_pnl.Controls.Add(dsh);
+        }
+
+        private void btnActionOne_Click(object sender, EventArgs e)
+        {
+            if (MainControl_pnl.Controls.Count > 0 && MainControl_pnl.Controls[0] is IDashboardTab tab)
+            {
+                tab.ActionOne();
+            }
+        }
+
+        private void btnActionTwo_Click_1(object sender, EventArgs e)
+        {
+            if (MainControl_pnl.Controls.Count > 0 && MainControl_pnl.Controls[0] is IDashboardTab tab)
+            {
+                tab.ActionTwo();
+            }
+        }
+    }
+}

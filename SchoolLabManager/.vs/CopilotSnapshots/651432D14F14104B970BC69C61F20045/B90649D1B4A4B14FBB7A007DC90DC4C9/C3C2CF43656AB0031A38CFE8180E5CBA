@@ -1,0 +1,46 @@
+﻿using System;
+using System.Windows.Forms;
+
+namespace SchoolLab.WinFormsUI.Dialogs
+{
+    public partial class AddUserDialog : Form
+    {
+        public AddUserInput? Result { get; private set; }
+
+        public AddUserDialog()
+        {
+            InitializeComponent();
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            StartPosition = FormStartPosition.CenterParent;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            ShowInTaskbar = false;
+            AcceptButton = Save_btn;
+            CancelButton = Cancel_btn;
+        }
+
+        private void Save_btn_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(Username_txt.Text))
+            {
+                MessageBox.Show("Please enter username.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                DialogResult = DialogResult.None;
+                return;
+            }
+
+            Result = new AddUserInput
+            {
+                Username = Username_txt.Text.Trim(),
+                FullName = Fullname_txt.Text.Trim(),
+                PasswordHash = Password_txt.Text.Trim()
+            };
+        }
+    }
+
+    public class AddUserInput
+    {
+        public string Username { get; set; }
+        public string FullName { get; set; }
+        public string PasswordHash { get; set; }
+    }
+}

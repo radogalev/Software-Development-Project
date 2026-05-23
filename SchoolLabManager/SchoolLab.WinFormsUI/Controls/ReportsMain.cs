@@ -1,0 +1,154 @@
+using SchoolLab.Core.Models;
+using SchoolLab.Data.Context;
+using SchoolLab.Data.Repositories.Implementations;
+using SchoolLab.Services.Implementations;
+using SchoolLab.Services.Interfaces;
+using SchoolLab.WinFormsUI.Dialogs;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SchoolLab.WinFormsUI.Controls
+{
+    public partial class ReportsMain : UserControl, SchoolLab.WinFormsUI.Helpers.IDashboardTab
+    {
+        public ReportItem selectedItem;
+        private readonly IReportService? _reportService;
+
+        public ReportsMain(IReportService? reportService = null)
+        {
+            InitializeComponent();
+            _reportService = reportService;
+            Load += ReportsMain_Load;
+        }
+
+        private async Task DeleteSelectedItemAsync()
+        {
+            if (selectedItem == null) return;
+
+            try
+            {
+                bool deleted;
+                if (_reportService != null)
+                {
+                    // no delete method on IReportService; fallback to direct deletion
+                    deleted = false;
+                }
+                else
+                {
+                    using var ctx = new SchoolLabDbContext();
+                    var repo = new DamageReportRepository(ctx);
+                    var r = await repo.GetByIdAsync(selectedItem.ReportId);
+                    if (r == null) { deleted = false; }
+                    else
+                    {
+                        ctx.DamageReports.Remove(r);
+                        await ctx.SaveChangesAsync();
+                        deleted = true;
+                    }
+                }
+
+                if (deleted)
+                {
+                    MessageBox.Show("Report deleted.");
+                    flowLayoutPanelReports.Controls.Remove(selectedItem);
+                    selectedItem = null;
+                }
+                else
+                {
+                    MessageBox.Show("Could not delete report. It may not exist.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error deleting report: {ex.Message}");
+            }
+        }
+
+        private async Task AddItemAsync()
+        {
+            try
+            {
+                var dlg = new AddDamageReportDialog();
+                DialogResult res = dlg.ShowDialog();
+                if (res != DialogResult.OK) return;
+
+                var input = dlg.Result;
+                if (input == null) return;
+
+                using var ctx = new SchoolLabDbContext();
+                DamageReport newReport = new DamageReport
+                {
+                    AssetId = input.AssetId,
+                    Description = input.Description,
+                    DateReported = input.DateReported,
+                    ReportedById = input.ReportedById
+                };
+
+                await ctx.DamageReports.AddAsync(newReport);
+                await ctx.SaveChangesAsync();
+
+                await LoadAllReportsAsync();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error adding report: {ex.Message}\n{ex.InnerException}");
+            }
+        }
+
+        public async void ActionOne()
+        {
+            await AddItemAsync();
+        }
+
+        public async void ActionTwo()
+        {
+            await DeleteSelectedItemAsync();
+        }
+
+        private async void ReportsMain_Load(object? sender, EventArgs e)
+        {
+            await LoadAllReportsAsync();
+        }
+
+        private async Task LoadAllReportsAsync()
+        {
+            try
+            {
+                // Always use repository to load all damage reports so we display existing records
+                using var context = new SchoolLabDbContext();
+                var reports = await context.DamageReports
+                    .Include(r => r.BorrowedAsset)
+                    .Include(r => r.ReportedBy)
+                    .Include(r => r.RepairedBy)
+                    .ToListAsync();
+
+                flowLayoutPanelReports.Controls.Clear();
+                foreach (var r in reports)
+                {
+                    var item = new ReportItem();
+                    item.Bind(r);
+                    item.Click += ReportItem_Click;
+                    flowLayoutPanelReports.Controls.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading reports: {ex.Message}");
+            }
+        }
+
+        private void ReportItem_Click(object? sender, EventArgs e)
+        {
+            if (sender is ReportItem ri)
+            {
+                if (selectedItem != null) selectedItem.Selected = false;
+                selectedItem = ri;
+                selectedItem.Selected = true;
+            }
+        }
+    }
+}

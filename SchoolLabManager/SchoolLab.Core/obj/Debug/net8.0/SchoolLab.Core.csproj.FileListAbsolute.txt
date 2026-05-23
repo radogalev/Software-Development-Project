@@ -1,0 +1,22 @@
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\bin\Debug\net8.0\SchoolLab.Core.deps.json
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\bin\Debug\net8.0\SchoolLab.Core.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\bin\Debug\net8.0\SchoolLab.Core.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.AssemblyInfoInputs.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.AssemblyInfo.cs
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.csproj.CoreCompileInputs.cache
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\refint\SchoolLab.Core.dll
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.pdb
+E:\SchoolLabManager Conev\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\ref\SchoolLab.Core.dll
+E:\SchoolLabManager\SchoolLab.Core\bin\Debug\net8.0\SchoolLab.Core.deps.json
+E:\SchoolLabManager\SchoolLab.Core\bin\Debug\net8.0\SchoolLab.Core.dll
+E:\SchoolLabManager\SchoolLab.Core\bin\Debug\net8.0\SchoolLab.Core.pdb
+E:\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.AssemblyInfoInputs.cache
+E:\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.AssemblyInfo.cs
+E:\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.csproj.CoreCompileInputs.cache
+E:\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.dll
+E:\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\refint\SchoolLab.Core.dll
+E:\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.pdb
+E:\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\ref\SchoolLab.Core.dll

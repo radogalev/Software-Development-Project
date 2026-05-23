@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SchoolLab.Core/SchoolLab.Core.csproj" />
+  <Project Path="SchoolLab.Data/SchoolLab.Data.csproj" />
+  <Project Path="SchoolLab.Services/SchoolLab.Services.csproj" />
+  <Project Path="SchoolLab.Test/SchoolLab.Test.csproj" Id="fffe5f3a-7b03-4852-a9dc-67529615af46" />
+  <Project Path="SchoolLab.WinFormsUI/SchoolLab.WinFormsUI.csproj" />
+</Solution>

@@ -1,0 +1,51 @@
+﻿using Microsoft.EntityFrameworkCore;
+using SchoolLab.Core.Models;
+using SchoolLab.Data.Context;
+using SchoolLab.Data.Repositories.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using SchoolLab.Core.Enums;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SchoolLab.Data.Repositories.Implementations
+{
+    public class LoanRepository : Repository<Loan>, ILoanRepository
+    {
+        public LoanRepository(SchoolLabDbContext context) : base(context) { }
+        public async Task<IEnumerable<Loan>> GetActiveLoansAsync()
+        {
+            return await _dbSet.Where(x => x.Status == LoanStatus.Active).ToListAsync();
+        }
+        public async Task<IEnumerable<Loan>> GetOverdueLoansAsync()
+        {
+            return await _dbSet.Where(x => x.Status == LoanStatus.Active && x.DueDate < DateTime.Now).ToListAsync();
+        }
+        public async Task<IEnumerable<Loan>> GetLoansByPersonAsync(int personId)
+        {
+            return await _dbSet.Where(x => x.BorrowerId == personId).ToListAsync();
+        }
+        public async Task<IEnumerable<Loan>> GetLoansByAssetAsync(int assetId)
+        {
+            return await _dbSet.Where(x => x.AssetId == assetId).ToListAsync();
+        }
+        public async Task<Loan?> GetLoanWithDetailsAsync(int id)
+        {
+            return await _dbSet
+                .Include(x => x.BorrowedAsset)
+                .Include(x=> x.Borrower)
+                .Include (x=> x.Leaser)
+                .FirstOrDefaultAsync(x => x.Id == id);
+        }
+
+        public async Task<IEnumerable<Loan>> GetAllWithDetailsAsync()
+        {
+            return await _dbSet
+                .Include(x => x.BorrowedAsset)
+                .Include(x => x.Borrower)
+                .Include(x => x.Leaser)
+                .ToListAsync();
+        }
+    }
+}

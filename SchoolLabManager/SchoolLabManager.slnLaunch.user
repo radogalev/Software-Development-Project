@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

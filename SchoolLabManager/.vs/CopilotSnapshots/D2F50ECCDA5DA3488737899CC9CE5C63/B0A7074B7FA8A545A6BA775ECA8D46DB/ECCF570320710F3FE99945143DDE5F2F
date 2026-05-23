@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace SchoolLab.WinFormsUI.Controls
+{
+    public partial class AssetItem : UserControl
+    {
+        public AssetItem()
+        {
+            InitializeComponent();
+        }
+        public int AssetId { get; private set; }
+
+        public bool Selected {
+            get => this.BackColor == SystemColors.Highlight;
+            set => this.BackColor = value ? SystemColors.Highlight : SystemColors.Control;
+        }
+
+        public void Bind(SchoolLab.Core.Models.Asset asset)
+        {
+            if (asset == null) return;
+            AssetId = asset.Id;
+            lblName.Text = asset.Name;
+        }
+
+        protected override void OnClick(EventArgs e)
+        {
+            base.OnClick(e);
+            // bubble click to parent for selection handling
+            this.InvokeOnClick(this, e);
+        }
+    }
+}

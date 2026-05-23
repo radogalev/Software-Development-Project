@@ -1,0 +1,88 @@
+﻿namespace SchoolLab.WinFormsUI.Dialogs
+{
+    partial class AddUserDialog
+    {
+        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.TextBox Username_txt;
+        private System.Windows.Forms.TextBox Fullname_txt;
+        private System.Windows.Forms.TextBox Password_txt;
+        private System.Windows.Forms.Button Save_btn;
+        private System.Windows.Forms.Button Cancel_btn;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.Username_txt = new System.Windows.Forms.TextBox();
+            this.Fullname_txt = new System.Windows.Forms.TextBox();
+            this.Password_txt = new System.Windows.Forms.TextBox();
+            this.Save_btn = new System.Windows.Forms.Button();
+            this.Cancel_btn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // Username_txt
+            // 
+            this.Username_txt.Location = new System.Drawing.Point(12, 12);
+            this.Username_txt.Name = "Username_txt";
+            this.Username_txt.Size = new System.Drawing.Size(260, 22);
+            this.Username_txt.TabIndex = 0;
+            // 
+            // Fullname_txt
+            // 
+            this.Fullname_txt.Location = new System.Drawing.Point(12, 40);
+            this.Fullname_txt.Name = "Fullname_txt";
+            this.Fullname_txt.Size = new System.Drawing.Size(260, 22);
+            this.Fullname_txt.TabIndex = 1;
+            // 
+            // Password_txt
+            // 
+            this.Password_txt.Location = new System.Drawing.Point(12, 68);
+            this.Password_txt.Name = "Password_txt";
+            this.Password_txt.Size = new System.Drawing.Size(260, 22);
+            this.Password_txt.TabIndex = 2;
+            // 
+            // Save_btn
+            // 
+            this.Save_btn.Location = new System.Drawing.Point(12, 100);
+            this.Save_btn.Name = "Save_btn";
+            this.Save_btn.Size = new System.Drawing.Size(75, 30);
+            this.Save_btn.TabIndex = 3;
+            this.Save_btn.Text = "Save";
+            this.Save_btn.UseVisualStyleBackColor = true;
+            this.Save_btn.Click += new System.EventHandler(this.Save_btn_Click);
+            // 
+            // Cancel_btn
+            // 
+            this.Cancel_btn.Location = new System.Drawing.Point(197, 100);
+            this.Cancel_btn.Name = "Cancel_btn";
+            this.Cancel_btn.Size = new System.Drawing.Size(75, 30);
+            this.Cancel_btn.TabIndex = 4;
+            this.Cancel_btn.Text = "Cancel";
+            this.Cancel_btn.UseVisualStyleBackColor = true;
+            // 
+            // AddUserDialog
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 141);
+            this.Controls.Add(this.Cancel_btn);
+            this.Controls.Add(this.Save_btn);
+            this.Controls.Add(this.Password_txt);
+            this.Controls.Add(this.Fullname_txt);
+            this.Controls.Add(this.Username_txt);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "AddUserDialog";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+
+        #endregion
+    }
+}

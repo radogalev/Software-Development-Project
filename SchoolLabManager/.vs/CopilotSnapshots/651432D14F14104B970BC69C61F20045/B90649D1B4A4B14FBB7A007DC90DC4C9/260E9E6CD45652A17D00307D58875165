@@ -1,0 +1,91 @@
+﻿namespace SchoolLab.WinFormsUI.Dialogs
+{
+    partial class AddLoanDialog
+    {
+        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.ComboBox Asset_cbox;
+        private System.Windows.Forms.ComboBox Borrower_cbox;
+        private System.Windows.Forms.DateTimePicker DueDate_pick;
+        private System.Windows.Forms.Button Save_btn;
+        private System.Windows.Forms.Button Cancel_btn;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.Asset_cbox = new System.Windows.Forms.ComboBox();
+            this.Borrower_cbox = new System.Windows.Forms.ComboBox();
+            this.DueDate_pick = new System.Windows.Forms.DateTimePicker();
+            this.Save_btn = new System.Windows.Forms.Button();
+            this.Cancel_btn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // Asset_cbox
+            // 
+            this.Asset_cbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Asset_cbox.FormattingEnabled = true;
+            this.Asset_cbox.Location = new System.Drawing.Point(12, 12);
+            this.Asset_cbox.Name = "Asset_cbox";
+            this.Asset_cbox.Size = new System.Drawing.Size(260, 24);
+            this.Asset_cbox.TabIndex = 0;
+            // 
+            // Borrower_cbox
+            // 
+            this.Borrower_cbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Borrower_cbox.FormattingEnabled = true;
+            this.Borrower_cbox.Location = new System.Drawing.Point(12, 42);
+            this.Borrower_cbox.Name = "Borrower_cbox";
+            this.Borrower_cbox.Size = new System.Drawing.Size(260, 24);
+            this.Borrower_cbox.TabIndex = 1;
+            // 
+            // DueDate_pick
+            // 
+            this.DueDate_pick.Location = new System.Drawing.Point(12, 72);
+            this.DueDate_pick.Name = "DueDate_pick";
+            this.DueDate_pick.Size = new System.Drawing.Size(260, 22);
+            this.DueDate_pick.TabIndex = 2;
+            // 
+            // Save_btn
+            // 
+            this.Save_btn.Location = new System.Drawing.Point(12, 100);
+            this.Save_btn.Name = "Save_btn";
+            this.Save_btn.Size = new System.Drawing.Size(75, 30);
+            this.Save_btn.TabIndex = 3;
+            this.Save_btn.Text = "Save";
+            this.Save_btn.UseVisualStyleBackColor = true;
+            this.Save_btn.Click += new System.EventHandler(this.Save_btn_Click);
+            // 
+            // Cancel_btn
+            // 
+            this.Cancel_btn.Location = new System.Drawing.Point(197, 100);
+            this.Cancel_btn.Name = "Cancel_btn";
+            this.Cancel_btn.Size = new System.Drawing.Size(75, 30);
+            this.Cancel_btn.TabIndex = 4;
+            this.Cancel_btn.Text = "Cancel";
+            this.Cancel_btn.UseVisualStyleBackColor = true;
+            // 
+            // AddLoanDialog
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 141);
+            this.Controls.Add(this.Cancel_btn);
+            this.Controls.Add(this.Save_btn);
+            this.Controls.Add(this.DueDate_pick);
+            this.Controls.Add(this.Borrower_cbox);
+            this.Controls.Add(this.Asset_cbox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "AddLoanDialog";
+            this.ResumeLayout(false);
+        }
+
+        #endregion
+    }
+}

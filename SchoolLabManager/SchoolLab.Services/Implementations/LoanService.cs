@@ -1,0 +1,147 @@
+﻿using SchoolLab.Core.Models;
+using SchoolLab.Core.Enums;
+using SchoolLab.Data.Repositories.Interfaces;
+using SchoolLab.Services.Interfaces;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System;
+using Microsoft.Identity.Client;
+using SchoolLab.Data.Repositories.Implementations;
+
+namespace SchoolLab.Services.Implementations
+{
+    public class LoanService : ILoanService
+    {
+        private readonly IAssetRepository _assetRepo;
+        private readonly ILoanRepository _loanRepo;
+        public LoanService(IAssetRepository assetRepository, ILoanRepository loanRepository)
+        {
+            _assetRepo = assetRepository;
+            _loanRepo = loanRepository;
+        }
+
+        public async Task<IEnumerable<Loan>> GetAllLoansAsync()
+        {
+            // Prefer repository method that includes navigation properties
+            if (_loanRepo is LoanRepository lr)
+            {
+                return await lr.GetAllWithDetailsAsync();
+            }
+            return await _loanRepo.GetAllAsync();
+        }
+
+        public async Task<Loan?> GetLoanByIdAsync(int id)
+        {
+            return await _loanRepo.GetByIdAsync(id);
+        }
+
+        public async Task<Loan?> GetLoanWithDetailsAsync(int id)
+        {
+            return await _loanRepo.GetLoanWithDetailsAsync(id);
+        }
+
+        public async Task<IEnumerable<Loan>> GetActiveLoansAsync()
+        {
+            // Ensure returned loans include navigation properties where repository supports it.
+            if (_loanRepo is LoanRepository lr)
+            {
+                return await lr.GetActiveLoansAsync();
+            }
+            var loans = await _loanRepo.GetActiveLoansAsync();
+            return loans;
+        }
+
+        public async Task<IEnumerable<Loan>> GetOverdueLoansAsync()
+        {
+            if (_loanRepo is LoanRepository lr)
+            {
+                return await lr.GetOverdueLoansAsync();
+            }
+            return await _loanRepo.GetOverdueLoansAsync();
+        }
+        public async Task<IEnumerable<Loan>> GetLoansByPersonAsync(int personId)
+        {
+            if (_loanRepo is LoanRepository lr)
+            {
+                return await lr.GetLoansByPersonAsync(personId);
+            }
+            return await _loanRepo.GetLoansByPersonAsync(personId);
+        }
+
+        public async Task<IEnumerable<Loan>> GetLoansByAssetAsync(int assetId)
+        {
+            if (_loanRepo is LoanRepository lr)
+            {
+                return await lr.GetLoansByAssetAsync(assetId);
+            }
+            return await _loanRepo.GetLoansByAssetAsync(assetId);
+        }
+
+        public async Task<Loan?> CreateLoanAsync(Loan loan)
+        {
+            Asset? asset = await _assetRepo.GetAssetWithDetailsAsync(loan.AssetId);
+
+            if (asset == null
+                || asset.Status != AssetStatus.Available
+                || asset.Loans.Any(x => x.Status is LoanStatus.Active or LoanStatus.Overdue))
+            {
+                return null;
+            }
+
+            await _loanRepo.AddAsync(loan);
+
+            asset.Status = AssetStatus.Borrowed;
+            _assetRepo.Update(asset);
+
+            await _loanRepo.SaveChangesAsync();
+
+            // Ensure navigation properties are populated on result
+            if (_loanRepo is LoanRepository lr)
+            {
+                var created = await lr.GetLoanWithDetailsAsync(loan.Id);
+                return created;
+            }
+
+            // If concrete repo not available, try to load via assetRepo or return the loan as-is
+            return loan;
+        }
+
+        public async Task<bool> ReturnLoanAsync(int loanId, AssetCondition returnCondition)
+        {
+            Loan? loan = await _loanRepo.GetLoanWithDetailsAsync(loanId);
+            if(loan == null || loan.Status != LoanStatus.Active)
+            {
+                return false;
+            }
+            loan.ReturnDate = DateTime.Now;
+            loan.ReturnCondition = returnCondition;
+            if(loan.ReturnDate <= loan.DueDate) { loan.Status = LoanStatus.Returned; } 
+            else { loan.Status = LoanStatus.ReturnedLate; }
+            _loanRepo.Update(loan);
+            Asset? asset = await _assetRepo.GetAssetWithDetailsAsync(loan.AssetId);
+            if (asset == null)
+            {
+                return false;
+            }
+            asset.Status = AssetStatus.Available;
+            _assetRepo.Update(asset);
+
+            await _loanRepo.SaveChangesAsync();
+
+            return true;
+        }
+        public async Task UpdateOverdueLoansAsync()
+        {
+            foreach (Loan loan in await _loanRepo.GetActiveLoansAsync())
+            {
+                if (loan.DueDate < DateTime.Now)  
+                {
+                    loan.Status = LoanStatus.Overdue;
+                    _loanRepo.Update(loan);
+                }
+            }
+            await _loanRepo.SaveChangesAsync();
+        }
+    }
+}

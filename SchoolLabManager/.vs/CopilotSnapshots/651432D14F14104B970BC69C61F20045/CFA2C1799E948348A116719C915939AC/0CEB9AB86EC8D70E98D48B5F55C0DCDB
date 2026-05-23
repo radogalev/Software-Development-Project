@@ -1,0 +1,43 @@
+﻿namespace SchoolLab.WinFormsUI.Controls
+{
+    partial class UsersMain
+    {
+        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelUsers = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.flowLayoutPanelUsers = new System.Windows.Forms.FlowLayoutPanel();
+            this.SuspendLayout();
+            // 
+            // flowLayoutPanelUsers
+            // 
+            this.flowLayoutPanelUsers.AutoScroll = true;
+            this.flowLayoutPanelUsers.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanelUsers.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanelUsers.Name = "flowLayoutPanelUsers";
+            this.flowLayoutPanelUsers.Size = new System.Drawing.Size(600, 400);
+            this.flowLayoutPanelUsers.TabIndex = 0;
+            // 
+            // UsersMain
+            // 
+            this.Controls.Add(this.flowLayoutPanelUsers);
+            this.Name = "UsersMain";
+            this.Size = new System.Drawing.Size(600, 400);
+            this.ResumeLayout(false);
+        }
+
+        #endregion
+    }
+}
