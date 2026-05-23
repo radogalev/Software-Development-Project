@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\SchoolLabManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1DEA24E-5633-FFD5-7CA6-4BC796FA88AC}|SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|e:\\schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A1DEA24E-5633-FFD5-7CA6-4BC796FA88AC}|SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1DEA24E-5633-FFD5-7CA6-4BC796FA88AC}|SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|e:\\schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1DEA24E-5633-FFD5-7CA6-4BC796FA88AC}|SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFFE5F3A-7B03-4852-A9DC-67529615AF46}|SchoolLab.Test\\SchoolLab.Test.csproj|e:\\schoollabmanager\\schoollab.test\\schoollab.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FFFE5F3A-7B03-4852-A9DC-67529615AF46}|SchoolLab.Test\\SchoolLab.Test.csproj|solutionrelative:schoollab.test\\schoollab.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{052DBE8F-4FFA-2427-2225-07F5CBF4520F}|SchoolLab.Data\\SchoolLab.Data.csproj|e:\\schoollabmanager\\schoollab.data\\schoollab.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{052DBE8F-4FFA-2427-2225-07F5CBF4520F}|SchoolLab.Data\\SchoolLab.Data.csproj|solutionrelative:schoollab.data\\schoollab.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{052DBE8F-4FFA-2427-2225-07F5CBF4520F}|SchoolLab.Data\\SchoolLab.Data.csproj|e:\\schoollabmanager\\schoollab.data\\context\\schoollabdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{052DBE8F-4FFA-2427-2225-07F5CBF4520F}|SchoolLab.Data\\SchoolLab.Data.csproj|solutionrelative:schoollab.data\\context\\schoollabdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFE5F3A-7B03-4852-A9DC-67529615AF46}|SchoolLab.Test\\SchoolLab.Test.csproj|e:\\schoollabmanager\\schoollab.test\\schoollab.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FFFE5F3A-7B03-4852-A9DC-67529615AF46}|SchoolLab.Test\\SchoolLab.Test.csproj|solutionrelative:schoollab.test\\schoollab.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFFE5F3A-7B03-4852-A9DC-67529615AF46}|SchoolLab.Test\\SchoolLab.Test.csproj|e:\\schoollabmanager\\schoollab.test\\tests\\repositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +27,16 @@
       "RelativeMoniker": "D:0:0:{FFFE5F3A-7B03-4852-A9DC-67529615AF46}|SchoolLab.Test\\SchoolLab.Test.csproj|solutionrelative:schoollab.test\\tests\\assettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{052DBE8F-4FFA-2427-2225-07F5CBF4520F}|SchoolLab.Data\\SchoolLab.Data.csproj|e:\\schoollabmanager\\schoollab.data\\schoollab.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{052DBE8F-4FFA-2427-2225-07F5CBF4520F}|SchoolLab.Data\\SchoolLab.Data.csproj|solutionrelative:schoollab.data\\schoollab.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1DEA24E-5633-FFD5-7CA6-4BC796FA88AC}|SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|E:\\SchoolLabManager\\schoollab.winformsui\\dialogs\\addloandialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A1DEA24E-5633-FFD5-7CA6-4BC796FA88AC}|SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollab.winformsui\\dialogs\\addloandialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6881BDA2-018E-DD7B-6EE8-F61489E8E521}|SchoolLab.Services\\SchoolLab.Services.csproj|e:\\schoollabmanager\\schoollab.services\\schoollab.services.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{6881BDA2-018E-DD7B-6EE8-F61489E8E521}|SchoolLab.Services\\SchoolLab.Services.csproj|solutionrelative:schoollab.services\\schoollab.services.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SchoolLabManager\\SchoolLab.Tests\\SchoolLab.Tests.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SchoolLab.Tests\\SchoolLab.Tests.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,32 +64,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "SchoolLab.Tests.csproj",
+              "DocumentMoniker": "E:\\SchoolLabManager\\SchoolLab.Tests\\SchoolLab.Tests.csproj",
+              "RelativeDocumentMoniker": "SchoolLab.Tests\\SchoolLab.Tests.csproj",
+              "ToolTip": "E:\\SchoolLabManager\\SchoolLab.Tests\\SchoolLab.Tests.csproj",
+              "RelativeToolTip": "SchoolLab.Tests\\SchoolLab.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-23T12:47:08.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainDashboard.cs",
               "DocumentMoniker": "E:\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
               "RelativeDocumentMoniker": "SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "ToolTip": "E:\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs*",
-              "RelativeToolTip": "SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs*",
-              "ViewState": "AgIAAFgAAAAAAAAAAAArwGwAAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
+              "RelativeToolTip": "SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAWwGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-23T12:42:59.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainDashboard.cs [Design]",
-              "DocumentMoniker": "E:\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "RelativeDocumentMoniker": "SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "ToolTip": "E:\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs [Design]*",
-              "RelativeToolTip": "SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:42:01.198Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SchoolLab.Test",
               "DocumentMoniker": "E:\\SchoolLabManager\\SchoolLab.Test\\SchoolLab.Test.csproj",
               "RelativeDocumentMoniker": "SchoolLab.Test\\SchoolLab.Test.csproj",
@@ -102,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SchoolLabDbContext.cs",
               "DocumentMoniker": "E:\\SchoolLabManager\\SchoolLab.Data\\Context\\SchoolLabDbContext.cs",
               "RelativeDocumentMoniker": "SchoolLab.Data\\Context\\SchoolLabDbContext.cs",
@@ -115,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "SchoolLab.Data",
               "DocumentMoniker": "E:\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj",
               "RelativeDocumentMoniker": "SchoolLab.Data\\SchoolLab.Data.csproj",
@@ -154,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "AddLoanDialog.cs [Design]",
               "DocumentMoniker": "E:\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddLoanDialog.cs",
               "RelativeDocumentMoniker": "SchoolLab.WinFormsUI\\Dialogs\\AddLoanDialog.cs",
@@ -172,7 +173,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "SchoolLab.Services",
               "DocumentMoniker": "E:\\SchoolLabManager\\SchoolLab.Services\\SchoolLab.Services.csproj",
               "RelativeDocumentMoniker": "SchoolLab.Services\\SchoolLab.Services.csproj",
