@@ -23,113 +23,189 @@ namespace SchoolLab.WinFormsUI.Dialogs
 
         private void InitializeComponent()
         {
-            this.Asset_cbox = new System.Windows.Forms.ComboBox();
-            this.ReportedBy_cbox = new System.Windows.Forms.ComboBox();
-            this.Description_txt = new System.Windows.Forms.TextBox();
-            this.Date_pick = new System.Windows.Forms.DateTimePicker();
-            this.Save_btn = new System.Windows.Forms.Button();
-            this.Cancel_btn = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            Asset_cbox = new ComboBox();
+            ReportedBy_cbox = new ComboBox();
+            Description_txt = new TextBox();
+            Date_pick = new DateTimePicker();
+            Save_btn = new Button();
+            Cancel_btn = new Button();
+            labelAsset = new Label();
+            labelReported = new Label();
+            labelDesc = new Label();
+            labelDate = new Label();
+            repairedBy_cbox = new ComboBox();
+            loan_cbox = new ComboBox();
+            label1 = new Label();
+            label2 = new Label();
+            SuspendLayout();
             // 
             // Asset_cbox
             // 
-            this.Asset_cbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Asset_cbox.FormattingEnabled = true;
-            this.Asset_cbox.Location = new System.Drawing.Point(12, 12);
-            this.Asset_cbox.Name = "Asset_cbox";
-            this.Asset_cbox.Size = new System.Drawing.Size(360, 24);
-            this.Asset_cbox.TabIndex = 0;
-            // labelAsset
-            var labelAsset = new System.Windows.Forms.Label();
-            labelAsset.AutoSize = true;
-            labelAsset.Location = new System.Drawing.Point(12, -2);
-            labelAsset.Name = "labelAsset";
-            labelAsset.Size = new System.Drawing.Size(44, 17);
-            labelAsset.Text = "Asset:";
-            this.Controls.Add(labelAsset);
+            Asset_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
+            Asset_cbox.Font = new Font("Segoe UI", 11F);
+            Asset_cbox.FormattingEnabled = true;
+            Asset_cbox.Location = new Point(12, 32);
+            Asset_cbox.Name = "Asset_cbox";
+            Asset_cbox.Size = new Size(179, 28);
+            Asset_cbox.TabIndex = 0;
             // 
             // ReportedBy_cbox
             // 
-            this.ReportedBy_cbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ReportedBy_cbox.FormattingEnabled = true;
-            this.ReportedBy_cbox.Location = new System.Drawing.Point(12, 42);
-            this.ReportedBy_cbox.Name = "ReportedBy_cbox";
-            this.ReportedBy_cbox.Size = new System.Drawing.Size(360, 24);
-            this.ReportedBy_cbox.TabIndex = 1;
-            // labelReportedBy
-            var labelReported = new System.Windows.Forms.Label();
-            labelReported.AutoSize = true;
-            labelReported.Location = new System.Drawing.Point(12, 26);
-            labelReported.Name = "labelReportedBy";
-            labelReported.Size = new System.Drawing.Size(78, 17);
-            labelReported.Text = "Reported by:";
-            this.Controls.Add(labelReported);
+            ReportedBy_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
+            ReportedBy_cbox.Font = new Font("Segoe UI", 11F);
+            ReportedBy_cbox.FormattingEnabled = true;
+            ReportedBy_cbox.Location = new Point(12, 90);
+            ReportedBy_cbox.Name = "ReportedBy_cbox";
+            ReportedBy_cbox.Size = new Size(179, 28);
+            ReportedBy_cbox.TabIndex = 1;
             // 
             // Description_txt
             // 
-            this.Description_txt.Location = new System.Drawing.Point(12, 72);
-            this.Description_txt.Multiline = true;
-            this.Description_txt.Name = "Description_txt";
-            this.Description_txt.Size = new System.Drawing.Size(360, 100);
-            this.Description_txt.TabIndex = 2;
-            // labelDescription
-            var labelDesc = new System.Windows.Forms.Label();
-            labelDesc.AutoSize = true;
-            labelDesc.Location = new System.Drawing.Point(12, 56);
-            labelDesc.Name = "labelDescription";
-            labelDesc.Size = new System.Drawing.Size(83, 17);
-            labelDesc.Text = "Description:";
-            this.Controls.Add(labelDesc);
+            Description_txt.Location = new Point(12, 144);
+            Description_txt.Multiline = true;
+            Description_txt.Name = "Description_txt";
+            Description_txt.Size = new Size(360, 100);
+            Description_txt.TabIndex = 2;
             // 
             // Date_pick
             // 
-            this.Date_pick.Location = new System.Drawing.Point(12, 178);
-            this.Date_pick.Name = "Date_pick";
-            this.Date_pick.Size = new System.Drawing.Size(360, 22);
-            this.Date_pick.TabIndex = 3;
-            // labelDate
-            var labelDate = new System.Windows.Forms.Label();
-            labelDate.AutoSize = true;
-            labelDate.Location = new System.Drawing.Point(12, 162);
-            labelDate.Name = "labelDate";
-            labelDate.Size = new System.Drawing.Size(90, 17);
-            labelDate.Text = "Date reported:";
-            this.Controls.Add(labelDate);
+            Date_pick.Location = new Point(124, 250);
+            Date_pick.Name = "Date_pick";
+            Date_pick.Size = new Size(248, 23);
+            Date_pick.TabIndex = 3;
             // 
             // Save_btn
             // 
-            this.Save_btn.Location = new System.Drawing.Point(12, 206);
-            this.Save_btn.Name = "Save_btn";
-            this.Save_btn.Size = new System.Drawing.Size(75, 30);
-            this.Save_btn.TabIndex = 4;
-            this.Save_btn.Text = "Save";
-            this.Save_btn.UseVisualStyleBackColor = true;
-            this.Save_btn.Click += new System.EventHandler(this.Save_btn_Click);
+            Save_btn.Location = new Point(12, 286);
+            Save_btn.Name = "Save_btn";
+            Save_btn.Size = new Size(75, 30);
+            Save_btn.TabIndex = 4;
+            Save_btn.Text = "Save";
+            Save_btn.UseVisualStyleBackColor = true;
+            Save_btn.Click += Save_btn_Click;
             // 
             // Cancel_btn
             // 
-            this.Cancel_btn.Location = new System.Drawing.Point(297, 206);
-            this.Cancel_btn.Name = "Cancel_btn";
-            this.Cancel_btn.Size = new System.Drawing.Size(75, 30);
-            this.Cancel_btn.TabIndex = 5;
-            this.Cancel_btn.Text = "Cancel";
-            this.Cancel_btn.UseVisualStyleBackColor = true;
+            Cancel_btn.Location = new Point(297, 286);
+            Cancel_btn.Name = "Cancel_btn";
+            Cancel_btn.Size = new Size(75, 30);
+            Cancel_btn.TabIndex = 5;
+            Cancel_btn.Text = "Cancel";
+            Cancel_btn.UseVisualStyleBackColor = true;
+            // 
+            // labelAsset
+            // 
+            labelAsset.AutoSize = true;
+            labelAsset.Font = new Font("Segoe UI", 11F);
+            labelAsset.Location = new Point(12, 9);
+            labelAsset.Name = "labelAsset";
+            labelAsset.Size = new Size(47, 20);
+            labelAsset.TabIndex = 0;
+            labelAsset.Text = "Asset:";
+            // 
+            // labelReported
+            // 
+            labelReported.AutoSize = true;
+            labelReported.Font = new Font("Segoe UI", 11F);
+            labelReported.Location = new Point(12, 67);
+            labelReported.Name = "labelReported";
+            labelReported.Size = new Size(94, 20);
+            labelReported.TabIndex = 1;
+            labelReported.Text = "Reported by:";
+            // 
+            // labelDesc
+            // 
+            labelDesc.AutoSize = true;
+            labelDesc.Font = new Font("Segoe UI", 11F);
+            labelDesc.Location = new Point(12, 121);
+            labelDesc.Name = "labelDesc";
+            labelDesc.Size = new Size(88, 20);
+            labelDesc.TabIndex = 2;
+            labelDesc.Text = "Description:";
+            // 
+            // labelDate
+            // 
+            labelDate.AutoSize = true;
+            labelDate.Font = new Font("Segoe UI", 11F);
+            labelDate.Location = new Point(12, 250);
+            labelDate.Name = "labelDate";
+            labelDate.Size = new Size(106, 20);
+            labelDate.TabIndex = 3;
+            labelDate.Text = "Date reported:";
+            // 
+            // repairedBy_cbox
+            // 
+            repairedBy_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
+            repairedBy_cbox.Font = new Font("Segoe UI", 11F);
+            repairedBy_cbox.FormattingEnabled = true;
+            repairedBy_cbox.Location = new Point(197, 90);
+            repairedBy_cbox.Name = "repairedBy_cbox";
+            repairedBy_cbox.Size = new Size(179, 28);
+            repairedBy_cbox.TabIndex = 6;
+            // 
+            // loan_cbox
+            // 
+            loan_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
+            loan_cbox.Font = new Font("Segoe UI", 11F);
+            loan_cbox.FormattingEnabled = true;
+            loan_cbox.Location = new Point(197, 32);
+            loan_cbox.Name = "loan_cbox";
+            loan_cbox.Size = new Size(179, 28);
+            loan_cbox.TabIndex = 7;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 11F);
+            label1.Location = new Point(197, 67);
+            label1.Name = "label1";
+            label1.Size = new Size(162, 20);
+            label1.TabIndex = 8;
+            label1.Text = "Repaired by (optional):";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 11F);
+            label2.Location = new Point(197, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(114, 20);
+            label2.TabIndex = 9;
+            label2.Text = "Loan (optional):";
             // 
             // AddDamageReportDialog
             // 
-            this.ClientSize = new System.Drawing.Size(384, 248);
-            this.Controls.Add(this.Cancel_btn);
-            this.Controls.Add(this.Save_btn);
-            this.Controls.Add(this.Date_pick);
-            this.Controls.Add(this.Description_txt);
-            this.Controls.Add(this.ReportedBy_cbox);
-            this.Controls.Add(this.Asset_cbox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "AddDamageReportDialog";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            ClientSize = new Size(384, 328);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(loan_cbox);
+            Controls.Add(repairedBy_cbox);
+            Controls.Add(labelAsset);
+            Controls.Add(labelReported);
+            Controls.Add(labelDesc);
+            Controls.Add(labelDate);
+            Controls.Add(Cancel_btn);
+            Controls.Add(Save_btn);
+            Controls.Add(Date_pick);
+            Controls.Add(Description_txt);
+            Controls.Add(ReportedBy_cbox);
+            Controls.Add(Asset_cbox);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            Name = "AddDamageReportDialog";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label labelAsset;
+        private Label labelReported;
+        private Label labelDesc;
+        private Label labelDate;
+        private ComboBox repairedBy_cbox;
+        private ComboBox comboBox1;
+        private ComboBox loan_cbox;
+        private Label label1;
+        private Label label2;
     }
 }

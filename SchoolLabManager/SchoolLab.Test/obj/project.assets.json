@@ -4265,11 +4265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SchoolLabManager\\SchoolLab.Test\\SchoolLab.Test.csproj",
+      "projectUniqueName": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Test\\SchoolLab.Test.csproj",
       "projectName": "SchoolLab.Test",
-      "projectPath": "E:\\SchoolLabManager\\SchoolLab.Test\\SchoolLab.Test.csproj",
+      "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Test\\SchoolLab.Test.csproj",
       "packagesPath": "C:\\Users\\stilq\\.nuget\\packages",
-      "outputPath": "E:\\SchoolLabManager\\SchoolLab.Test\\obj\\",
+      "outputPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4294,14 +4294,14 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj": {
-              "projectPath": "E:\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj"
+            "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj": {
+              "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj"
             },
-            "E:\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj": {
-              "projectPath": "E:\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj"
+            "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj": {
+              "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj"
             },
-            "E:\\SchoolLabManager\\SchoolLab.Services\\SchoolLab.Services.csproj": {
-              "projectPath": "E:\\SchoolLabManager\\SchoolLab.Services\\SchoolLab.Services.csproj"
+            "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Services\\SchoolLab.Services.csproj": {
+              "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Services\\SchoolLab.Services.csproj"
             }
           }
         }

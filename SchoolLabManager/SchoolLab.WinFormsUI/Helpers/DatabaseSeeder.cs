@@ -30,7 +30,7 @@ namespace SchoolLab.Data.Helpers
                 u1.TimeOfRegistration = DateTime.Now;
 
                 User u2 = new User();
-                u2.Username = "c";
+                u2.Username = "AssistantTestUser";
                 u2.PasswordHash = PasswordHasher.HashPassword("labassist123");
                 u2.DisplayName = "Lab Assistant";
                 u2.Role = UserRole.LabAssistant;

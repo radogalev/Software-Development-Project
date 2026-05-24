@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1XjjKUnVsYk=",
+  "dgSpecHash": "0pgPKH+e7Z0=",
   "success": true,
-  "projectFilePath": "E:\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj",
+  "projectFilePath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stilq\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\stilq\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

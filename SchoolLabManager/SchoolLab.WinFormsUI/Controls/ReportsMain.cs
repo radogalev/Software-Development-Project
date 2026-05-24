@@ -34,7 +34,6 @@ namespace SchoolLab.WinFormsUI.Controls
                 bool deleted;
                 if (_reportService != null)
                 {
-                    // no delete method on IReportService; fallback to direct deletion
                     deleted = false;
                 }
                 else
@@ -87,6 +86,16 @@ namespace SchoolLab.WinFormsUI.Controls
                     DateReported = input.DateReported,
                     ReportedById = input.ReportedById
                 };
+
+                if(input.RepairedById != -1)
+                {
+                    newReport.RepairedById = input.RepairedById;
+                }
+
+                if(input.LoanId != -1)
+                {
+                    newReport.LoanId = input.LoanId;
+                }
 
                 await ctx.DamageReports.AddAsync(newReport);
                 await ctx.SaveChangesAsync();
