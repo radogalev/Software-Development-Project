@@ -31,16 +31,14 @@ namespace SchoolLab.WinFormsUI.Controls
         {
             if (loan == null) return;
             LoanId = loan.Id;
-            lblName.Text = $"Loan #{loan.Id} - {(loan.BorrowedAsset?.Name ?? "Asset")}\n" +
-                $"Asset: {(loan.BorrowedAsset?.Name ?? "asset")}\n" +
-                $"Borrowed by: {(loan.Borrower?.DisplayName ?? "user")}\n";
+            lblName.Text = $"Loan #{loan.Id} - {(loan.BorrowedAsset?.Name ?? "Asset")}\n";
             if (loan.Status is LoanStatus.Returned or LoanStatus.ReturnedLate)
             {
                 lblName.Text += $"Loan was {loan.Status}\n";
             }
             else
             {
-                lblName.Text += $"Due date: {loan.DueDate}";
+                lblName.Text += $"Due date: {loan.DueDate.Date}";
             }
         }
 

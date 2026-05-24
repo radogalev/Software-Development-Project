@@ -18,27 +18,28 @@ namespace SchoolLab.WinFormsUI.Controls
 
         private void InitializeComponent()
         {
-            this.lblName = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            lblName = new Label();
+            SuspendLayout();
             // 
             // lblName
             // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(3, 6);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(52, 17);
-            this.lblName.TabIndex = 0;
-            this.lblName.Text = "Report";
+            lblName.AutoSize = true;
+            lblName.Font = new Font("Segoe UI", 11F);
+            lblName.Location = new Point(3, 6);
+            lblName.Name = "lblName";
+            lblName.Size = new Size(54, 20);
+            lblName.TabIndex = 0;
+            lblName.Text = "Report";
             // 
             // ReportItem
             // 
-            this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Controls.Add(this.lblName);
-            this.Name = "ReportItem";
-            this.Size = new System.Drawing.Size(250, 40);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            BackColor = Color.PaleTurquoise;
+            BorderStyle = BorderStyle.FixedSingle;
+            Controls.Add(lblName);
+            Name = "ReportItem";
+            Size = new Size(250, 40);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

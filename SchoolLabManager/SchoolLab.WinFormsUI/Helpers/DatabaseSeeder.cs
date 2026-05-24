@@ -14,7 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace SchoolLab.Data.Helpers
+namespace SchoolLab.WinFormsUI.Helpers
 {
     public static class DatabaseSeeder
     {

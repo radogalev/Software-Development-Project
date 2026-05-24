@@ -31,19 +31,28 @@ namespace SchoolLab.WinFormsUI.Forms
             lblWelcomeName.Text = $"Welcome,\n{user.DisplayName}";
             lblWelcomeRole.Text = user.Role.ToString();
 
+            HidePanels();
+            btnManageAssets_Click(null, null);
+        }
+        private void HidePanels()
+        {
             if (_currentUser.Role != UserRole.Administrator)
             {
                 btnManageUsers.Visible = false;
             }
-            btnManageAssets_Click(null, null);
+            if(_currentUser.Role == UserRole.Viewer)
+            {
+                btnActionOne.Visible = false;
+                btnActionTwo.Visible = false;
+                btnManageReports.Visible = false;
+            }
         }
-
         private void btnManageAssets_Click(object sender, EventArgs e)
         {
             var ctx = new SchoolLabDbContext();
             var repo = new AssetRepository(ctx);
             IAssetService svc = new AssetService(repo);
-            AsssetsMain dsh = new AsssetsMain(svc);
+            AsssetsMain dsh = new AsssetsMain(_currentUser, svc);
             MainControl_pnl.Controls.Clear();
             MainControl_pnl.Controls.Add(dsh);
             btnActionTwo.Text = "Delete";

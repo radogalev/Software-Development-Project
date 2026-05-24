@@ -17,14 +17,16 @@ namespace SchoolLab.WinFormsUI.Controls
     {
         public AssetItem selectedItem;
         private readonly IAssetService? _assetService;
+        private User _currentUser;
         private FlowLayoutPanel flowLayoutPanelAssets;
 
         
-        public AsssetsMain(IAssetService? assetService = null)
+        public AsssetsMain(User curentUser, IAssetService? assetService = null)
         {
             InitializeComponent();
             _assetService = assetService;
             Load += AsssetsMain_Load;
+            _currentUser = curentUser;
         }
 
         
@@ -175,7 +177,7 @@ namespace SchoolLab.WinFormsUI.Controls
                 flowLayoutPanelAssets.Controls.Clear();
                 foreach (var a in assets)
                 {
-                    var item = new AssetItem();
+                    var item = new AssetItem(_currentUser, _assetService);
                     item.Bind(a);
                     item.Click += AssetItem_Click;
                     flowLayoutPanelAssets.Controls.Add(item);
