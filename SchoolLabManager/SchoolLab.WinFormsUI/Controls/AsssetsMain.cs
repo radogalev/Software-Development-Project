@@ -1,15 +1,12 @@
-﻿using SchoolLab.Core.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using SchoolLab.Core.Enums;
+using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
+using SchoolLab.Data.Repositories.Implementations;
 using SchoolLab.Services.Implementations;
 using SchoolLab.Services.Interfaces;
-using SchoolLab.WinFormsUI.Helpers;
-using System;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using System.Windows.Forms;
-using SchoolLab.Data.Repositories.Implementations;
 using SchoolLab.WinFormsUI.Dialogs;
-using SchoolLab.Core.Enums;
+using SchoolLab.WinFormsUI.Helpers;
 
 namespace SchoolLab.WinFormsUI.Controls
 {
@@ -20,7 +17,7 @@ namespace SchoolLab.WinFormsUI.Controls
         private User _currentUser;
         private FlowLayoutPanel flowLayoutPanelAssets;
 
-        
+
         public AsssetsMain(User curentUser, IAssetService? assetService = null)
         {
             InitializeComponent();
@@ -29,8 +26,8 @@ namespace SchoolLab.WinFormsUI.Controls
             _currentUser = curentUser;
         }
 
-        
-        
+
+
 
         private async Task DeleteSelectedItemAsync()
         {
@@ -73,7 +70,7 @@ namespace SchoolLab.WinFormsUI.Controls
         {
             try
             {
-                
+
                 var dlg = new AddItemDialog();
                 DialogResult res = dlg.ShowDialog();
                 if (res != DialogResult.OK)
@@ -83,7 +80,7 @@ namespace SchoolLab.WinFormsUI.Controls
                 if (input == null)
                     return;
 
-                
+
                 MessageBox.Show(
                     $"Collected asset details:\n\n" +
                     $"Name: {input.Name}\n" +
@@ -95,7 +92,7 @@ namespace SchoolLab.WinFormsUI.Controls
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
 
-                
+
 
                 Asset newAsset = new Asset
                 {
@@ -193,13 +190,13 @@ namespace SchoolLab.WinFormsUI.Controls
         {
             if (sender is AssetItem ai)
             {
-                
+
                 if (selectedItem != null) selectedItem.Selected = false;
                 selectedItem = ai;
                 selectedItem.Selected = true;
             }
         }
 
-        
+
     }
 }

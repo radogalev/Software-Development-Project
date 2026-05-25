@@ -3,9 +3,7 @@ using SchoolLab.Data.Repositories.Interfaces;
 using SchoolLab.Services.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Threading.Tasks;
 
 namespace SchoolLab.Services.Implementations
@@ -27,9 +25,17 @@ namespace SchoolLab.Services.Implementations
         {
             return await _loanRepo.GetOverdueLoansAsync();
         }
+        public async Task<IEnumerable<DamageReport>> GetAllReportsAsync()
+        {
+            return await _reportsRepo.GetAllAsync();
+        }
         public async Task<IEnumerable<Loan>> GetLoansByPersonReportAsync(int personId)
         {
             return await _loanRepo.GetLoansByPersonAsync(personId);
+        }
+        public async Task<DamageReport> GetDamageReportByIdAsync(int Id)
+        {
+            return await _reportsRepo.GetDamageReportByIdAsync(Id);
         }
         public async Task<IEnumerable<Asset>> GetAssetsByLocationReportAsync(int locationId)
         {
@@ -39,6 +45,13 @@ namespace SchoolLab.Services.Implementations
         {
             return await _reportsRepo.GetDamageReportsByAssetAsync(assetId);
         }
+        public async Task<DamageReport> CreateReportAsync(DamageReport report)
+        {
+            await _reportsRepo.AddAsync(report);
+            await _reportsRepo.SaveChangesAsync();
+            return report;
+        }
+
 
         public async Task<IEnumerable<Asset>> GetMostBorrowedAssetsAsync(int topCount = 10)
         {
@@ -46,7 +59,7 @@ namespace SchoolLab.Services.Implementations
                 .GroupBy(l => l.AssetId)
                 .OrderByDescending(g => g.Count())
                 .Take(topCount)
-                .Select(g => g.Key)  
+                .Select(g => g.Key)
                 .ToList();
 
             List<Asset> assets = new List<Asset>();
@@ -77,16 +90,26 @@ namespace SchoolLab.Services.Implementations
 
             foreach (var group in grouped)
             {
-                int personId = group.Key;           
-                int count = group.Count();          
+                int personId = group.Key;
+                int count = group.Count();
 
-                
+
                 var person = group.First().Borrower;
 
                 dict.Add(person, count);
             }
 
-            return dict; 
+            return dict;
         }
+
+        public async Task<bool> DeleteReportAsync(int reportId)
+        {
+            var report = await _reportsRepo.GetByIdAsync(reportId);
+            if (report == null) return false;
+            _reportsRepo.Delete(report);
+            await _reportsRepo.SaveChangesAsync();
+            return true;
+        }
+
     }
 }

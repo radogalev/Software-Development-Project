@@ -1,10 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SchoolLab.Data.Context;
 using SchoolLab.Data.Repositories.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SchoolLab.Data.Repositories.Implementations
@@ -14,11 +11,11 @@ namespace SchoolLab.Data.Repositories.Implementations
         protected readonly SchoolLabDbContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        
+
         public Repository(SchoolLabDbContext context)
         {
             _context = context;
-            _dbSet = context.Set<T>(); 
+            _dbSet = context.Set<T>();
         }
 
         // Get all records from the table

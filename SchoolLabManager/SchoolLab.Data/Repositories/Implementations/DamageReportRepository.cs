@@ -15,5 +15,9 @@ namespace SchoolLab.Data.Repositories.Implementations
         {
             return await _dbSet.Where(dr => dr.AssetId == assetId).ToListAsync();
         }
+        public async Task<DamageReport> GetDamageReportByIdAsync(int Id)
+        {
+            return await _dbSet.FirstOrDefaultAsync(dr => dr.Id == Id);
+        }
     }
 }

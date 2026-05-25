@@ -1,5 +1,4 @@
-﻿using SchoolLab.Core.Enums;
-using SchoolLab.Core.Models;
+﻿using SchoolLab.Core.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

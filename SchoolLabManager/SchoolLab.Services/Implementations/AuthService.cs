@@ -1,13 +1,8 @@
-﻿using SchoolLab.Core.Enums;
-using SchoolLab.Core.Models;
+﻿using SchoolLab.Core.Models;
 using SchoolLab.Data.Repositories.Interfaces;
 using SchoolLab.Services.Helpers;
 using SchoolLab.Services.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SchoolLab.Services.Implementations
@@ -15,7 +10,7 @@ namespace SchoolLab.Services.Implementations
     public class AuthService : IAuthService
     {
         private readonly IUserRepository _userRepo;
-        public AuthService (IUserRepository userRepository)
+        public AuthService(IUserRepository userRepository)
         {
             _userRepo = userRepository;
         }
@@ -30,7 +25,7 @@ namespace SchoolLab.Services.Implementations
 
             if (PasswordHasher.VerifyPassword(password, user.PasswordHash))
             {
-                return user;  
+                return user;
             }
 
             return null;
@@ -40,7 +35,7 @@ namespace SchoolLab.Services.Implementations
             var existing = await _userRepo.GetByUsernameAsync(user.Username);
             if (existing != null)
             {
-                return false; 
+                return false;
             }
 
             user.PasswordHash = PasswordHasher.HashPassword(password);

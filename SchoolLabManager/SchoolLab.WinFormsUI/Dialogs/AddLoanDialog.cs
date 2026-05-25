@@ -1,9 +1,6 @@
-using SchoolLab.WinFormsUI.Helpers;
-using SchoolLab.Data.Context;
-using System;
-using System.Linq;
-using System.Windows.Forms;
 using SchoolLab.Core.Enums;
+using SchoolLab.Data.Context;
+using SchoolLab.WinFormsUI.Helpers;
 
 namespace SchoolLab.WinFormsUI.Dialogs
 {
@@ -26,7 +23,7 @@ namespace SchoolLab.WinFormsUI.Dialogs
             {
                 var ctx = new SchoolLabDbContext();
                 var assets = ctx.Assets.OrderBy(a => a.Name).Select(a => new LookupItem { Id = a.Id, Name = a.Name }).ToList();
-                var users = ctx.Users.Where(u => u.Role == UserRole.Viewer).OrderBy(u => u.Username).Select(u => new LookupItem { Id = u.Id,Name= u.Username}).ToList();
+                var users = ctx.Users.Where(u => u.Role == UserRole.Viewer).OrderBy(u => u.Username).Select(u => new LookupItem { Id = u.Id, Name = u.Username }).ToList();
 
                 Asset_cbox.DataSource = assets;
                 Asset_cbox.DisplayMember = "Name";

@@ -1,13 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using SchoolLab.Core.Enums;
 using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
 using SchoolLab.WinFormsUI.Dialogs;
-using System;
 using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using System.Windows.Forms;
-using SchoolLab.Core.Enums;
 
 namespace SchoolLab.WinFormsUI.Controls
 {

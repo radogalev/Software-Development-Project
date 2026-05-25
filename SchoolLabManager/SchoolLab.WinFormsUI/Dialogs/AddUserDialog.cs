@@ -1,7 +1,4 @@
 using SchoolLab.Core.Enums;
-using System;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SchoolLab.WinFormsUI.Dialogs
 {
@@ -51,7 +48,7 @@ namespace SchoolLab.WinFormsUI.Dialogs
                 Password = Password_txt.Text.Trim(),
                 Role = (UserRole)UserRols_cbox.SelectedItem
             };
-            
+
             this.DialogResult = DialogResult.OK;
         }
     }

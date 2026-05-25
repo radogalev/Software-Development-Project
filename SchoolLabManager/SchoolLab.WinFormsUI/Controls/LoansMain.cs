@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using SchoolLab.Core.Enums;
 using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
@@ -6,12 +7,6 @@ using SchoolLab.Services.Implementations;
 using SchoolLab.Services.Interfaces;
 using SchoolLab.WinFormsUI.Dialogs;
 using SchoolLab.WinFormsUI.Helpers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace SchoolLab.WinFormsUI.Controls
 {
@@ -35,7 +30,7 @@ namespace SchoolLab.WinFormsUI.Controls
         private async Task ReturnSelectedLoanAsync()
         {
             if (selectedItem == null) return;
-            
+
             try
             {
                 Loan? loan = null;
@@ -55,7 +50,7 @@ namespace SchoolLab.WinFormsUI.Controls
                     MessageBox.Show("Loan not found.");
                     return;
                 }
-                if(loan.Status == LoanStatus.Returned || loan.Status == LoanStatus.ReturnedLate)
+                if (loan.Status == LoanStatus.Returned || loan.Status == LoanStatus.ReturnedLate)
                 {
                     MessageBox.Show("Loan already returned.");
                     return;

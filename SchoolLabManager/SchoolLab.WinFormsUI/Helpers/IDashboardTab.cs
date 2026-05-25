@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SchoolLab.WinFormsUI.Helpers
+﻿namespace SchoolLab.WinFormsUI.Helpers
 {
     public interface IDashboardTab
     {

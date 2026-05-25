@@ -1,15 +1,9 @@
+using Microsoft.EntityFrameworkCore;
 using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
 using SchoolLab.Data.Repositories.Implementations;
-using SchoolLab.Services.Implementations;
 using SchoolLab.Services.Interfaces;
 using SchoolLab.WinFormsUI.Dialogs;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace SchoolLab.WinFormsUI.Controls
 {
@@ -34,7 +28,7 @@ namespace SchoolLab.WinFormsUI.Controls
                 bool deleted;
                 if (_reportService != null)
                 {
-                    deleted = false;
+                    deleted = await _reportService.DeleteReportAsync(selectedItem.ReportId);
                 }
                 else
                 {
@@ -78,27 +72,34 @@ namespace SchoolLab.WinFormsUI.Controls
                 var input = dlg.Result;
                 if (input == null) return;
 
-                using var ctx = new SchoolLabDbContext();
                 DamageReport newReport = new DamageReport
                 {
                     AssetId = input.AssetId,
                     Description = input.Description,
                     DateReported = input.DateReported,
-                    ReportedById = input.ReportedById
+                    ReportedById = input.ReportedById,
+                    RepairedById = input.RepairedById != -1 ? input.RepairedById : null,
+                    LoanId = input.LoanId != -1 ? input.LoanId : null
                 };
 
-                if(input.RepairedById != -1)
+                DamageReport? created = null;
+                if (_reportService != null)
                 {
-                    newReport.RepairedById = input.RepairedById;
+                    created = await _reportService.CreateReportAsync(newReport);
+                }
+                else
+                {
+                    using var ctx = new SchoolLabDbContext();
+                    await ctx.DamageReports.AddAsync(newReport);
+                    await ctx.SaveChangesAsync();
+                    created = newReport;
                 }
 
-                if(input.LoanId != -1)
+                if (created == null)
                 {
-                    newReport.LoanId = input.LoanId;
+                    MessageBox.Show("Could not create report.");
+                    return;
                 }
-
-                await ctx.DamageReports.AddAsync(newReport);
-                await ctx.SaveChangesAsync();
 
                 await LoadAllReportsAsync();
             }
@@ -107,6 +108,7 @@ namespace SchoolLab.WinFormsUI.Controls
                 MessageBox.Show($"Error adding report: {ex.Message}\n{ex.InnerException}");
             }
         }
+
 
         public async void ActionOne()
         {

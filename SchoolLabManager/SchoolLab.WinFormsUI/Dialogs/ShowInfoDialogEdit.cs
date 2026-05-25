@@ -2,13 +2,7 @@
 using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
 using SchoolLab.WinFormsUI.Helpers;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
 
 namespace SchoolLab.WinFormsUI.Dialogs
 {
@@ -49,7 +43,7 @@ namespace SchoolLab.WinFormsUI.Dialogs
 
                 Location_cbox.DataSource = locations;
                 Location_cbox.DisplayMember = "Name";
-                Location_cbox.ValueMember = "Id"; 
+                Location_cbox.ValueMember = "Id";
                 Location_cbox.SelectedValue = storedLocationId;
 
                 Category_cbox.DataSource = categories;

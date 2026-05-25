@@ -1,24 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using SchoolLab.Core.Enums;
-using SchoolLab.Core.Models;
+﻿using SchoolLab.Core.Enums;
 using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
-using SchoolLab.Data.Repositories.Interfaces;
 using SchoolLab.Services.Helpers;
-using SchoolLab.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SchoolLab.WinFormsUI.Helpers
 {
     public static class DatabaseSeeder
     {
-        public static async Task SeedAsync(SchoolLabDbContext context)
+        public static void Seed(SchoolLabDbContext context)
         {
             if (!context.Users.Any())
             {
@@ -44,12 +33,12 @@ namespace SchoolLab.WinFormsUI.Helpers
                 u3.TimeOfRegistration = DateTime.Now;
 
                 context.Users.AddRange(u1, u2, u3);
-                await context.SaveChangesAsync();
+                context.SaveChanges();
             }
 
             if (!context.Assets.Any())
             {
-                
+
 
                 var a1 = new Asset
                 {
@@ -89,7 +78,7 @@ namespace SchoolLab.WinFormsUI.Helpers
 
                 };
 
-                context.Assets.AddRange(a1,a2,a3);
+                context.Assets.AddRange(a1, a2, a3);
 
                 context.SaveChanges();
             }

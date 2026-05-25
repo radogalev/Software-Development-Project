@@ -1,11 +1,11 @@
-﻿using SchoolLab.Core.Models;
-using SchoolLab.Core.Enums;
+﻿using SchoolLab.Core.Enums;
+using SchoolLab.Core.Models;
+using SchoolLab.Data.Repositories.Implementations;
 using SchoolLab.Data.Repositories.Interfaces;
 using SchoolLab.Services.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using SchoolLab.Data.Repositories.Implementations;
 
 namespace SchoolLab.Services.Implementations
 {
@@ -64,7 +64,7 @@ namespace SchoolLab.Services.Implementations
         {
             Asset? asset = await _repo.GetAssetWithDetailsAsync(id);
 
-            if (asset == null)  
+            if (asset == null)
             {
                 return false;
             }

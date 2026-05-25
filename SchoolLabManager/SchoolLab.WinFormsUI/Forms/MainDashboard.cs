@@ -1,46 +1,51 @@
-﻿using SchoolLab.Core.Models;
-using SchoolLab.Core.Enums;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using SchoolLab.WinFormsUI.Helpers;
-using SchoolLab.WinFormsUI.Controls;
-using SchoolLab.Data.Context;
-using SchoolLab.Data.Repositories.Implementations;
-using SchoolLab.Services.Implementations;
+﻿using SchoolLab.Core.Enums;
+using SchoolLab.Core.Models;
 using SchoolLab.Services.Interfaces;
-using System.Reflection.Metadata.Ecma335;
+using SchoolLab.WinFormsUI.Controls;
+using SchoolLab.WinFormsUI.Helpers;
 
 namespace SchoolLab.WinFormsUI.Forms
 {
     public partial class MainDashboard : Form
     {
-        private readonly User _currentUser;
-        public MainDashboard(User user)
+        private User _currentUser;
+        private IAssetService _assetService;
+        private ILoanService _loanService;
+        private IReportService _reportService;
+        private IAuthService _authService;
+        public MainDashboard(IAssetService assetService, ILoanService loanService, IReportService reportService, IAuthService authService)
         {
             InitializeComponent();
-            _currentUser = user;
+            _assetService = assetService;
+            _loanService = loanService;
+            _reportService = reportService;
+            _authService = authService;
+
 
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
 
+
+
+        }
+
+        public void SetCurrentUser(User user)
+        {
+            _currentUser = user;
             lblWelcomeName.Text = $"Welcome,\n{user.DisplayName}";
             lblWelcomeRole.Text = user.Role.ToString();
-
             HidePanels();
             btnManageAssets_Click(null, null);
         }
+
+
         private void HidePanels()
         {
             if (_currentUser.Role != UserRole.Administrator)
             {
                 btnManageUsers.Visible = false;
             }
-            if(_currentUser.Role == UserRole.Viewer)
+            if (_currentUser.Role == UserRole.Viewer)
             {
                 btnActionOne.Visible = false;
                 btnActionTwo.Visible = false;
@@ -49,12 +54,10 @@ namespace SchoolLab.WinFormsUI.Forms
         }
         private void btnManageAssets_Click(object sender, EventArgs e)
         {
-            var ctx = new SchoolLabDbContext();
-            var repo = new AssetRepository(ctx);
-            IAssetService svc = new AssetService(repo);
-            AsssetsMain dsh = new AsssetsMain(_currentUser, svc);
+
+            var assetsTab = new AsssetsMain(_currentUser, _assetService);
             MainControl_pnl.Controls.Clear();
-            MainControl_pnl.Controls.Add(dsh);
+            MainControl_pnl.Controls.Add(assetsTab);
             btnActionTwo.Text = "Delete";
         }
 
@@ -78,38 +81,26 @@ namespace SchoolLab.WinFormsUI.Forms
         // Changed from Task to async void to match Windows Forms event signature.
         private async void btnManageLoans_Click(object sender, EventArgs e)
         {
-            var ctx = new SchoolLabDbContext();
-            var repo = new LoanRepository(ctx);
-            var repo2 = new AssetRepository(ctx);
-            ILoanService svc = new LoanService(repo2, repo);
-            await svc.UpdateOverdueLoansAsync();
-            LoansMain dsh = new LoansMain(_currentUser, svc);
+            await _loanService.UpdateOverdueLoansAsync();
+            var loansTab = new LoansMain(_currentUser, _loanService);
             MainControl_pnl.Controls.Clear();
-            MainControl_pnl.Controls.Add(dsh);
+            MainControl_pnl.Controls.Add(loansTab);
             btnActionTwo.Text = "Return";
         }
 
         private void btnManageReports_Click(object sender, EventArgs e)
         {
-            var ctx = new SchoolLabDbContext();
-            var repo = new LoanRepository(ctx);
-            var repo2 = new AssetRepository(ctx);
-            var repo3 = new DamageReportRepository(ctx);
-            IReportService svc = new ReportService(repo, repo2, repo3);
-            ReportsMain dsh = new ReportsMain(svc);
+            var reportsTab = new ReportsMain(_reportService);
             MainControl_pnl.Controls.Clear();
-            MainControl_pnl.Controls.Add(dsh);
+            MainControl_pnl.Controls.Add(reportsTab);
             btnActionTwo.Text = "Delete";
         }
 
         private void btnManageUsers_Click_1(object sender, EventArgs e)
         {
-            var ctx = new SchoolLabDbContext();
-            var repo = new UserRepository(ctx);
-            IAuthService svc = new AuthService(repo);
-            UsersMain dsh = new UsersMain(svc);
+            var usersTab = new UsersMain(_authService);
             MainControl_pnl.Controls.Clear();
-            MainControl_pnl.Controls.Add(dsh);
+            MainControl_pnl.Controls.Add(usersTab);
             btnActionTwo.Text = "Delete";
         }
 

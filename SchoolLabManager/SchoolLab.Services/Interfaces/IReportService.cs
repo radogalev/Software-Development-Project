@@ -20,8 +20,17 @@ namespace SchoolLab.Services.Interfaces
 
         // Damage reports for an asset
         Task<IEnumerable<DamageReport>> GetDamageReportsByAssetAsync(int assetId);
+        Task<DamageReport> GetDamageReportByIdAsync(int Id);
 
         // People with most overdue loans
         Task<Dictionary<User, int>> GetPeopleWithMostOverdueLoansAsync(int topCount = 10);
+
+        //Delete bt id
+        Task<bool> DeleteReportAsync(int reportId);
+
+        Task<IEnumerable<DamageReport>> GetAllReportsAsync();
+
+        Task<DamageReport> CreateReportAsync(DamageReport report);
+
     }
 }

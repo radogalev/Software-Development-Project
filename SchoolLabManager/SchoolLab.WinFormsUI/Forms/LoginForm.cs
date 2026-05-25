@@ -1,19 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
+﻿using Microsoft.Extensions.DependencyInjection;
 using SchoolLab.Core.Models;
 using SchoolLab.Services.Interfaces;
-using SchoolLab.Services.Implementations;
-using SchoolLab.Data.Repositories.Implementations;
-using SchoolLab.Data.Context;
-using SchoolLab.Services.Helpers;
-using Microsoft.IdentityModel.Tokens;
 using SchoolLab.WinFormsUI.Forms;
-using SchoolLab.Data.Helpers;
 
 namespace SchoolLab.WinFormsUI
 {
@@ -21,24 +9,23 @@ namespace SchoolLab.WinFormsUI
     {
 
         private readonly IAuthService _authService;
-        public LoginForm()
+        private readonly IServiceProvider _provider;
+        public LoginForm(IAuthService authService, IServiceProvider provider)
         {
             InitializeComponent();
-
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             lblError.ForeColor = Color.Red;
 
-            var context = new SchoolLabDbContext();
-            var userRepo = new UserRepository(context);
-            _authService = new AuthService(userRepo);
+            _authService = authService;
+            _provider = provider;
         }
 
         private async void login_btn_Click(object sender, EventArgs e)
         {
             string username = username_txt.Text;
             string password = password_txt.Text;
-            
+
 
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
@@ -56,7 +43,9 @@ namespace SchoolLab.WinFormsUI
 
             lblError.Visible = false;
 
-            MainDashboard dashboard = new MainDashboard(User);
+            var dashboard = _provider.GetRequiredService<MainDashboard>();
+            dashboard.SetCurrentUser(User);
+
             this.Hide();
             dashboard.ShowDialog();
             this.Close();

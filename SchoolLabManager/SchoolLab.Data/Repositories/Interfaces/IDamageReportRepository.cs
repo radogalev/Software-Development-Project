@@ -7,5 +7,6 @@ namespace SchoolLab.Data.Repositories.Interfaces
     public interface IDamageReportRepository : IRepository<DamageReport>
     {
         Task<IEnumerable<DamageReport>> GetDamageReportsByAssetAsync(int assetId);
+        Task<DamageReport> GetDamageReportByIdAsync(int Id);
     }
 }

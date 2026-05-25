@@ -1,12 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SchoolLab.Core.Enums;
 using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
 using SchoolLab.Data.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using SchoolLab.Core.Enums;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SchoolLab.Data.Repositories.Implementations
@@ -54,8 +53,8 @@ namespace SchoolLab.Data.Repositories.Implementations
         {
             return await _dbSet
                 .Include(x => x.BorrowedAsset)
-                .Include(x=> x.Borrower)
-                .Include (x=> x.Leaser)
+                .Include(x => x.Borrower)
+                .Include(x => x.Leaser)
                 .FirstOrDefaultAsync(x => x.Id == id);
         }
 

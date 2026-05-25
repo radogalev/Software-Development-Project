@@ -22,6 +22,6 @@ namespace SchoolLab.Services.Interfaces
         Task<bool> ChangeAssetLocationAsync(int assetId, int newLocationId);
         Task<bool> ChangeAssetStatusAsync(int assetId, AssetStatus newStatus);
 
-        
+
     }
 }

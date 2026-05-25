@@ -1,10 +1,7 @@
+using Microsoft.EntityFrameworkCore;
 using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
 using SchoolLab.WinFormsUI.Dialogs;
-using System;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
 
 namespace SchoolLab.WinFormsUI.Controls
 {
@@ -38,7 +35,10 @@ namespace SchoolLab.WinFormsUI.Controls
             try
             {
                 using var context = new SchoolLabDbContext();
-                var r = context.DamageReports.FirstOrDefault(x => x.Id == ReportId);
+                var r = context.DamageReports
+                        .Include(x => x.BorrowedAsset)
+                        .Include(x => x.ReportedBy)
+                        .FirstOrDefault(x => x.Id == ReportId);
 
                 if (r == null)
                 {

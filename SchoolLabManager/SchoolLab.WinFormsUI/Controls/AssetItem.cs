@@ -4,13 +4,7 @@ using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
 using SchoolLab.Services.Interfaces;
 using SchoolLab.WinFormsUI.Dialogs;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
 
 namespace SchoolLab.WinFormsUI.Controls
 {
@@ -30,8 +24,10 @@ namespace SchoolLab.WinFormsUI.Controls
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool Selected
         {
-            get { return this.BackColor == Color.DarkTurquoise; 
-                 }
+            get
+            {
+                return this.BackColor == Color.DarkTurquoise;
+            }
             set { this.BackColor = value ? Color.DarkTurquoise : Color.PaleTurquoise; }
         }
 
@@ -47,13 +43,13 @@ namespace SchoolLab.WinFormsUI.Controls
             base.OnClick(e);
         }
 
-        protected override void OnDoubleClick(EventArgs e)
+        protected override async void OnDoubleClick(EventArgs e)
         {
             base.OnDoubleClick(e);
 
             try
             {
-                var context = new SchoolLabDbContext();
+                using var context = new SchoolLabDbContext();
                 var a = context.Assets
                     .Include(x => x.Category)
                     .Include(x => x.StoredLocation)
@@ -98,7 +94,7 @@ namespace SchoolLab.WinFormsUI.Controls
                     var input = dlg.Result;
                     if (input == null) return;
 
-                    ProcessEdit(input, a);
+                    await ProcessEdit(input, a);
 
                 }
             }
@@ -130,7 +126,7 @@ namespace SchoolLab.WinFormsUI.Controls
 
                 if (existing == null)
                 {
-                    
+
                     return;
                 }
 

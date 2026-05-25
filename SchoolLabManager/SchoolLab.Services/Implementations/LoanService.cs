@@ -1,13 +1,12 @@
-﻿using SchoolLab.Core.Models;
-using SchoolLab.Core.Enums;
+﻿using SchoolLab.Core.Enums;
+using SchoolLab.Core.Models;
+using SchoolLab.Data.Repositories.Implementations;
 using SchoolLab.Data.Repositories.Interfaces;
 using SchoolLab.Services.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System;
-using Microsoft.Identity.Client;
-using SchoolLab.Data.Repositories.Implementations;
 
 namespace SchoolLab.Services.Implementations
 {
@@ -110,13 +109,13 @@ namespace SchoolLab.Services.Implementations
         public async Task<bool> ReturnLoanAsync(int loanId, AssetCondition returnCondition)
         {
             Loan? loan = await _loanRepo.GetLoanWithDetailsAsync(loanId);
-            if(loan == null || loan.Status != LoanStatus.Active)
+            if (loan == null || loan.Status != LoanStatus.Active)
             {
                 return false;
             }
             loan.ReturnDate = DateTime.Now;
             loan.ReturnCondition = returnCondition;
-            if(loan.ReturnDate <= loan.DueDate) { loan.Status = LoanStatus.Returned; } 
+            if (loan.ReturnDate <= loan.DueDate) { loan.Status = LoanStatus.Returned; }
             else { loan.Status = LoanStatus.ReturnedLate; }
             _loanRepo.Update(loan);
             Asset? asset = await _assetRepo.GetAssetWithDetailsAsync(loan.AssetId);
@@ -135,7 +134,7 @@ namespace SchoolLab.Services.Implementations
         {
             foreach (Loan loan in await _loanRepo.GetActiveLoansAsync())
             {
-                if (loan.DueDate < DateTime.Now)  
+                if (loan.DueDate < DateTime.Now)
                 {
                     loan.Status = LoanStatus.Overdue;
                     _loanRepo.Update(loan);

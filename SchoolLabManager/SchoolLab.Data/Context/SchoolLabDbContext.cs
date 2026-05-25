@@ -132,7 +132,7 @@ namespace SchoolLab.Data.Context
                 .Property(u => u.PasswordHash)
                 .IsRequired();
 
-            
+
 
             // ==================== CATEGORY & LOCATION CONFIGURATIONS ====================
 

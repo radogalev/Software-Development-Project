@@ -3,10 +3,8 @@ using SchoolLab.Core.Enums;
 using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
 using SchoolLab.Data.Repositories.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SchoolLab.Data.Repositories.Implementations
@@ -32,7 +30,7 @@ namespace SchoolLab.Data.Repositories.Implementations
         {
             return await _dbSet
                 .Include(x => x.Category)
-                .Include(x =>x.Loans)
+                .Include(x => x.Loans)
                 .Include(x => x.StoredLocation)
                 .FirstOrDefaultAsync(a => a.Id == id);
         }

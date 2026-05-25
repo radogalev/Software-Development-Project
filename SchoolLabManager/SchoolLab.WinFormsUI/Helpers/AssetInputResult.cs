@@ -1,5 +1,4 @@
 using SchoolLab.Core.Models;
-using System;
 
 namespace SchoolLab.WinFormsUI.Helpers
 {

@@ -1,16 +1,9 @@
+using Microsoft.EntityFrameworkCore;
 using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
 using SchoolLab.Data.Repositories.Implementations;
-using SchoolLab.Services.Implementations;
-using SchoolLab.WinFormsUI.Dialogs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Microsoft.EntityFrameworkCore.ValueGeneration.Internal;
 using SchoolLab.Services.Interfaces;
+using SchoolLab.WinFormsUI.Dialogs;
 
 namespace SchoolLab.WinFormsUI.Controls
 {

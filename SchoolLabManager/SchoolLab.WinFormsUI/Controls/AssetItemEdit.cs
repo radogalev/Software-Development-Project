@@ -1,14 +1,8 @@
-﻿using SchoolLab.Core.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using SchoolLab.Core.Models;
 using SchoolLab.Data.Context;
 using SchoolLab.WinFormsUI.Dialogs;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
 
 namespace SchoolLab.WinFormsUI.Controls
 {
@@ -17,7 +11,7 @@ namespace SchoolLab.WinFormsUI.Controls
         public AssetItemEdit()
         {
             InitializeComponent();
-            
+
         }
         public int AssetId { get; private set; }
 
@@ -25,8 +19,10 @@ namespace SchoolLab.WinFormsUI.Controls
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool Selected
         {
-            get { return this.BackColor == Color.DarkTurquoise; 
-                 }
+            get
+            {
+                return this.BackColor == Color.DarkTurquoise;
+            }
             set { this.BackColor = value ? Color.DarkTurquoise : Color.PaleTurquoise; }
         }
 
