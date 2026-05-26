@@ -19,5 +19,5 @@ namespace SchoolLab.Core.Models
         public User Borrower { get; set; }
     }
 
-    //Condition, ReturnDate
+    
 }

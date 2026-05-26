@@ -1,21 +1,25 @@
-using Microsoft.EntityFrameworkCore;
 using SchoolLab.Core.Models;
-using SchoolLab.Data.Context;
-using SchoolLab.Data.Repositories.Implementations;
 using SchoolLab.Services.Interfaces;
 using SchoolLab.WinFormsUI.Dialogs;
+using SchoolLab.WinFormsUI.Helpers;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace SchoolLab.WinFormsUI.Controls
 {
-    public partial class UsersMain : UserControl, SchoolLab.WinFormsUI.Helpers.IDashboardTab
+    public partial class UsersMain : UserControl, IDashboardTab
     {
         public UserItem selectedItem;
         private readonly IAuthService? _authService;
+        private readonly IUserService? _userService;
 
-        public UsersMain(IAuthService? authService = null)
+        public UsersMain(IAuthService? authService = null, IUserService? userService = null)
         {
             InitializeComponent();
             _authService = authService;
+            _userService = userService;
             Load += UsersMain_Load;
         }
 
@@ -26,15 +30,15 @@ namespace SchoolLab.WinFormsUI.Controls
             try
             {
                 bool deleted;
-                using var ctx = new SchoolLabDbContext();
-                var repo = new UserRepository(ctx);
-                var user = await repo.GetByIdAsync(selectedItem.UserId);
-                if (user == null) { deleted = false; }
+                if (_userService != null)
+                {
+                    deleted = await _userService.DeleteUserAsync(selectedItem.UserId);
+                }
                 else
                 {
-                    ctx.Users.Remove(user);
-                    await ctx.SaveChangesAsync();
-                    deleted = true;
+                    // Fallback: should not be hit when DI is wired correctly
+                    MessageBox.Show("User service unavailable.");
+                    return;
                 }
 
                 if (deleted)
@@ -71,7 +75,6 @@ namespace SchoolLab.WinFormsUI.Controls
                     DisplayName = input.FullName,
                     PasswordHash = input.Password,
                     Role = input.Role,
-
                 };
 
                 bool ok;
@@ -81,15 +84,13 @@ namespace SchoolLab.WinFormsUI.Controls
                 }
                 else
                 {
-                    using var ctx = new SchoolLabDbContext();
-                    await ctx.Users.AddAsync(newUser);
-                    await ctx.SaveChangesAsync();
-                    ok = true;
+                    MessageBox.Show("Auth service unavailable.");
+                    return;
                 }
 
                 if (!ok)
                 {
-                    MessageBox.Show("Could not create user.");
+                    MessageBox.Show("Could not create user. Username may already exist.");
                     return;
                 }
 
@@ -120,8 +121,16 @@ namespace SchoolLab.WinFormsUI.Controls
         {
             try
             {
-                using var context = new SchoolLabDbContext();
-                var users = await context.Users.ToListAsync();
+                IEnumerable<User> users;
+                if (_userService != null)
+                {
+                    users = await _userService.GetAllUsersAsync();
+                }
+                else
+                {
+                    MessageBox.Show("User service unavailable.");
+                    return;
+                }
 
                 flowLayoutPanelUsers.Controls.Clear();
                 foreach (var u in users)

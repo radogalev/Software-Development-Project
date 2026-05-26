@@ -22,7 +22,6 @@ namespace SchoolLab.Services.Implementations
 
         public async Task<IEnumerable<Loan>> GetAllLoansAsync()
         {
-            // Prefer repository method that includes navigation properties
             if (_loanRepo is LoanRepository lr)
             {
                 return await lr.GetAllWithDetailsAsync();
@@ -42,7 +41,6 @@ namespace SchoolLab.Services.Implementations
 
         public async Task<IEnumerable<Loan>> GetActiveLoansAsync()
         {
-            // Ensure returned loans include navigation properties where repository supports it.
             if (_loanRepo is LoanRepository lr)
             {
                 return await lr.GetActiveLoansAsync();
@@ -95,14 +93,12 @@ namespace SchoolLab.Services.Implementations
 
             await _loanRepo.SaveChangesAsync();
 
-            // Ensure navigation properties are populated on result
             if (_loanRepo is LoanRepository lr)
             {
                 var created = await lr.GetLoanWithDetailsAsync(loan.Id);
                 return created;
             }
 
-            // If concrete repo not available, try to load via assetRepo or return the loan as-is
             return loan;
         }
 

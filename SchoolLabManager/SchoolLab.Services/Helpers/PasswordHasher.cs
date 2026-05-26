@@ -6,7 +6,7 @@ namespace SchoolLab.Services.Helpers
 {
     public static class PasswordHasher
     {
-        // Hash a password using SHA256
+        // using SHA256
         public static string HashPassword(string password)
         {
             using (SHA256 sha256 = SHA256.Create())
@@ -21,7 +21,6 @@ namespace SchoolLab.Services.Helpers
             }
         }
 
-        // Verify password matches hash
         public static bool VerifyPassword(string password, string hash)
         {
             string hashOfInput = HashPassword(password);

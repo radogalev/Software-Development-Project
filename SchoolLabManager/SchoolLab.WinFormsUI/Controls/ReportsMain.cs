@@ -78,8 +78,8 @@ namespace SchoolLab.WinFormsUI.Controls
                     Description = input.Description,
                     DateReported = input.DateReported,
                     ReportedById = input.ReportedById,
-                    RepairedById = input.RepairedById != -1 ? input.RepairedById : null,
-                    LoanId = input.LoanId != -1 ? input.LoanId : null
+                    RepairedById = input.RepairedById,
+                    LoanId = input.LoanId,
                 };
 
                 DamageReport? created = null;
@@ -129,7 +129,6 @@ namespace SchoolLab.WinFormsUI.Controls
         {
             try
             {
-                // Always use repository to load all damage reports so we display existing records
                 using var context = new SchoolLabDbContext();
                 var reports = await context.DamageReports
                     .Include(r => r.BorrowedAsset)

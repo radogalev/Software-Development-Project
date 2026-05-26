@@ -35,6 +35,8 @@ namespace SchoolLab.WinFormsUI
             services.AddScoped<ILoanService, LoanService>();
             services.AddScoped<IReportService, ReportService>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IUserService, UserService>();
+
 
             services.AddTransient<LoginForm>();
             services.AddTransient<MainDashboard>();

@@ -149,6 +149,7 @@ namespace SchoolLab.WinFormsUI.Controls
         public async void ActionTwo()
         {
             await ReturnSelectedLoanAsync();
+            await LoadAllLoansAsync();
         }
 
         private async void LoansMain_Load(object? sender, EventArgs e)

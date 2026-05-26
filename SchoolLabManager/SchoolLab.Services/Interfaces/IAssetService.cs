@@ -7,15 +7,13 @@ namespace SchoolLab.Services.Interfaces
 {
     public interface IAssetService
     {
-        // CRUD operations
         Task<IEnumerable<Asset>> GetAllAssetsAsync();
         Task<Asset?> GetAssetByIdAsync(int id);
         Task<Asset?> GetAssetWithDetailsAsync(int id);
         Task<Asset> CreateAssetAsync(Asset asset);
         Task<Asset> UpdateAssetAsync(Asset asset);
-        Task<bool> DeleteAssetAsync(int id); // Returns false if has active loans
+        Task<bool> DeleteAssetAsync(int id); 
 
-        // Business operations
         Task<IEnumerable<Asset>> GetAssetsByStatusAsync(AssetStatus status);
         Task<IEnumerable<Asset>> GetAssetsByLocationAsync(int locationId);
         Task<IEnumerable<Asset>> GetAssetsByCategoryAsync(int categoryId);

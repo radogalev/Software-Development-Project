@@ -67,9 +67,10 @@ namespace SchoolLab.WinFormsUI.Dialogs
                 ReportedById = Convert.ToInt32(ReportedBy_cbox.SelectedValue),
                 Description = Description_txt.Text.Trim(),
                 DateReported = Date_pick.Value.Date,
-                RepairedById = repairedBy_cbox.SelectedIndex,
-                LoanId = loan_cbox.SelectedIndex,
+                RepairedById = repairedBy_cbox.SelectedValue != null ? Convert.ToInt32(repairedBy_cbox.SelectedValue) : null,
+                LoanId = loan_cbox.SelectedValue != null ? Convert.ToInt32(loan_cbox.SelectedValue) : null,
             };
+
             this.DialogResult = DialogResult.OK;
         }
     }
@@ -78,8 +79,8 @@ namespace SchoolLab.WinFormsUI.Dialogs
     {
         public int AssetId { get; set; }
         public int ReportedById { get; set; }
-        public int RepairedById { get; set; }
-        public int LoanId { get; set; }
+        public int? RepairedById { get; set; }
+        public int? LoanId { get; set; }
         public string Description { get; set; }
         public DateTime DateReported { get; set; }
     }

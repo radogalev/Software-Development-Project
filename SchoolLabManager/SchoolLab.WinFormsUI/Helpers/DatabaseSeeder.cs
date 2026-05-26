@@ -9,79 +9,53 @@ namespace SchoolLab.WinFormsUI.Helpers
     {
         public static void Seed(SchoolLabDbContext context)
         {
+            context.Database.EnsureCreated();
+
+            if (!context.Categories.Any())
+            {
+                context.Categories.AddRange(
+                    new Category { Name = "Computers" },
+                    new Category { Name = "Peripherals" },
+                    new Category { Name = "Networking" }
+                );
+                context.SaveChanges();
+            }
+
+            if (!context.Locations.Any())
+            {
+                context.Locations.AddRange(
+                    new Location { Name = "Lab A" },
+                    new Location { Name = "Lab B" },
+                    new Location { Name = "Storage" }
+                );
+                context.SaveChanges();
+            }
+
             if (!context.Users.Any())
             {
-                User u1 = new User();
-                u1.Username = "AdminTestUser";
-                u1.PasswordHash = PasswordHasher.HashPassword("admin123");
-                u1.DisplayName = "Admin User";
-                u1.Role = UserRole.Administrator;
-                u1.TimeOfRegistration = DateTime.Now;
-
-                User u2 = new User();
-                u2.Username = "AssistantTestUser";
-                u2.PasswordHash = PasswordHasher.HashPassword("labassist123");
-                u2.DisplayName = "Lab Assistant";
-                u2.Role = UserRole.LabAssistant;
-                u2.TimeOfRegistration = DateTime.Now;
-
-                User u3 = new User();
-                u3.Username = "ViewerTestUser";
-                u3.PasswordHash = PasswordHasher.HashPassword("viewer123");
-                u3.DisplayName = "Viewer User";
-                u3.Role = UserRole.Viewer;
-                u3.TimeOfRegistration = DateTime.Now;
-
-                context.Users.AddRange(u1, u2, u3);
+                context.Users.AddRange(
+                    new User { Username = "AdminTestUser", PasswordHash = PasswordHasher.HashPassword("admin123"), DisplayName = "Admin User", Role = UserRole.Administrator, TimeOfRegistration = DateTime.Now },
+                    new User { Username = "AssistantTestUser", PasswordHash = PasswordHasher.HashPassword("labassist123"), DisplayName = "Lab Assistant", Role = UserRole.LabAssistant, TimeOfRegistration = DateTime.Now },
+                    new User { Username = "ViewerTestUser", PasswordHash = PasswordHasher.HashPassword("viewer123"), DisplayName = "Viewer User", Role = UserRole.Viewer, TimeOfRegistration = DateTime.Now }
+                );
                 context.SaveChanges();
             }
 
             if (!context.Assets.Any())
             {
+                var computers = context.Categories.First(c => c.Name == "Computers");
+                var peripherals = context.Categories.First(c => c.Name == "Peripherals");
+                var labA = context.Locations.First(l => l.Name == "Lab A");
+                var labB = context.Locations.First(l => l.Name == "Lab B");
 
-
-                var a1 = new Asset
-                {
-                    Name = "Dell OptiPlex 7080",
-                    SerialNumber = "DL-7080-0001",
-                    Category = context.Set<Category>().First(c => c.Name == "Computers"),
-                    CategoryId = context.Set<Category>().First(c => c.Name == "Computers").Id,
-                    StoredLocation = context.Set<Location>().First(l => l.Name == "Lab A"),
-                    DateOfPurchase = DateTime.UtcNow.AddYears(-2),
-                    Condition = AssetCondition.Excellent,
-                    Status = AssetStatus.Available
-
-                };
-
-                var a2 = new Asset
-                {
-                    Name = "HP ProBook 450",
-                    SerialNumber = "HP-450-0002",
-                    Category = context.Set<Category>().First(c => c.Name == "Computers"),
-                    CategoryId = context.Set<Category>().First(c => c.Name == "Computers").Id,
-                    StoredLocation = context.Set<Location>().First(l => l.Name == "Lab B"),
-                    DateOfPurchase = DateTime.UtcNow.AddYears(-1).AddMonths(-3),
-                    Condition = AssetCondition.MinorDamage,
-                    Status = AssetStatus.Borrowed
-                };
-
-                var a3 = new Asset
-                {
-                    Name = "Dell 24\" Monitor",
-                    SerialNumber = "MON-2401-0003",
-                    Category = context.Set<Category>().First(c => c.Name == "Peripherals"),
-                    CategoryId = context.Set<Category>().First(c => c.Name == "Peripherals").Id,
-                    StoredLocation = context.Set<Location>().First(l => l.Name == "Lab A"),
-                    DateOfPurchase = DateTime.UtcNow.AddYears(-3),
-                    Condition = AssetCondition.InNeedOfRepair,
-                    Status = AssetStatus.InRepair
-
-                };
-
-                context.Assets.AddRange(a1, a2, a3);
-
+                context.Assets.AddRange(
+                    new Asset { Name = "Dell OptiPlex 7080", SerialNumber = "DL-7080-0001", Category = computers, CategoryId = computers.Id, StoredLocation = labA, LocationId = labA.Id, DateOfPurchase = DateTime.UtcNow.AddYears(-2), Condition = AssetCondition.Excellent, Status = AssetStatus.Available },
+                    new Asset { Name = "HP ProBook 450", SerialNumber = "HP-450-0002", Category = computers, CategoryId = computers.Id, StoredLocation = labB, LocationId = labB.Id, DateOfPurchase = DateTime.UtcNow.AddYears(-1).AddMonths(-3), Condition = AssetCondition.MinorDamage, Status = AssetStatus.Available },
+                    new Asset { Name = "Dell 24\" Monitor", SerialNumber = "MON-2401-0003", Category = peripherals, CategoryId = peripherals.Id, StoredLocation = labA, LocationId = labA.Id, DateOfPurchase = DateTime.UtcNow.AddYears(-3), Condition = AssetCondition.InNeedOfRepair, Status = AssetStatus.InRepair }
+                );
                 context.SaveChanges();
             }
+
         }
     }
 }

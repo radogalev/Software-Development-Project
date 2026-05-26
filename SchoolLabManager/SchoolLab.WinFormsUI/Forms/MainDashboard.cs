@@ -13,14 +13,15 @@ namespace SchoolLab.WinFormsUI.Forms
         private ILoanService _loanService;
         private IReportService _reportService;
         private IAuthService _authService;
-        public MainDashboard(IAssetService assetService, ILoanService loanService, IReportService reportService, IAuthService authService)
+        private IUserService _userService;
+        public MainDashboard(IAssetService assetService, ILoanService loanService, IReportService reportService, IAuthService authService, IUserService userService)
         {
             InitializeComponent();
             _assetService = assetService;
             _loanService = loanService;
             _reportService = reportService;
             _authService = authService;
-
+            _userService = userService;
 
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -77,8 +78,6 @@ namespace SchoolLab.WinFormsUI.Forms
             }
         }
 
-        // Event handlers wired by designer must use void return type.
-        // Changed from Task to async void to match Windows Forms event signature.
         private async void btnManageLoans_Click(object sender, EventArgs e)
         {
             await _loanService.UpdateOverdueLoansAsync();
@@ -98,7 +97,7 @@ namespace SchoolLab.WinFormsUI.Forms
 
         private void btnManageUsers_Click_1(object sender, EventArgs e)
         {
-            var usersTab = new UsersMain(_authService);
+            var usersTab = new UsersMain(_authService, _userService);
             MainControl_pnl.Controls.Clear();
             MainControl_pnl.Controls.Add(usersTab);
             btnActionTwo.Text = "Delete";

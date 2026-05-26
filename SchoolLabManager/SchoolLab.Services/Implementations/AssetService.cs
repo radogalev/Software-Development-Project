@@ -32,7 +32,6 @@ namespace SchoolLab.Services.Implementations
 
         public async Task<Asset?> GetAssetWithDetailsAsync(int id)
         {
-            // Return the asset with related details when available
             return await _repo.GetAssetWithDetailsAsync(id);
         }
 
@@ -40,7 +39,6 @@ namespace SchoolLab.Services.Implementations
         {
             await _repo.AddAsync(asset);
             await _repo.SaveChangesAsync();
-            // Return the created asset with related data populated when possible
             if (_repo is AssetRepository ar)
             {
                 var created = await ar.GetAssetWithDetailsAsync(asset.Id);
