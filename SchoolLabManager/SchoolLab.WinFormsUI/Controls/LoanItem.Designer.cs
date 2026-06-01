@@ -38,7 +38,7 @@ namespace SchoolLab.WinFormsUI.Controls
             lblName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblName.Location = new Point(3, 6);
             lblName.Name = "lblName";
-            lblName.Size = new Size(44, 21);
+            lblName.Size = new Size(54, 28);
             lblName.TabIndex = 0;
             lblName.Text = "Loan";
             // 
@@ -48,7 +48,7 @@ namespace SchoolLab.WinFormsUI.Controls
             BorderStyle = BorderStyle.FixedSingle;
             Controls.Add(lblName);
             Name = "LoanItem";
-            Size = new Size(245, 123);
+            Size = new Size(339, 99);
             ResumeLayout(false);
             PerformLayout();
         }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj": {}
+    "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj": {
+    "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj",
+        "projectUniqueName": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj",
         "projectName": "SchoolLab.Core",
-        "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj",
-        "packagesPath": "C:\\Users\\stilq\\.nuget\\packages",
-        "outputPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\obj\\",
+        "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj",
+        "packagesPath": "C:\\Users\\stilq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Stilqn-Varna\\vsshared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\stilq\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,9 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Projects\\LocalLibs": {},
-          "C:\\Users\\stilq\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

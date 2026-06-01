@@ -27,7 +27,7 @@ namespace SchoolLab.WinFormsUI.Controls
             lblName.Font = new Font("Segoe UI", 11F);
             lblName.Location = new Point(3, 6);
             lblName.Name = "lblName";
-            lblName.Size = new Size(54, 20);
+            lblName.Size = new Size(67, 25);
             lblName.TabIndex = 0;
             lblName.Text = "Report";
             // 
@@ -37,7 +37,7 @@ namespace SchoolLab.WinFormsUI.Controls
             BorderStyle = BorderStyle.FixedSingle;
             Controls.Add(lblName);
             Name = "ReportItem";
-            Size = new Size(250, 40);
+            Size = new Size(276, 40);
             ResumeLayout(false);
             PerformLayout();
         }

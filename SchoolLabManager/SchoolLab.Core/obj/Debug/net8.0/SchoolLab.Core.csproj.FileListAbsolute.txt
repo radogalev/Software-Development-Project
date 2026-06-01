@@ -32,3 +32,15 @@ C:\Projects\ResQSofia\Software-Development-Project\SchoolLabManager\SchoolLab.Co
 C:\Projects\ResQSofia\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\refint\SchoolLab.Core.dll
 C:\Projects\ResQSofia\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.pdb
 C:\Projects\ResQSofia\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\ref\SchoolLab.Core.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\bin\Debug\net8.0\SchoolLab.Core.deps.json
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\bin\Debug\net8.0\SchoolLab.Core.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\bin\Debug\net8.0\SchoolLab.Core.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.AssemblyInfoInputs.cache
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.AssemblyInfo.cs
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.csproj.CoreCompileInputs.cache
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.sourcelink.json
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\refint\SchoolLab.Core.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\SchoolLab.Core.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\SchoolLabManager\SchoolLab.Core\obj\Debug\net8.0\ref\SchoolLab.Core.dll

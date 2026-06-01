@@ -37,7 +37,7 @@ namespace SchoolLab.WinFormsUI.Dialogs
 
                 var categories = ctx.Categories
                                     .OrderBy(c => c.Name)
-                                    .Select(c => new LookupItem { Id = c.Id, Name =  c.Name })
+                                    .Select(c => new LookupItem { Id = c.Id, Name = c.Name })
                                     .ToList();
 
 
@@ -97,6 +97,11 @@ namespace SchoolLab.WinFormsUI.Dialogs
         {
             //Test:
             //label3.Text = Category_cbox.SelectedItem.ToString();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

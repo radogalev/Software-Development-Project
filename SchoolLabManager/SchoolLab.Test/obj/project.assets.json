@@ -4259,20 +4259,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stilq\\.nuget\\packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\stilq\\.nuget\\packages\\": {},
+    "D:\\Stilqn-Varna\\vsshared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Test\\SchoolLab.Test.csproj",
+      "projectUniqueName": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Test\\SchoolLab.Test.csproj",
       "projectName": "SchoolLab.Test",
-      "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Test\\SchoolLab.Test.csproj",
-      "packagesPath": "C:\\Users\\stilq\\.nuget\\packages",
-      "outputPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Test\\obj\\",
+      "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Test\\SchoolLab.Test.csproj",
+      "packagesPath": "C:\\Users\\stilq\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Stilqn-Varna\\vsshared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\stilq\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4284,9 +4284,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Projects\\LocalLibs": {},
-        "C:\\Users\\stilq\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4294,14 +4291,14 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj": {
-              "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj"
+            "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj": {
+              "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj"
             },
-            "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj": {
-              "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj"
+            "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj": {
+              "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj"
             },
-            "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Services\\SchoolLab.Services.csproj": {
-              "projectPath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Services\\SchoolLab.Services.csproj"
+            "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Services\\SchoolLab.Services.csproj": {
+              "projectPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Services\\SchoolLab.Services.csproj"
             }
           }
         }
@@ -4356,7 +4353,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

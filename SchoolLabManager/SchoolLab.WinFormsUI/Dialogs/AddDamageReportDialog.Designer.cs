@@ -46,7 +46,7 @@ namespace SchoolLab.WinFormsUI.Dialogs
             Asset_cbox.FormattingEnabled = true;
             Asset_cbox.Location = new Point(12, 32);
             Asset_cbox.Name = "Asset_cbox";
-            Asset_cbox.Size = new Size(179, 28);
+            Asset_cbox.Size = new Size(179, 33);
             Asset_cbox.TabIndex = 0;
             // 
             // ReportedBy_cbox
@@ -54,29 +54,29 @@ namespace SchoolLab.WinFormsUI.Dialogs
             ReportedBy_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
             ReportedBy_cbox.Font = new Font("Segoe UI", 11F);
             ReportedBy_cbox.FormattingEnabled = true;
-            ReportedBy_cbox.Location = new Point(12, 90);
+            ReportedBy_cbox.Location = new Point(12, 95);
             ReportedBy_cbox.Name = "ReportedBy_cbox";
-            ReportedBy_cbox.Size = new Size(179, 28);
+            ReportedBy_cbox.Size = new Size(179, 33);
             ReportedBy_cbox.TabIndex = 1;
             // 
             // Description_txt
             // 
-            Description_txt.Location = new Point(12, 144);
+            Description_txt.Location = new Point(12, 158);
             Description_txt.Multiline = true;
             Description_txt.Name = "Description_txt";
-            Description_txt.Size = new Size(360, 100);
+            Description_txt.Size = new Size(378, 100);
             Description_txt.TabIndex = 2;
             // 
             // Date_pick
             // 
-            Date_pick.Location = new Point(124, 250);
+            Date_pick.Location = new Point(160, 264);
             Date_pick.Name = "Date_pick";
-            Date_pick.Size = new Size(248, 23);
+            Date_pick.Size = new Size(230, 27);
             Date_pick.TabIndex = 3;
             // 
             // Save_btn
             // 
-            Save_btn.Location = new Point(12, 286);
+            Save_btn.Location = new Point(12, 297);
             Save_btn.Name = "Save_btn";
             Save_btn.Size = new Size(75, 30);
             Save_btn.TabIndex = 4;
@@ -86,7 +86,7 @@ namespace SchoolLab.WinFormsUI.Dialogs
             // 
             // Cancel_btn
             // 
-            Cancel_btn.Location = new Point(297, 286);
+            Cancel_btn.Location = new Point(315, 297);
             Cancel_btn.Name = "Cancel_btn";
             Cancel_btn.Size = new Size(75, 30);
             Cancel_btn.TabIndex = 5;
@@ -97,9 +97,9 @@ namespace SchoolLab.WinFormsUI.Dialogs
             // 
             labelAsset.AutoSize = true;
             labelAsset.Font = new Font("Segoe UI", 11F);
-            labelAsset.Location = new Point(12, 9);
+            labelAsset.Location = new Point(12, 4);
             labelAsset.Name = "labelAsset";
-            labelAsset.Size = new Size(47, 20);
+            labelAsset.Size = new Size(60, 25);
             labelAsset.TabIndex = 0;
             labelAsset.Text = "Asset:";
             // 
@@ -107,9 +107,9 @@ namespace SchoolLab.WinFormsUI.Dialogs
             // 
             labelReported.AutoSize = true;
             labelReported.Font = new Font("Segoe UI", 11F);
-            labelReported.Location = new Point(12, 67);
+            labelReported.Location = new Point(12, 68);
             labelReported.Name = "labelReported";
-            labelReported.Size = new Size(94, 20);
+            labelReported.Size = new Size(117, 25);
             labelReported.TabIndex = 1;
             labelReported.Text = "Reported by:";
             // 
@@ -117,9 +117,9 @@ namespace SchoolLab.WinFormsUI.Dialogs
             // 
             labelDesc.AutoSize = true;
             labelDesc.Font = new Font("Segoe UI", 11F);
-            labelDesc.Location = new Point(12, 121);
+            labelDesc.Location = new Point(12, 130);
             labelDesc.Name = "labelDesc";
-            labelDesc.Size = new Size(88, 20);
+            labelDesc.Size = new Size(112, 25);
             labelDesc.TabIndex = 2;
             labelDesc.Text = "Description:";
             // 
@@ -127,9 +127,9 @@ namespace SchoolLab.WinFormsUI.Dialogs
             // 
             labelDate.AutoSize = true;
             labelDate.Font = new Font("Segoe UI", 11F);
-            labelDate.Location = new Point(12, 250);
+            labelDate.Location = new Point(12, 264);
             labelDate.Name = "labelDate";
-            labelDate.Size = new Size(106, 20);
+            labelDate.Size = new Size(133, 25);
             labelDate.TabIndex = 3;
             labelDate.Text = "Date reported:";
             // 
@@ -138,9 +138,9 @@ namespace SchoolLab.WinFormsUI.Dialogs
             repairedBy_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
             repairedBy_cbox.Font = new Font("Segoe UI", 11F);
             repairedBy_cbox.FormattingEnabled = true;
-            repairedBy_cbox.Location = new Point(197, 90);
+            repairedBy_cbox.Location = new Point(211, 95);
             repairedBy_cbox.Name = "repairedBy_cbox";
-            repairedBy_cbox.Size = new Size(179, 28);
+            repairedBy_cbox.Size = new Size(179, 33);
             repairedBy_cbox.TabIndex = 6;
             // 
             // loan_cbox
@@ -148,9 +148,9 @@ namespace SchoolLab.WinFormsUI.Dialogs
             loan_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
             loan_cbox.Font = new Font("Segoe UI", 11F);
             loan_cbox.FormattingEnabled = true;
-            loan_cbox.Location = new Point(197, 32);
+            loan_cbox.Location = new Point(211, 32);
             loan_cbox.Name = "loan_cbox";
-            loan_cbox.Size = new Size(179, 28);
+            loan_cbox.Size = new Size(179, 33);
             loan_cbox.TabIndex = 7;
             // 
             // label1
@@ -159,7 +159,7 @@ namespace SchoolLab.WinFormsUI.Dialogs
             label1.Font = new Font("Segoe UI", 11F);
             label1.Location = new Point(197, 67);
             label1.Name = "label1";
-            label1.Size = new Size(162, 20);
+            label1.Size = new Size(202, 25);
             label1.TabIndex = 8;
             label1.Text = "Repaired by (optional):";
             // 
@@ -167,15 +167,15 @@ namespace SchoolLab.WinFormsUI.Dialogs
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11F);
-            label2.Location = new Point(197, 9);
+            label2.Location = new Point(211, 4);
             label2.Name = "label2";
-            label2.Size = new Size(114, 20);
+            label2.Size = new Size(144, 25);
             label2.TabIndex = 9;
             label2.Text = "Loan (optional):";
             // 
             // AddDamageReportDialog
             // 
-            ClientSize = new Size(384, 328);
+            ClientSize = new Size(402, 339);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(loan_cbox);

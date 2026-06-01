@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KOOFriZDVHc=",
+  "dgSpecHash": "qTPT5aKt5H4=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\ResQSofia\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj",
+  "projectFilePath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stilq\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\stilq\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
