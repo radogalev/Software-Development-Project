@@ -31,6 +31,7 @@ namespace SchoolLab.WinFormsUI.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainDashboard));
             Navigation = new GroupBox();
             btnActionTwo = new Button();
             btnActionOne = new Button();
@@ -58,9 +59,11 @@ namespace SchoolLab.WinFormsUI.Forms
             Navigation.Controls.Add(btnManageLoans);
             Navigation.Controls.Add(btnManageAssets);
             Navigation.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Navigation.Location = new Point(0, 92);
+            Navigation.Location = new Point(0, 52);
+            Navigation.Margin = new Padding(3, 4, 3, 4);
             Navigation.Name = "Navigation";
-            Navigation.Size = new Size(177, 355);
+            Navigation.Padding = new Padding(3, 4, 3, 4);
+            Navigation.Size = new Size(202, 544);
             Navigation.TabIndex = 0;
             Navigation.TabStop = false;
             Navigation.Text = "Navigation";
@@ -71,9 +74,10 @@ namespace SchoolLab.WinFormsUI.Forms
             btnActionTwo.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btnActionTwo.BackColor = SystemColors.InactiveCaption;
             btnActionTwo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnActionTwo.Location = new Point(12, 314);
+            btnActionTwo.Location = new Point(14, 419);
+            btnActionTwo.Margin = new Padding(3, 4, 3, 4);
             btnActionTwo.Name = "btnActionTwo";
-            btnActionTwo.Size = new Size(64, 31);
+            btnActionTwo.Size = new Size(78, 38);
             btnActionTwo.TabIndex = 7;
             btnActionTwo.Text = "Delete";
             btnActionTwo.UseVisualStyleBackColor = false;
@@ -85,9 +89,10 @@ namespace SchoolLab.WinFormsUI.Forms
             btnActionOne.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btnActionOne.BackColor = SystemColors.InactiveCaption;
             btnActionOne.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnActionOne.Location = new Point(113, 315);
+            btnActionOne.Location = new Point(129, 420);
+            btnActionOne.Margin = new Padding(3, 4, 3, 4);
             btnActionOne.Name = "btnActionOne";
-            btnActionOne.Size = new Size(48, 31);
+            btnActionOne.Size = new Size(59, 38);
             btnActionOne.TabIndex = 6;
             btnActionOne.Text = "Add";
             btnActionOne.UseVisualStyleBackColor = false;
@@ -99,9 +104,10 @@ namespace SchoolLab.WinFormsUI.Forms
             btnManageUsers.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btnManageUsers.BackColor = SystemColors.InactiveCaption;
             btnManageUsers.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnManageUsers.Location = new Point(12, 146);
+            btnManageUsers.Location = new Point(14, 195);
+            btnManageUsers.Margin = new Padding(3, 4, 3, 4);
             btnManageUsers.Name = "btnManageUsers";
-            btnManageUsers.Size = new Size(119, 31);
+            btnManageUsers.Size = new Size(145, 38);
             btnManageUsers.TabIndex = 4;
             btnManageUsers.Text = "Manage Users";
             btnManageUsers.UseVisualStyleBackColor = false;
@@ -113,9 +119,10 @@ namespace SchoolLab.WinFormsUI.Forms
             btnManageReports.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btnManageReports.BackColor = SystemColors.InactiveCaption;
             btnManageReports.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnManageReports.Location = new Point(12, 109);
+            btnManageReports.Location = new Point(14, 145);
+            btnManageReports.Margin = new Padding(3, 4, 3, 4);
             btnManageReports.Name = "btnManageReports";
-            btnManageReports.Size = new Size(134, 31);
+            btnManageReports.Size = new Size(165, 38);
             btnManageReports.TabIndex = 2;
             btnManageReports.Text = "Manage Reports";
             btnManageReports.UseVisualStyleBackColor = false;
@@ -127,9 +134,10 @@ namespace SchoolLab.WinFormsUI.Forms
             btnManageLoans.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btnManageLoans.BackColor = SystemColors.InactiveCaption;
             btnManageLoans.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnManageLoans.Location = new Point(12, 72);
+            btnManageLoans.Location = new Point(14, 96);
+            btnManageLoans.Margin = new Padding(3, 4, 3, 4);
             btnManageLoans.Name = "btnManageLoans";
-            btnManageLoans.Size = new Size(121, 31);
+            btnManageLoans.Size = new Size(148, 38);
             btnManageLoans.TabIndex = 1;
             btnManageLoans.Text = "Manage Loans";
             btnManageLoans.UseVisualStyleBackColor = false;
@@ -141,9 +149,10 @@ namespace SchoolLab.WinFormsUI.Forms
             btnManageAssets.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btnManageAssets.BackColor = SystemColors.InactiveCaption;
             btnManageAssets.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnManageAssets.Location = new Point(12, 35);
+            btnManageAssets.Location = new Point(14, 47);
+            btnManageAssets.Margin = new Padding(3, 4, 3, 4);
             btnManageAssets.Name = "btnManageAssets";
-            btnManageAssets.Size = new Size(124, 31);
+            btnManageAssets.Size = new Size(152, 38);
             btnManageAssets.TabIndex = 0;
             btnManageAssets.Text = "Manage Assets";
             btnManageAssets.UseVisualStyleBackColor = false;
@@ -153,9 +162,9 @@ namespace SchoolLab.WinFormsUI.Forms
             // 
             lblWelcomeName.AutoSize = true;
             lblWelcomeName.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblWelcomeName.Location = new Point(0, 0);
+            lblWelcomeName.Location = new Point(416, 9);
             lblWelcomeName.Name = "lblWelcomeName";
-            lblWelcomeName.Size = new Size(118, 32);
+            lblWelcomeName.Size = new Size(149, 41);
             lblWelcomeName.TabIndex = 1;
             lblWelcomeName.Text = "Welcome,";
             // 
@@ -163,9 +172,9 @@ namespace SchoolLab.WinFormsUI.Forms
             // 
             lblWelcomeRole.AutoSize = true;
             lblWelcomeRole.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblWelcomeRole.Location = new Point(3, 68);
+            lblWelcomeRole.Location = new Point(8, 19);
             lblWelcomeRole.Name = "lblWelcomeRole";
-            lblWelcomeRole.Size = new Size(67, 25);
+            lblWelcomeRole.Size = new Size(84, 32);
             lblWelcomeRole.TabIndex = 2;
             lblWelcomeRole.Text = "Admin";
             // 
@@ -173,47 +182,52 @@ namespace SchoolLab.WinFormsUI.Forms
             // 
             panel1.BackColor = Color.LightSkyBlue;
             panel1.Controls.Add(flowLayoutPanel1);
-            panel1.Controls.Add(lblWelcomeName);
             panel1.Controls.Add(lblWelcomeRole);
-            panel1.Location = new Point(0, -2);
+            panel1.Location = new Point(0, -3);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(183, 449);
+            panel1.Size = new Size(209, 599);
             panel1.TabIndex = 3;
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.Location = new Point(183, 3);
+            flowLayoutPanel1.Location = new Point(209, 4);
+            flowLayoutPanel1.Margin = new Padding(3, 4, 3, 4);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(618, 446);
+            flowLayoutPanel1.Size = new Size(706, 595);
             flowLayoutPanel1.TabIndex = 4;
             // 
             // MainControl_pnl
             // 
-            MainControl_pnl.Location = new Point(185, 1);
+            MainControl_pnl.Location = new Point(211, 54);
+            MainControl_pnl.Margin = new Padding(3, 4, 3, 4);
             MainControl_pnl.Name = "MainControl_pnl";
-            MainControl_pnl.Size = new Size(618, 416);
+            MainControl_pnl.Size = new Size(706, 502);
             MainControl_pnl.TabIndex = 4;
             // 
             // label1
             // 
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(185, 420);
+            label1.Location = new Point(211, 560);
             label1.Name = "label1";
-            label1.Size = new Size(149, 31);
+            label1.Size = new Size(170, 41);
             label1.TabIndex = 8;
             label1.Text = "*Double click an item for more info.";
             // 
             // MainDashboard
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightCyan;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(label1);
+            Controls.Add(lblWelcomeName);
             Controls.Add(MainControl_pnl);
             Controls.Add(Navigation);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
             Name = "MainDashboard";
             Text = "MainDashboard";
             Load += MainDashboard_Load;
@@ -222,6 +236,7 @@ namespace SchoolLab.WinFormsUI.Forms
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

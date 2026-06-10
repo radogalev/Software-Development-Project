@@ -33,7 +33,7 @@ namespace SchoolLab.WinFormsUI.Forms
         public void SetCurrentUser(User user)
         {
             _currentUser = user;
-            lblWelcomeName.Text = $"Welcome,\n{user.DisplayName}";
+            lblWelcomeName.Text = $"Welcome, {user.DisplayName}";
             lblWelcomeRole.Text = user.Role.ToString();
             HidePanels();
             btnManageAssets_Click(null, null);

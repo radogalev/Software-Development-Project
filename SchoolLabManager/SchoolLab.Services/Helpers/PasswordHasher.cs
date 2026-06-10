@@ -6,6 +6,7 @@ namespace SchoolLab.Services.Helpers
 {
     public static class PasswordHasher
     {
+
         // using SHA256
         public static string HashPassword(string password)
         {

@@ -82,7 +82,7 @@ namespace SchoolLab.WinFormsUI.Dialogs
             : (int?)Convert.ToInt32(Category_cbox.SelectedValue);
 
 
-            Result = new AssetInputResult
+             Result = new AssetInputResult
             {
                 Name = Name_txt.Text.Trim(),
                 SerialNumber = Serial_txt.Text.Trim(),

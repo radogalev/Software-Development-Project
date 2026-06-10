@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SchoolLabManager", "SchoolLabManager", "{43F8B469-C2C9-666D-20A6-EA7FBBA7A39A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolLab.Core", "SchoolLabManager\SchoolLab.Core\SchoolLab.Core.csproj", "{E9B3BC06-AC7A-0D1B-9E64-DD03A64D3636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolLab.Data", "SchoolLabManager\SchoolLab.Data\SchoolLab.Data.csproj", "{C14E249E-861B-8F9C-005E-F8B60639F08C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolLab.Services", "SchoolLabManager\SchoolLab.Services\SchoolLab.Services.csproj", "{85CC12B5-0419-1C50-4AD2-1C386ED4F4B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolLab.Test", "SchoolLabManager\SchoolLab.Test\SchoolLab.Test.csproj", "{CBE469F4-7D4E-E1C4-112D-515BF181E66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolLab.WinFormsUI", "SchoolLabManager\SchoolLab.WinFormsUI\SchoolLab.WinFormsUI.csproj", "{3EECDFBC-CB05-89EC-8E19-4B90C3324583}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9B3BC06-AC7A-0D1B-9E64-DD03A64D3636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B3BC06-AC7A-0D1B-9E64-DD03A64D3636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B3BC06-AC7A-0D1B-9E64-DD03A64D3636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B3BC06-AC7A-0D1B-9E64-DD03A64D3636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14E249E-861B-8F9C-005E-F8B60639F08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14E249E-861B-8F9C-005E-F8B60639F08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14E249E-861B-8F9C-005E-F8B60639F08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14E249E-861B-8F9C-005E-F8B60639F08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CC12B5-0419-1C50-4AD2-1C386ED4F4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CC12B5-0419-1C50-4AD2-1C386ED4F4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CC12B5-0419-1C50-4AD2-1C386ED4F4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CC12B5-0419-1C50-4AD2-1C386ED4F4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE469F4-7D4E-E1C4-112D-515BF181E66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE469F4-7D4E-E1C4-112D-515BF181E66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE469F4-7D4E-E1C4-112D-515BF181E66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE469F4-7D4E-E1C4-112D-515BF181E66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EECDFBC-CB05-89EC-8E19-4B90C3324583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EECDFBC-CB05-89EC-8E19-4B90C3324583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EECDFBC-CB05-89EC-8E19-4B90C3324583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EECDFBC-CB05-89EC-8E19-4B90C3324583}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9B3BC06-AC7A-0D1B-9E64-DD03A64D3636} = {43F8B469-C2C9-666D-20A6-EA7FBBA7A39A}
+		{C14E249E-861B-8F9C-005E-F8B60639F08C} = {43F8B469-C2C9-666D-20A6-EA7FBBA7A39A}
+		{85CC12B5-0419-1C50-4AD2-1C386ED4F4B9} = {43F8B469-C2C9-666D-20A6-EA7FBBA7A39A}
+		{CBE469F4-7D4E-E1C4-112D-515BF181E66D} = {43F8B469-C2C9-666D-20A6-EA7FBBA7A39A}
+		{3EECDFBC-CB05-89EC-8E19-4B90C3324583} = {43F8B469-C2C9-666D-20A6-EA7FBBA7A39A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1D0BACE-A5D8-47F5-90FB-69090B9DAAFA}
+	EndGlobalSection
+EndGlobal
