@@ -15,12 +15,19 @@ namespace SchoolLab.WinFormsUI.Controls
         public LoanItem selectedItem;
         private readonly ILoanService? _loanService;
         private readonly User _currentUser;
+        private bool _filterReady;
+        private bool _isLoadingLoans;
+        private bool _reloadRequested;
 
         public LoansMain(User current, ILoanService? loanService = null)
         {
             InitializeComponent();
             _loanService = loanService;
             _currentUser = current;
+            cmbStatusFilter.Items.Add("All");
+            cmbStatusFilter.Items.AddRange(Enum.GetNames(typeof(LoanStatus)));
+            cmbStatusFilter.SelectedIndex = 0;
+            _filterReady = true;
             Load += LoansMain_Load;
         }
 
@@ -159,35 +166,54 @@ namespace SchoolLab.WinFormsUI.Controls
 
         private async Task LoadAllLoansAsync()
         {
+            if (_isLoadingLoans)
+            {
+                _reloadRequested = true;
+                return;
+            }
+
+            _isLoadingLoans = true;
             try
             {
-                IEnumerable<Loan> loans;
-                if (_loanService != null)
+                do
                 {
-                    loans = await _loanService.GetAllLoansAsync();
-                }
-                else
-                {
-                    using var context = new SchoolLabDbContext();
-                    loans = await context.Loans
-                        .Include(l => l.BorrowedAsset)
-                        .Include(l => l.Borrower)
-                        .Include(l => l.Leaser)
-                        .ToListAsync();
-                }
+                    _reloadRequested = false;
 
-                flowLayoutPanelLoans.Controls.Clear();
-                foreach (var l in loans)
-                {
-                    var item = new LoanItem();
-                    item.Bind(l);
-                    item.Click += LoanItem_Click;
-                    flowLayoutPanelLoans.Controls.Add(item);
-                }
+                    IEnumerable<Loan> loans;
+                    if (_loanService != null)
+                    {
+                        loans = await _loanService.GetAllLoansAsync();
+                    }
+                    else
+                    {
+                        using var context = new SchoolLabDbContext();
+                        loans = await context.Loans
+                            .Include(l => l.BorrowedAsset)
+                            .Include(l => l.Borrower)
+                            .Include(l => l.Leaser)
+                            .ToListAsync();
+                    }
+
+                    loans = ApplyUserAndStatusFilters(loans);
+
+                    flowLayoutPanelLoans.Controls.Clear();
+                    selectedItem = null;
+                    foreach (var l in loans)
+                    {
+                        var item = new LoanItem();
+                        item.Bind(l);
+                        item.Click += LoanItem_Click;
+                        flowLayoutPanelLoans.Controls.Add(item);
+                    }
+                } while (_reloadRequested);
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error loading loans: {ex.Message}");
+            }
+            finally
+            {
+                _isLoadingLoans = false;
             }
         }
 
@@ -199,6 +225,42 @@ namespace SchoolLab.WinFormsUI.Controls
                 selectedItem = li;
                 selectedItem.Selected = true;
             }
+        }
+
+        private IEnumerable<Loan> ApplyUserAndStatusFilters(IEnumerable<Loan> loans)
+        {
+            if (_currentUser.Role == UserRole.Viewer)
+            {
+                loans = loans.Where(l => l.BorrowerId == _currentUser.Id);
+            }
+
+            LoanStatus? selectedStatus = GetSelectedStatusFilter();
+            if (selectedStatus != null)
+            {
+                loans = loans.Where(l => l.Status == selectedStatus.Value);
+            }
+
+            return loans;
+        }
+
+        private LoanStatus? GetSelectedStatusFilter()
+        {
+            if (cmbStatusFilter.SelectedItem is not string selected || selected == "All")
+            {
+                return null;
+            }
+
+            return Enum.TryParse(selected, out LoanStatus status) ? status : null;
+        }
+
+        private async void cmbStatusFilter_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (!_filterReady)
+            {
+                return;
+            }
+
+            await LoadAllLoansAsync();
         }
     }
 }

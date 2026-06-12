@@ -38,7 +38,7 @@
             lblName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblName.Location = new Point(3, 8);
             lblName.Name = "lblName";
-            lblName.Size = new Size(362, 37);
+            lblName.Size = new Size(319, 80);
             lblName.TabIndex = 0;
             lblName.Text = "Asset";
             // 

@@ -38,7 +38,7 @@ namespace SchoolLab.WinFormsUI.Controls
         {
             if (asset == null) return;
             AssetId = asset.Id;
-            lblName.Text = asset.Name;
+            lblName.Text = asset.Name + "\n" + asset.Status;
         }
 
         protected override void OnClick(EventArgs e)
