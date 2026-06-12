@@ -18,24 +18,24 @@ namespace SchoolLab.WinFormsUI.Controls
 
         private void InitializeComponent()
         {
-            this.flowLayoutPanelLoans = new System.Windows.Forms.FlowLayoutPanel();
-            this.SuspendLayout();
+            flowLayoutPanelLoans = new FlowLayoutPanel();
+            SuspendLayout();
             // 
             // flowLayoutPanelLoans
             // 
-            this.flowLayoutPanelLoans.AutoScroll = true;
-            this.flowLayoutPanelLoans.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanelLoans.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanelLoans.Name = "flowLayoutPanelLoans";
-            this.flowLayoutPanelLoans.Size = new System.Drawing.Size(600, 400);
-            this.flowLayoutPanelLoans.TabIndex = 0;
+            flowLayoutPanelLoans.AutoScroll = true;
+            flowLayoutPanelLoans.Dock = DockStyle.Fill;
+            flowLayoutPanelLoans.Location = new Point(0, 0);
+            flowLayoutPanelLoans.Name = "flowLayoutPanelLoans";
+            flowLayoutPanelLoans.Size = new Size(700, 400);
+            flowLayoutPanelLoans.TabIndex = 0;
             // 
             // LoansMain
             // 
-            this.Controls.Add(this.flowLayoutPanelLoans);
-            this.Name = "LoansMain";
-            this.Size = new System.Drawing.Size(600, 400);
-            this.ResumeLayout(false);
+            Controls.Add(flowLayoutPanelLoans);
+            Name = "LoansMain";
+            Size = new Size(700, 400);
+            ResumeLayout(false);
         }
 
         #endregion

@@ -48,7 +48,7 @@ namespace SchoolLab.WinFormsUI.Controls
             BorderStyle = BorderStyle.FixedSingle;
             Controls.Add(lblName);
             Name = "LoanItem";
-            Size = new Size(339, 99);
+            Size = new Size(325, 100);
             ResumeLayout(false);
             PerformLayout();
         }

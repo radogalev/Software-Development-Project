@@ -202,7 +202,7 @@ namespace SchoolLab.WinFormsUI.Forms
             MainControl_pnl.Location = new Point(211, 54);
             MainControl_pnl.Margin = new Padding(3, 4, 3, 4);
             MainControl_pnl.Name = "MainControl_pnl";
-            MainControl_pnl.Size = new Size(706, 502);
+            MainControl_pnl.Size = new Size(700, 502);
             MainControl_pnl.TabIndex = 4;
             // 
             // label1
