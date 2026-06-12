@@ -49,7 +49,23 @@ namespace SchoolLab.Services.Implementations
         }
         public async Task<Asset> UpdateAssetAsync(Asset asset)
         {
-            _repo.Update(asset);
+            Asset? existing = await _repo.GetByIdAsync(asset.Id);
+            if (existing != null && !ReferenceEquals(existing, asset))
+            {
+                existing.Name = asset.Name;
+                existing.Description = asset.Description;
+                existing.CategoryId = asset.CategoryId;
+                existing.DateOfPurchase = asset.DateOfPurchase;
+                existing.SerialNumber = asset.SerialNumber;
+                existing.Condition = asset.Condition;
+                existing.Status = asset.Status;
+                existing.LocationId = asset.LocationId;
+            }
+            else
+            {
+                _repo.Update(asset);
+            }
+
             await _repo.SaveChangesAsync();
             if (_repo is AssetRepository ar)
             {

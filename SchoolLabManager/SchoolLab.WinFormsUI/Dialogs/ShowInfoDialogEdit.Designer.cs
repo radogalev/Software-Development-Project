@@ -63,6 +63,7 @@
             Save_btn.TabIndex = 13;
             Save_btn.Text = "Save";
             Save_btn.UseVisualStyleBackColor = false;
+            Save_btn.Click += Save_btn_Click;
             // 
             // Cancel_btn
             // 

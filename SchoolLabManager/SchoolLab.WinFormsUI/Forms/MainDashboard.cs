@@ -91,7 +91,7 @@ namespace SchoolLab.WinFormsUI.Forms
 
         private void btnManageReports_Click(object sender, EventArgs e)
         {
-            var reportsTab = new ReportsMain(_reportService);
+            var reportsTab = new ReportsMain(_currentUser, _reportService);
             MainControl_pnl.Controls.Clear();
             MainControl_pnl.Controls.Add(reportsTab);
             btnActionOne.Text = "Add";

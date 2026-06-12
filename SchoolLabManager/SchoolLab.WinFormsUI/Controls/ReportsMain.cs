@@ -7,14 +7,16 @@ using SchoolLab.WinFormsUI.Dialogs;
 
 namespace SchoolLab.WinFormsUI.Controls
 {
-    public partial class ReportsMain : UserControl, SchoolLab.WinFormsUI.Helpers.IDashboardTab
+public partial class ReportsMain : UserControl, SchoolLab.WinFormsUI.Helpers.IDashboardTab
     {
         public ReportItem selectedItem;
         private readonly IReportService? _reportService;
+        private readonly User _currentUser;
 
-        public ReportsMain(IReportService? reportService = null)
+        public ReportsMain(User currentUser, IReportService? reportService = null)
         {
             InitializeComponent();
+            _currentUser = currentUser;
             _reportService = reportService;
             Load += ReportsMain_Load;
         }
@@ -139,7 +141,7 @@ namespace SchoolLab.WinFormsUI.Controls
                 flowLayoutPanelReports.Controls.Clear();
                 foreach (var r in reports)
                 {
-                    var item = new ReportItem();
+                    var item = new ReportItem(_currentUser);
                     item.Bind(r);
                     item.Click += ReportItem_Click;
                     flowLayoutPanelReports.Controls.Add(item);

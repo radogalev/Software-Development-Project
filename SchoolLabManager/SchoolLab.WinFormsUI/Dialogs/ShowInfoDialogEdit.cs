@@ -66,8 +66,6 @@ namespace SchoolLab.WinFormsUI.Dialogs
 
         private void Save_btn_Click(object sender, EventArgs e)
         {
-            var ctx = new SchoolLabDbContext();
-
             int? selectedLocationId = Location_cbox.SelectedValue == null
             ? null
             : (int?)Convert.ToInt32(Location_cbox.SelectedValue);
@@ -76,6 +74,14 @@ namespace SchoolLab.WinFormsUI.Dialogs
             ? null
             : (int?)Convert.ToInt32(Category_cbox.SelectedValue);
 
+            if (selectedLocationId == null || selectedCategoryId == null || status_cbox.SelectedItem == null || condition_cbox.SelectedItem == null)
+            {
+                MessageBox.Show(this, "Please select status, condition, category, and location.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                DialogResult = DialogResult.None;
+                return;
+            }
+
+            using var ctx = new SchoolLabDbContext();
 
             Result = new EditResult
             {
