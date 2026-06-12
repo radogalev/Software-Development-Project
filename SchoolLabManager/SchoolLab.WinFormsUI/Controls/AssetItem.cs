@@ -17,6 +17,9 @@ namespace SchoolLab.WinFormsUI.Controls
             InitializeComponent();
             _currentUser = currentUser;
             _assetService = assetService;
+
+            lblName.Click += (s, e) => this.OnClick(e);
+            lblName.DoubleClick += (s, e) => this.OnDoubleClick(e);
         }
         public int AssetId { get; private set; }
 

@@ -10,6 +10,8 @@ namespace SchoolLab.WinFormsUI.Controls
         public ReportItem()
         {
             InitializeComponent();
+            lblName.Click += (s, e) => this.OnClick(e);
+            lblName.DoubleClick += (s, e) => this.OnDoubleClick(e);
         }
 
         public int ReportId { get; private set; }
@@ -30,6 +32,7 @@ namespace SchoolLab.WinFormsUI.Controls
 
         protected override void OnDoubleClick(EventArgs e)
         {
+
             base.OnDoubleClick(e);
 
             try

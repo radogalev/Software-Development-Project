@@ -28,25 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            flowLayoutPanelAssets = new System.Windows.Forms.FlowLayoutPanel();
+            flowLayoutPanelAssets = new FlowLayoutPanel();
             SuspendLayout();
             // 
             // flowLayoutPanelAssets
             // 
-            flowLayoutPanelAssets.Dock = DockStyle.Fill;
             flowLayoutPanelAssets.AutoScroll = true;
-            flowLayoutPanelAssets.WrapContents = true;
-            flowLayoutPanelAssets.FlowDirection = FlowDirection.LeftToRight;
-            flowLayoutPanelAssets.Padding = new Padding(8);
+            flowLayoutPanelAssets.Dock = DockStyle.Fill;
+            flowLayoutPanelAssets.Location = new Point(0, 0);
+            flowLayoutPanelAssets.Name = "flowLayoutPanelAssets";
+            flowLayoutPanelAssets.Size = new Size(700, 400);
+            flowLayoutPanelAssets.TabIndex = 0;
             // 
             // AsssetsMain
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Transparent;
-            Name = "AsssetsMain";
-            Size = new Size(618, 436);
             Controls.Add(flowLayoutPanelAssets);
+            Name = "AsssetsMain";
+            Size = new Size(700, 400);
             ResumeLayout(false);
         }
 

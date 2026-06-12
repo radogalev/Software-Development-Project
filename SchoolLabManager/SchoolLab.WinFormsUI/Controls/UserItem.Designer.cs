@@ -18,27 +18,30 @@ namespace SchoolLab.WinFormsUI.Controls
 
         private void InitializeComponent()
         {
-            this.lblName = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            lblName = new Label();
+            SuspendLayout();
             // 
             // lblName
             // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(3, 6);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(37, 17);
-            this.lblName.TabIndex = 0;
-            this.lblName.Text = "User";
+            lblName.AutoEllipsis = true;
+            lblName.AutoSize = true;
+            lblName.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblName.Location = new Point(3, 6);
+            lblName.Name = "lblName";
+            lblName.Size = new Size(60, 31);
+            lblName.TabIndex = 0;
+            lblName.Text = "User";
             // 
             // UserItem
             // 
-            this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Controls.Add(this.lblName);
-            this.Name = "UserItem";
-            this.Size = new System.Drawing.Size(250, 40);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            BackColor = Color.PaleTurquoise;
+            BorderStyle = BorderStyle.FixedSingle;
+            Controls.Add(lblName);
+            Margin = new Padding(4);
+            Name = "UserItem";
+            Size = new Size(215, 50);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

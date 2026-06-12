@@ -1,3 +1,4 @@
+using SchoolLab.Core.Enums;
 using SchoolLab.Core.Models;
 using SchoolLab.Services.Interfaces;
 using SchoolLab.WinFormsUI.Dialogs;
@@ -44,7 +45,7 @@ namespace SchoolLab.WinFormsUI.Controls
                 if (deleted)
                 {
                     MessageBox.Show("User deleted.");
-                    flowLayoutPanelUsers.Controls.Remove(selectedItem);
+                    selectedItem.Parent?.Controls.Remove(selectedItem);
                     selectedItem = null;
                 }
                 else
@@ -132,13 +133,16 @@ namespace SchoolLab.WinFormsUI.Controls
                     return;
                 }
 
-                flowLayoutPanelUsers.Controls.Clear();
+                flowLayoutPanelAdministrators.Controls.Clear();
+                flowLayoutPanelLabAssistants.Controls.Clear();
+                flowLayoutPanelViewers.Controls.Clear();
+
                 foreach (var u in users)
                 {
                     var item = new UserItem();
                     item.Bind(u);
                     item.Click += UserItem_Click;
-                    flowLayoutPanelUsers.Controls.Add(item);
+                    GetRolePanel(u.Role).Controls.Add(item);
                 }
             }
             catch (Exception ex)
@@ -155,6 +159,16 @@ namespace SchoolLab.WinFormsUI.Controls
                 selectedItem = ui;
                 selectedItem.Selected = true;
             }
+        }
+
+        private FlowLayoutPanel GetRolePanel(UserRole role)
+        {
+            return role switch
+            {
+                UserRole.Administrator => flowLayoutPanelAdministrators,
+                UserRole.Viewer => flowLayoutPanelViewers,
+                _ => flowLayoutPanelLabAssistants
+            };
         }
     }
 }

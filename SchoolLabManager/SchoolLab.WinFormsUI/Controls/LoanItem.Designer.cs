@@ -49,6 +49,7 @@ namespace SchoolLab.WinFormsUI.Controls
             Controls.Add(lblName);
             Name = "LoanItem";
             Size = new Size(325, 100);
+            Load += LoanItem_Load;
             ResumeLayout(false);
             PerformLayout();
         }

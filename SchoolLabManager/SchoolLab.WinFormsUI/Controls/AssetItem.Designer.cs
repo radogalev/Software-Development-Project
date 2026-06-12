@@ -34,27 +34,25 @@
             // 
             // lblName
             // 
-            lblName.AutoSize = true;
+            lblName.AutoEllipsis = true;
             lblName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblName.Location = new Point(5, 12);
+            lblName.Location = new Point(3, 8);
             lblName.Name = "lblName";
-            lblName.Size = new Size(89, 21);
+            lblName.Size = new Size(362, 37);
             lblName.TabIndex = 0;
-            lblName.Text = "AssetName";
+            lblName.Text = "Asset";
             // 
             // AssetItem
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PaleTurquoise;
             BorderStyle = BorderStyle.FixedSingle;
             Controls.Add(lblName);
-            Margin = new Padding(6);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "AssetItem";
-            Padding = new Padding(2);
-            Size = new Size(167, 148);
+            Size = new Size(325, 100);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

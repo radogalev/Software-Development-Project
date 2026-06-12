@@ -12,6 +12,8 @@ namespace SchoolLab.WinFormsUI.Controls
         public LoanItem()
         {
             InitializeComponent();
+            lblName.Click += (s, e) => this.OnClick(e);
+            lblName.DoubleClick += (s, e) => this.OnDoubleClick(e);
         }
 
         public int LoanId { get; private set; }
@@ -76,6 +78,11 @@ namespace SchoolLab.WinFormsUI.Controls
             {
                 MessageBox.Show(this, "An error occurred while showing loan details:\n" + ex.Message + "\n" + ex.InnerException, "Error\n", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void LoanItem_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

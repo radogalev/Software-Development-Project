@@ -27,14 +27,14 @@ namespace SchoolLab.WinFormsUI.Controls
             this.flowLayoutPanelReports.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanelReports.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanelReports.Name = "flowLayoutPanelReports";
-            this.flowLayoutPanelReports.Size = new System.Drawing.Size(600, 400);
+            this.flowLayoutPanelReports.Size = new System.Drawing.Size(700, 400);
             this.flowLayoutPanelReports.TabIndex = 0;
             // 
             // ReportsMain
             // 
             this.Controls.Add(this.flowLayoutPanelReports);
             this.Name = "ReportsMain";
-            this.Size = new System.Drawing.Size(600, 400);
+            this.Size = new System.Drawing.Size(700, 400);
             this.ResumeLayout(false);
         }
 
