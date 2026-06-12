@@ -1,0 +1,17 @@
+Showcase login users
+
+Administrators
+AdminTestUser / admin123
+MorganAdmin / admin123
+
+Lab assistants
+AssistantTestUser / labassist123
+SamAssistant / labassist123
+
+Viewers
+ViewerTestUser / viewer123
+AvaStudent / viewer123
+NoahStudent / viewer123
+MiaStudent / viewer123
+LeoStudent / viewer123
+SofiaStudent / viewer123

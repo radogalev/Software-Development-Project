@@ -47,7 +47,7 @@ namespace SchoolLab.WinFormsUI
             using (var scope = provider.CreateScope())
             {
                 var ctx = scope.ServiceProvider.GetRequiredService<SchoolLabDbContext>();
-                DatabaseSeeder.Seed(ctx); // sync version
+                ShowcaseDatabaseSeeder.Seed(ctx); // sync version
             }
 
             Application.Run(provider.GetRequiredService<LoginForm>());
