@@ -63,7 +63,7 @@ namespace SchoolLab.WinFormsUI.Dialogs
             Save_btn.Font = new Font("Segoe UI", 11F);
             Save_btn.Location = new Point(7, 243);
             Save_btn.Name = "Save_btn";
-            Save_btn.Size = new Size(75, 30);
+            Save_btn.Size = new Size(95, 30);
             Save_btn.TabIndex = 3;
             Save_btn.Text = "Save";
             Save_btn.UseVisualStyleBackColor = true;
@@ -72,9 +72,9 @@ namespace SchoolLab.WinFormsUI.Dialogs
             // Cancel_btn
             // 
             Cancel_btn.Font = new Font("Segoe UI", 11F);
-            Cancel_btn.Location = new Point(195, 243);
+            Cancel_btn.Location = new Point(187, 243);
             Cancel_btn.Name = "Cancel_btn";
-            Cancel_btn.Size = new Size(75, 30);
+            Cancel_btn.Size = new Size(83, 30);
             Cancel_btn.TabIndex = 4;
             Cancel_btn.Text = "Cancel";
             Cancel_btn.UseVisualStyleBackColor = true;

@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\dialogs\\changeuserroledialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\dialogs\\changeuserroledialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\dialogs\\changeuserroledialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\dialogs\\changeuserroledialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\dialogs\\adduserdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\dialogs\\adduserdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\dialogs\\adduserdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\dialogs\\adduserdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\controls\\reportitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\controls\\reportitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -15,11 +47,11 @@
       "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\controls\\reportsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\controls\\reportsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\schoollabmanager\\schoollab.winformsui\\controls\\reportsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\controls\\reportsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\controls\\useritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\schoollabmanager\\schoollab.winformsui\\controls\\useritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\controls\\useritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,20 +59,8 @@
       "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\dialogs\\adddamagereportdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\dialogs\\adddamagereportdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\schoollabmanager\\schoollab.winformsui\\dialogs\\adddamagereportdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\dialogs\\adddamagereportdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\controls\\useritem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,8 +86,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangeUserRoleDialog.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\ChangeUserRoleDialog.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\ChangeUserRoleDialog.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\ChangeUserRoleDialog.cs",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\ChangeUserRoleDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T15:57:29.215Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -78,20 +111,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReportItem.cs",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAA5AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ChangeUserRoleDialog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\ChangeUserRoleDialog.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\ChangeUserRoleDialog.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\ChangeUserRoleDialog.cs [Design]",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\ChangeUserRoleDialog.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T15:28:18.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T15:54:36.988Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddUserDialog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddUserDialog.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddUserDialog.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddUserDialog.cs [Design]",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddUserDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T15:53:43.657Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs [Design]",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T11:48:31.644Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAADwv2kAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T15:21:51.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddUserDialog.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddUserDialog.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddUserDialog.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddUserDialog.cs",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddUserDialog.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T15:54:49.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs [Design]",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T15:53:38.495Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ReportItem.cs [Design]",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
               "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
@@ -103,7 +197,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "ReportsMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs [Design]",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T15:27:09.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAA/wE4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T15:22:17.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ReportsMain.cs",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs",
               "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs",
@@ -116,19 +234,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReportsMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs [Design]",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportsMain.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "ReportItem.cs",
+              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
+              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
+              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
+              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T15:27:09.887Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-12T15:28:18.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "AddDamageReportDialog.cs",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddDamageReportDialog.cs",
               "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddDamageReportDialog.cs",
@@ -141,57 +260,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "AddDamageReportDialog.cs [Design]",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddDamageReportDialog.cs",
               "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddDamageReportDialog.cs",
               "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddDamageReportDialog.cs [Design]",
               "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Dialogs\\AddDamageReportDialog.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T15:26:50.489Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-12T15:26:50.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\LoginForm.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T15:22:17.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAADwv3UAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T15:21:51.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "UserItem.cs [Design]",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs",
               "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs",
               "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs [Design]",
               "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T11:53:23.144Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-12T11:53:23.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "UsersMain.Designer.cs",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UsersMain.Designer.cs",
               "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UsersMain.Designer.cs",
@@ -203,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "UsersMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UsersMain.cs",
               "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UsersMain.cs",
@@ -214,19 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs [Design]",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T11:48:31.644Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "UserItem.Designer.cs",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.Designer.cs",
               "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.Designer.cs",
@@ -234,12 +313,11 @@
               "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.Designer.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwBAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T11:53:26.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T11:53:26.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "LoansMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\LoansMain.cs",
               "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\LoansMain.cs",

@@ -12,6 +12,7 @@ namespace SchoolLab.Services.Interfaces
         Task<IEnumerable<User>> GetAllUsersAsync();
         Task<User?> GetByIdAsync(int id);
         Task<bool> DeleteUserAsync(int id);
+        Task<bool> ChangeUserRoleAsync(int id, SchoolLab.Core.Enums.UserRole role);
     }
 
 }

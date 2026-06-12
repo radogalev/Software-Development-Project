@@ -73,5 +73,34 @@ namespace SchoolLab.WinFormsUI
                 password_txt.UseSystemPasswordChar = true;
             }
         }
+
+        private async void register_btn_Click(object sender, EventArgs e)
+        {
+            using var dlg = new Dialogs.AddUserDialog(SchoolLab.Core.Enums.UserRole.Viewer, "Register");
+            if (dlg.ShowDialog(this) != DialogResult.OK || dlg.Result == null)
+            {
+                return;
+            }
+
+            User newUser = new User
+            {
+                Username = dlg.Result.Username,
+                DisplayName = dlg.Result.FullName,
+                PasswordHash = dlg.Result.Password,
+                Role = SchoolLab.Core.Enums.UserRole.Viewer,
+            };
+
+            bool ok = await _authService.RegisterUserAsync(newUser, dlg.Result.Password);
+            if (!ok)
+            {
+                MessageBox.Show(this, "Could not register user. Username may already exist.", "Registration", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            username_txt.Text = dlg.Result.Username;
+            password_txt.Clear();
+            lblError.Visible = false;
+            MessageBox.Show(this, "Registration complete. You can now log in.", "Registration", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

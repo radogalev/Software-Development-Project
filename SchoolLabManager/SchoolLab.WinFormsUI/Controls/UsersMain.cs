@@ -59,39 +59,32 @@ namespace SchoolLab.WinFormsUI.Controls
             }
         }
 
-        private async Task AddItemAsync()
+        private async Task ChangeSelectedUserRoleAsync()
         {
+            if (selectedItem == null) return;
+            if (_userService == null)
+            {
+                MessageBox.Show("User service unavailable.");
+                return;
+            }
+
             try
             {
-                var dlg = new AddUserDialog();
-                DialogResult res = dlg.ShowDialog();
-                if (res != DialogResult.OK) return;
-
-                var input = dlg.Result;
-                if (input == null) return;
-
-                User newUser = new User
+                User? user = await _userService.GetByIdAsync(selectedItem.UserId);
+                if (user == null)
                 {
-                    Username = input.Username,
-                    DisplayName = input.FullName,
-                    PasswordHash = input.Password,
-                    Role = input.Role,
-                };
-
-                bool ok;
-                if (_authService != null)
-                {
-                    ok = await _authService.RegisterUserAsync(newUser, input.Password);
-                }
-                else
-                {
-                    MessageBox.Show("Auth service unavailable.");
+                    MessageBox.Show("User not found.");
                     return;
                 }
 
+                var dlg = new ChangeUserRoleDialog(user.Role);
+                DialogResult res = dlg.ShowDialog();
+                if (res != DialogResult.OK) return;
+
+                bool ok = await _userService.ChangeUserRoleAsync(selectedItem.UserId, dlg.SelectedRole);
                 if (!ok)
                 {
-                    MessageBox.Show("Could not create user. Username may already exist.");
+                    MessageBox.Show("Could not change user role.");
                     return;
                 }
 
@@ -99,13 +92,13 @@ namespace SchoolLab.WinFormsUI.Controls
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error adding user: {ex.Message}\n{ex.InnerException}");
+                MessageBox.Show($"Error changing user role: {ex.Message}\n{ex.InnerException}");
             }
         }
 
         public async void ActionOne()
         {
-            await AddItemAsync();
+            await ChangeSelectedUserRoleAsync();
         }
 
         public async void ActionTwo()

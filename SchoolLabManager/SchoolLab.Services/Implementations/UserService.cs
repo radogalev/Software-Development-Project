@@ -36,6 +36,17 @@ namespace SchoolLab.Services.Implementations
             await _userRepo.SaveChangesAsync();
             return true;
         }
+
+        public async Task<bool> ChangeUserRoleAsync(int id, SchoolLab.Core.Enums.UserRole role)
+        {
+            var user = await _userRepo.GetByIdAsync(id);
+            if (user == null) return false;
+
+            user.Role = role;
+            _userRepo.Update(user);
+            await _userRepo.SaveChangesAsync();
+            return true;
+        }
     }
 
 }

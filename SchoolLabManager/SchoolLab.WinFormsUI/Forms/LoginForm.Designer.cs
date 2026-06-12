@@ -36,6 +36,7 @@
             password_txt = new TextBox();
             lblError = new Label();
             login_btn = new Button();
+            register_btn = new Button();
             panel1 = new Panel();
             showPass_chk = new CheckBox();
             label1 = new Label();
@@ -116,11 +117,25 @@
             login_btn.UseVisualStyleBackColor = true;
             login_btn.Click += login_btn_Click;
             // 
+            // register_btn
+            // 
+            register_btn.AutoSize = true;
+            register_btn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            register_btn.Location = new Point(291, 339);
+            register_btn.Margin = new Padding(3, 4, 3, 4);
+            register_btn.Name = "register_btn";
+            register_btn.Size = new Size(99, 38);
+            register_btn.TabIndex = 9;
+            register_btn.Text = "Register";
+            register_btn.UseVisualStyleBackColor = true;
+            register_btn.Click += register_btn_Click;
+            // 
             // panel1
             // 
             panel1.BackColor = Color.Azure;
             panel1.Controls.Add(showPass_chk);
             panel1.Controls.Add(label1);
+            panel1.Controls.Add(register_btn);
             panel1.Controls.Add(login_btn);
             panel1.Controls.Add(Title_Lbl);
             panel1.Controls.Add(label2);
@@ -189,5 +204,6 @@
         private Label label1;
         private CheckBox showPass_chk;
         private TextBox password_txt;
+        private Button register_btn;
     }
 }

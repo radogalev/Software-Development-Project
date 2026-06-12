@@ -59,6 +59,7 @@ namespace SchoolLab.WinFormsUI.Forms
             var assetsTab = new AsssetsMain(_currentUser, _assetService);
             MainControl_pnl.Controls.Clear();
             MainControl_pnl.Controls.Add(assetsTab);
+            btnActionOne.Text = "Add";
             btnActionTwo.Text = "Delete";
         }
 
@@ -84,6 +85,7 @@ namespace SchoolLab.WinFormsUI.Forms
             var loansTab = new LoansMain(_currentUser, _loanService);
             MainControl_pnl.Controls.Clear();
             MainControl_pnl.Controls.Add(loansTab);
+            btnActionOne.Text = "Add";
             btnActionTwo.Text = "Return";
         }
 
@@ -92,6 +94,7 @@ namespace SchoolLab.WinFormsUI.Forms
             var reportsTab = new ReportsMain(_reportService);
             MainControl_pnl.Controls.Clear();
             MainControl_pnl.Controls.Add(reportsTab);
+            btnActionOne.Text = "Add";
             btnActionTwo.Text = "Delete";
         }
 
@@ -100,6 +103,7 @@ namespace SchoolLab.WinFormsUI.Forms
             var usersTab = new UsersMain(_authService, _userService);
             MainControl_pnl.Controls.Clear();
             MainControl_pnl.Controls.Add(usersTab);
+            btnActionOne.Text = "Edit";
             btnActionTwo.Text = "Delete";
         }
 

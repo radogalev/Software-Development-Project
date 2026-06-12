@@ -37,6 +37,9 @@
     <Compile Update="Dialogs\AddUserDialog.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Dialogs\ChangeUserRoleDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Dialogs\ReturnLoadDialog.cs">
       <SubType>Form</SubType>
     </Compile>
