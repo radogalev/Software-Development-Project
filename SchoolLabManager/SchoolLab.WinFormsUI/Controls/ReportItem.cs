@@ -27,7 +27,7 @@ namespace SchoolLab.WinFormsUI.Controls
         {
             if (report == null) return;
             ReportId = report.Id;
-            lblName.Text = $"Report #{report.Id} - {(report.BorrowedAsset?.Name ?? "Asset")}";
+            lblName.Text = $"Damage Report #{report.Id}\n{(report.BorrowedAsset?.Name ?? "Asset")}";
         }
 
         protected override void OnDoubleClick(EventArgs e)

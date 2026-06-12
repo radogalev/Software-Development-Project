@@ -47,7 +47,17 @@ namespace SchoolLab.WinFormsUI
             dashboard.SetCurrentUser(User);
 
             this.Hide();
-            dashboard.ShowDialog();
+            DialogResult dashboardResult = dashboard.ShowDialog(this);
+
+            if (dashboardResult == DialogResult.Retry)
+            {
+                password_txt.Clear();
+                username_txt.Clear();
+                username_txt.Focus();
+                this.Show();
+                return;
+            }
+
             this.Close();
 
         }

@@ -24,11 +24,10 @@ namespace SchoolLab.WinFormsUI.Controls
             // lblName
             // 
             lblName.AutoEllipsis = true;
-            lblName.AutoSize = false;
             lblName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblName.Location = new Point(3, 6);
             lblName.Name = "lblName";
-            lblName.Size = new Size(317, 28);
+            lblName.Size = new Size(317, 80);
             lblName.TabIndex = 0;
             lblName.Text = "Report";
             // 
@@ -40,7 +39,6 @@ namespace SchoolLab.WinFormsUI.Controls
             Name = "ReportItem";
             Size = new Size(325, 100);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

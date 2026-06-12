@@ -103,6 +103,12 @@ namespace SchoolLab.WinFormsUI.Forms
             btnActionTwo.Text = "Delete";
         }
 
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Retry;
+            Close();
+        }
+
         private void MainDashboard_Load(object sender, EventArgs e)
         {
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolLab.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+095f46f92790f3aa8a18f871e770b468f1ce355c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d8566d971e21b983643f2009707a5c60e0daee5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolLab.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolLab.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

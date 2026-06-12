@@ -39,6 +39,7 @@ namespace SchoolLab.WinFormsUI.Forms
             btnManageReports = new Button();
             btnManageLoans = new Button();
             btnManageAssets = new Button();
+            btnLogout = new Button();
             lblWelcomeName = new Label();
             lblWelcomeRole = new Label();
             panel1 = new Panel();
@@ -74,7 +75,7 @@ namespace SchoolLab.WinFormsUI.Forms
             btnActionTwo.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btnActionTwo.BackColor = SystemColors.InactiveCaption;
             btnActionTwo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnActionTwo.Location = new Point(14, 419);
+            btnActionTwo.Location = new Point(14, 502);
             btnActionTwo.Margin = new Padding(3, 4, 3, 4);
             btnActionTwo.Name = "btnActionTwo";
             btnActionTwo.Size = new Size(78, 38);
@@ -89,7 +90,7 @@ namespace SchoolLab.WinFormsUI.Forms
             btnActionOne.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btnActionOne.BackColor = SystemColors.InactiveCaption;
             btnActionOne.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnActionOne.Location = new Point(129, 420);
+            btnActionOne.Location = new Point(137, 502);
             btnActionOne.Margin = new Padding(3, 4, 3, 4);
             btnActionOne.Name = "btnActionOne";
             btnActionOne.Size = new Size(59, 38);
@@ -122,9 +123,9 @@ namespace SchoolLab.WinFormsUI.Forms
             btnManageReports.Location = new Point(14, 145);
             btnManageReports.Margin = new Padding(3, 4, 3, 4);
             btnManageReports.Name = "btnManageReports";
-            btnManageReports.Size = new Size(165, 38);
+            btnManageReports.Size = new Size(167, 38);
             btnManageReports.TabIndex = 2;
-            btnManageReports.Text = "Manage Reports";
+            btnManageReports.Text = "Damage Reports";
             btnManageReports.UseVisualStyleBackColor = false;
             btnManageReports.Click += btnManageReports_Click;
             // 
@@ -157,6 +158,21 @@ namespace SchoolLab.WinFormsUI.Forms
             btnManageAssets.Text = "Manage Assets";
             btnManageAssets.UseVisualStyleBackColor = false;
             btnManageAssets.Click += btnManageAssets_Click;
+            // 
+            // btnLogout
+            // 
+            btnLogout.AutoSize = true;
+            btnLogout.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            btnLogout.BackColor = SystemColors.InactiveCaption;
+            btnLogout.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnLogout.Location = new Point(817, 558);
+            btnLogout.Margin = new Padding(3, 4, 3, 4);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(85, 38);
+            btnLogout.TabIndex = 8;
+            btnLogout.Text = "Logout";
+            btnLogout.UseVisualStyleBackColor = false;
+            btnLogout.Click += btnLogout_Click;
             // 
             // lblWelcomeName
             // 
@@ -221,6 +237,7 @@ namespace SchoolLab.WinFormsUI.Forms
             BackColor = Color.LightCyan;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(914, 600);
+            Controls.Add(btnLogout);
             Controls.Add(label1);
             Controls.Add(lblWelcomeName);
             Controls.Add(MainControl_pnl);
@@ -254,5 +271,6 @@ namespace SchoolLab.WinFormsUI.Forms
         private FlowLayoutPanel MainControl_pnl;
         private Button btnActionTwo;
         private Label label1;
+        private Button btnLogout;
     }
 }
