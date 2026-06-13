@@ -26,7 +26,7 @@ namespace SchoolLab.Data.Context
                 return;
             }
 
-            // UseSqlServer = we're using SQL Server (LocalDB in this case)
+            // UseSqlServer = we're using SQL Server (LocalDB)
             // Connection string breakdown:
             // - Server=(localdb)\\mssqllocaldb = use LocalDB instance
             // - Database=SchoolLabDB = database name
