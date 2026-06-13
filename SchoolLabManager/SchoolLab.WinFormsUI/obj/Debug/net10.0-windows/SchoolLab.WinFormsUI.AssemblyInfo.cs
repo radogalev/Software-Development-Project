@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolLab.WinFormsUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e91b15b6d965562e58dcddc9223213cb188fda3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d3bc8a9d6ac0bf0ee8029327371caa4e21c073")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolLab.WinFormsUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolLab.WinFormsUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

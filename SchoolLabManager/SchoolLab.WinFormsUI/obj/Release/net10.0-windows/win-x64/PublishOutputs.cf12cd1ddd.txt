@@ -1,0 +1,6 @@
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\publish-self-contained\SchoolLab.WinFormsUI.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\publish-self-contained\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\publish-self-contained\SchoolLab.Core.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\publish-self-contained\SchoolLab.Data.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\publish-self-contained\SchoolLab.Services.pdb
+C:\Users\stilq\Documents\GitHub\Software-Development-Project\publish-self-contained\SchoolLab.WinFormsUI.exe

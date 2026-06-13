@@ -14,6 +14,10 @@
     <SourceRoot Include="D:\Stilqn-Varna\vsshared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\10.0.9\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\10.0.9\build\Microsoft.NET.ILLink.Tasks.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.27\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.27\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\stilq\.nuget\packages\microsoft.net.illink.tasks\10.0.9</PkgMicrosoft_NET_ILLink_Tasks>
+  </PropertyGroup>
 </Project>

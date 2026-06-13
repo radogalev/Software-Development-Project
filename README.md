@@ -170,6 +170,9 @@ dotnet build .\Software-Development-Project.sln
 
 To run the WinForms app, open the solution in Visual Studio and start the `SchoolLab.WinFormsUI` project.
 
+Alternatively extract the .zip file inside `.\realease` and run `SchoolLab.WinFormsUI.exe`.
+This is a self-contained release and does not require the installation of .NET Desktop Runtime.
+
 ## Tests
 
 The test project is:
