@@ -80,6 +80,14 @@ SchoolLabManager/SchoolLabManager.sln
 - Loan creation and return workflow.
 - Loan status filter: `All`, `Active`, `Returned`, `Overdue`, `ReturnedLate`.
 - Damage report creation, deletion, and admin/lab-assistant editing.
+- Reports and statistics tab with:
+  - overdue loans by number of overdue days
+  - most borrowed assets
+  - users with the most overdue loans
+  - overdue loans report
+  - loans by selected person
+  - assets by selected location
+  - assets with frequent damage reports
 
 ### Seeders
 
@@ -95,7 +103,7 @@ Administrators can manage assets, loans, reports, and users. They can also chang
 
 ### Lab Assistant
 
-Lab assistants can manage assets, loans, returns, and damage reports.
+Lab assistants can manage assets, loans, returns, damage reports, and reports/statistics.
 
 ### Viewer
 

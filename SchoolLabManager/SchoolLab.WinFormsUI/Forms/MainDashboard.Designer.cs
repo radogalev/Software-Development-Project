@@ -123,9 +123,9 @@ namespace SchoolLab.WinFormsUI.Forms
             btnManageReports.Location = new Point(14, 145);
             btnManageReports.Margin = new Padding(3, 4, 3, 4);
             btnManageReports.Name = "btnManageReports";
-            btnManageReports.Size = new Size(167, 38);
+            btnManageReports.Size = new Size(165, 38);
             btnManageReports.TabIndex = 2;
-            btnManageReports.Text = "Damage Reports";
+            btnManageReports.Text = "Manage Reports";
             btnManageReports.UseVisualStyleBackColor = false;
             btnManageReports.Click += btnManageReports_Click;
             // 

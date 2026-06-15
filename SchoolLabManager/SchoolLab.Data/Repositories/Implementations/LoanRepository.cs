@@ -28,7 +28,7 @@ namespace SchoolLab.Data.Repositories.Implementations
                 .Include(x => x.BorrowedAsset)
                 .Include(x => x.Borrower)
                 .Include(x => x.Leaser)
-                .Where(x => x.Status == LoanStatus.Active && x.DueDate < DateTime.Now)
+                .Where(x => x.Status == LoanStatus.Overdue || (x.Status == LoanStatus.Active && x.DueDate < DateTime.Now))
                 .ToListAsync();
         }
         public async Task<IEnumerable<Loan>> GetLoansByPersonAsync(int personId)

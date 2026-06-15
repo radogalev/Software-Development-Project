@@ -105,7 +105,7 @@ namespace SchoolLab.Services.Implementations
         public async Task<bool> ReturnLoanAsync(int loanId, AssetCondition returnCondition)
         {
             Loan? loan = await _loanRepo.GetLoanWithDetailsAsync(loanId);
-            if (loan == null || loan.Status != LoanStatus.Active)
+            if (loan == null || loan.Status is not (LoanStatus.Active or LoanStatus.Overdue))
             {
                 return false;
             }
