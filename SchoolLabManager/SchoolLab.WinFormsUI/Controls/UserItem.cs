@@ -9,6 +9,8 @@ namespace SchoolLab.WinFormsUI.Controls
         public UserItem()
         {
             InitializeComponent();
+            lblName.Click += (s, e) => this.OnClick(e);
+            lblName.DoubleClick += (s, e) => this.OnDoubleClick(e);
         }
 
         public int UserId { get; private set; }
