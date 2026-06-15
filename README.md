@@ -33,6 +33,32 @@ SchoolLabManager/SchoolLabManager.sln
 - SQL Server LocalDB
 - NUnit tests
 
+## Requirements
+
+### Minimum Device Specs
+
+- CPU: 64-bit dual-core processor
+- RAM: 4 GB minimum
+- Storage: 500 MB free space for the app, database, and demo data
+- Display: 1280 x 720 minimum resolution
+- Keyboard and mouse or touchpad
+
+### Operating System
+
+- Windows 10 or newer
+- Windows 11 recommended
+
+### Required Software For Development
+
+- Visual Studio 2022 or newer with the `.NET desktop development` workload
+- .NET SDK compatible with the project target framework
+- SQL Server LocalDB, included with Visual Studio or SQL Server Express LocalDB
+
+### Required Software For Running The Release
+
+- The self-contained release in `.\release` can run without installing the .NET Desktop Runtime separately.
+- SQL Server LocalDB is still required because the app uses the local `SchoolLabDB` database.
+
 ## Main Features
 
 ### Login and registration
@@ -162,7 +188,7 @@ After switching seeders, reset the database before running the app again.
 
 ## Build and Run
 
-Tob build the project from the repository root:
+To build the project from the repository root:
 
 ```powershell
 dotnet build .\Software-Development-Project.sln
@@ -170,7 +196,7 @@ dotnet build .\Software-Development-Project.sln
 
 To run the WinForms app, open the solution in Visual Studio and start the `SchoolLab.WinFormsUI` project.
 
-Alternatively extract the .zip file inside `.\realease` and run `SchoolLab.WinFormsUI.exe`.
+Alternatively extract the .zip file inside `.\release` and run `SchoolLab.WinFormsUI.exe`.
 This is a self-contained release and does not require the installation of .NET Desktop Runtime.
 
 ## Tests
@@ -186,4 +212,3 @@ Run tests with:
 ```powershell
 dotnet test .\Software-Development-Project.sln
 ```
-
