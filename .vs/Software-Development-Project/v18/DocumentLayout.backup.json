@@ -1,40 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\forms\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\controls\\useritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\controls\\useritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\controls\\reportitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\controls\\reportitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\schoollabmanager\\schoollab.winformsui\\controls\\reportitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\controls\\reportitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\schoollabmanager\\schoollab.winformsui\\controls\\useritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\controls\\useritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9B3BC06-AC7A-0D1B-9E64-DD03A64D3636}|SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.core\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9B3BC06-AC7A-0D1B-9E64-DD03A64D3636}|SchoolLabManager\\SchoolLab.Core\\SchoolLab.Core.csproj|solutionrelative:schoollabmanager\\schoollab.core\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C14E249E-861B-8F9C-005E-F8B60639F08C}|SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.data\\context\\schoollabdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C14E249E-861B-8F9C-005E-F8B60639F08C}|SchoolLabManager\\SchoolLab.Data\\SchoolLab.Data.csproj|solutionrelative:schoollabmanager\\schoollab.data\\context\\schoollabdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|c:\\users\\stilq\\documents\\github\\software-development-project\\schoollabmanager\\schoollab.winformsui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EECDFBC-CB05-89EC-8E19-4B90C3324583}|SchoolLabManager\\SchoolLab.WinFormsUI\\SchoolLab.WinFormsUI.csproj|solutionrelative:schoollabmanager\\schoollab.winformsui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -42,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,102 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs [Design]",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Forms\\MainDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T09:12:55.45Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReportItem.cs",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T17:13:50.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserItem.cs",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBwAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T17:13:18.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReportItem.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs [Design]",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\ReportItem.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T17:13:49.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserItem.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs [Design]",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Controls\\UserItem.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T17:12:58.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Loan.cs",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\Models\\Loan.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.Core\\Models\\Loan.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Core\\Models\\Loan.cs",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.Core\\Models\\Loan.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T12:46:14.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SchoolLabDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Data\\Context\\SchoolLabDbContext.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.Data\\Context\\SchoolLabDbContext.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.Data\\Context\\SchoolLabDbContext.cs",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.Data\\Context\\SchoolLabDbContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA7wBcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T05:43:12.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolLabManager\\SchoolLab.WinFormsUI\\Program.cs",
-              "ToolTip": "C:\\Users\\stilq\\Documents\\GitHub\\Software-Development-Project\\SchoolLabManager\\SchoolLab.WinFormsUI\\Program.cs",
-              "RelativeToolTip": "SchoolLabManager\\SchoolLab.WinFormsUI\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T05:42:48.857Z"
             }
           ]
         },
