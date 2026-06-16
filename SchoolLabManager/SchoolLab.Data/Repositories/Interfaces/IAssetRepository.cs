@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 
 namespace SchoolLab.Data.Repositories.Interfaces
 {
-    // Asset-specific repository with custom methods
     public interface IAssetRepository : IRepository<Asset>
     {
         Task<IEnumerable<Asset>> GetAssetsByStatusAsync(AssetStatus status);

@@ -58,6 +58,10 @@ namespace SchoolLab.WinFormsUI.Dialogs
             Password_txt.Size = new Size(260, 32);
             Password_txt.TabIndex = 2;
             // 
+            // UserRols_cbox
+            // 
+            UserRols_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
+            // 
             // Save_btn
             // 
             Save_btn.Font = new Font("Segoe UI", 11F);

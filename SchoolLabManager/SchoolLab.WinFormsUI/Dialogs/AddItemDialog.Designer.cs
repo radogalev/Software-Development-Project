@@ -1,4 +1,4 @@
-﻿namespace SchoolLab.WinFormsUI.Dialogs
+namespace SchoolLab.WinFormsUI.Dialogs
 {
     partial class AddItemDialog
     {
@@ -120,6 +120,14 @@
             Category_cbox.Size = new Size(138, 38);
             Category_cbox.TabIndex = 7;
             Category_cbox.SelectedIndexChanged += Category_cbox_SelectedIndexChanged;
+            // 
+            // Location_cbox
+            // 
+            Location_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
+            // 
+            // Category_cbox
+            // 
+            Category_cbox.DropDownStyle = ComboBoxStyle.DropDownList;
             // 
             // label4
             // 

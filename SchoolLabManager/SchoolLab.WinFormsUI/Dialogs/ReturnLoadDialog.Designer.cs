@@ -1,4 +1,4 @@
-﻿namespace SchoolLab.WinFormsUI.Dialogs
+namespace SchoolLab.WinFormsUI.Dialogs
 {
     partial class ReturnLoadDialog
     {
@@ -58,6 +58,7 @@
             // 
             // comboBox1
             // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(12, 96);
             comboBox1.Name = "comboBox1";
