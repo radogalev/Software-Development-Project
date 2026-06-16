@@ -1,9 +1,10 @@
+using System.ComponentModel;
 namespace SchoolLab.WinFormsUI.Controls
 {
     partial class ReportItem
     {
-        private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.Label lblName;
+        private IContainer components = null;
+        private Label lblName;
 
         protected override void Dispose(bool disposing)
         {

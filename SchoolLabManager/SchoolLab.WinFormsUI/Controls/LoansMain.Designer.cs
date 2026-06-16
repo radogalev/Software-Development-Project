@@ -1,12 +1,13 @@
+using System.ComponentModel;
 namespace SchoolLab.WinFormsUI.Controls
 {
     partial class LoansMain
     {
-        private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.Panel filterPanel;
-        private System.Windows.Forms.Label lblStatusFilter;
-        private System.Windows.Forms.ComboBox cmbStatusFilter;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelLoans;
+        private IContainer components = null;
+        private Panel filterPanel;
+        private Label lblStatusFilter;
+        private ComboBox cmbStatusFilter;
+        private FlowLayoutPanel flowLayoutPanelLoans;
 
         protected override void Dispose(bool disposing)
         {

@@ -1,19 +1,21 @@
+using System.ComponentModel;
+using System.Windows.Forms;
 namespace SchoolLab.WinFormsUI.Controls
 {
     partial class ReportsMain
     {
-        private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.TabControl tabControlReports = null;
-        private System.Windows.Forms.TabPage tabDamageReports = null;
-        private System.Windows.Forms.TabPage tabStatistics = null;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelReports = null;
-        private System.Windows.Forms.Panel statisticsFilterPanel = null;
-        private System.Windows.Forms.Label lblReportType = null;
-        private System.Windows.Forms.ComboBox cmbReportType = null;
-        private System.Windows.Forms.Label lblReportFilter = null;
-        private System.Windows.Forms.ComboBox cmbReportFilter = null;
-        private System.Windows.Forms.Button btnRefreshReport = null;
-        private System.Windows.Forms.DataGridView dgvStatistics = null;
+        private IContainer components = null;
+        private TabControl tabControlReports = null;
+        private TabPage tabDamageReports = null;
+        private TabPage tabStatistics = null;
+        private FlowLayoutPanel flowLayoutPanelReports = null;
+        private Panel statisticsFilterPanel = null;
+        private Label lblReportType = null;
+        private ComboBox cmbReportType = null;
+        private Label lblReportFilter = null;
+        private ComboBox cmbReportFilter = null;
+        private Button btnRefreshReport = null;
+        private DataGridView dgvStatistics = null;
 
         protected override void Dispose(bool disposing)
         {
@@ -28,17 +30,17 @@ namespace SchoolLab.WinFormsUI.Controls
 
         private void InitializeComponent()
         {
-            this.tabControlReports = new System.Windows.Forms.TabControl();
-            this.tabDamageReports = new System.Windows.Forms.TabPage();
-            this.flowLayoutPanelReports = new System.Windows.Forms.FlowLayoutPanel();
-            this.tabStatistics = new System.Windows.Forms.TabPage();
-            this.dgvStatistics = new System.Windows.Forms.DataGridView();
-            this.statisticsFilterPanel = new System.Windows.Forms.Panel();
-            this.btnRefreshReport = new System.Windows.Forms.Button();
-            this.cmbReportFilter = new System.Windows.Forms.ComboBox();
-            this.lblReportFilter = new System.Windows.Forms.Label();
-            this.cmbReportType = new System.Windows.Forms.ComboBox();
-            this.lblReportType = new System.Windows.Forms.Label();
+            this.tabControlReports = new TabControl();
+            this.tabDamageReports = new TabPage();
+            this.flowLayoutPanelReports = new FlowLayoutPanel();
+            this.tabStatistics = new TabPage();
+            this.dgvStatistics = new DataGridView();
+            this.statisticsFilterPanel = new Panel();
+            this.btnRefreshReport = new Button();
+            this.cmbReportFilter = new ComboBox();
+            this.lblReportFilter = new Label();
+            this.cmbReportType = new ComboBox();
+            this.lblReportType = new Label();
             this.tabControlReports.SuspendLayout();
             this.tabDamageReports.SuspendLayout();
             this.tabStatistics.SuspendLayout();
@@ -50,7 +52,7 @@ namespace SchoolLab.WinFormsUI.Controls
             // 
             this.tabControlReports.Controls.Add(this.tabDamageReports);
             this.tabControlReports.Controls.Add(this.tabStatistics);
-            this.tabControlReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlReports.Dock = DockStyle.Fill;
             this.tabControlReports.Location = new System.Drawing.Point(0, 0);
             this.tabControlReports.Name = "tabControlReports";
             this.tabControlReports.SelectedIndex = 0;
@@ -62,7 +64,7 @@ namespace SchoolLab.WinFormsUI.Controls
             this.tabDamageReports.Controls.Add(this.flowLayoutPanelReports);
             this.tabDamageReports.Location = new System.Drawing.Point(4, 29);
             this.tabDamageReports.Name = "tabDamageReports";
-            this.tabDamageReports.Padding = new System.Windows.Forms.Padding(3);
+            this.tabDamageReports.Padding = new Padding(3);
             this.tabDamageReports.Size = new System.Drawing.Size(692, 367);
             this.tabDamageReports.TabIndex = 0;
             this.tabDamageReports.Text = "Damage Reports";
@@ -71,7 +73,7 @@ namespace SchoolLab.WinFormsUI.Controls
             // flowLayoutPanelReports
             // 
             this.flowLayoutPanelReports.AutoScroll = true;
-            this.flowLayoutPanelReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanelReports.Dock = DockStyle.Fill;
             this.flowLayoutPanelReports.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanelReports.Name = "flowLayoutPanelReports";
             this.flowLayoutPanelReports.Size = new System.Drawing.Size(686, 361);
@@ -83,7 +85,7 @@ namespace SchoolLab.WinFormsUI.Controls
             this.tabStatistics.Controls.Add(this.statisticsFilterPanel);
             this.tabStatistics.Location = new System.Drawing.Point(4, 29);
             this.tabStatistics.Name = "tabStatistics";
-            this.tabStatistics.Padding = new System.Windows.Forms.Padding(3);
+            this.tabStatistics.Padding = new Padding(3);
             this.tabStatistics.Size = new System.Drawing.Size(692, 367);
             this.tabStatistics.TabIndex = 1;
             this.tabStatistics.Text = "Statistics";
@@ -95,13 +97,13 @@ namespace SchoolLab.WinFormsUI.Controls
             this.dgvStatistics.AllowUserToDeleteRows = false;
             this.dgvStatistics.AllowUserToResizeColumns = false;
             this.dgvStatistics.AllowUserToResizeRows = false;
-            this.dgvStatistics.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvStatistics.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvStatistics.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvStatistics.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvStatistics.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgvStatistics.Dock = DockStyle.Fill;
             this.dgvStatistics.Location = new System.Drawing.Point(3, 63);
             this.dgvStatistics.Name = "dgvStatistics";
             this.dgvStatistics.ReadOnly = true;
-            this.dgvStatistics.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dgvStatistics.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvStatistics.RowHeadersWidth = 51;
             this.dgvStatistics.Size = new System.Drawing.Size(686, 301);
             this.dgvStatistics.TabIndex = 1;
@@ -113,7 +115,7 @@ namespace SchoolLab.WinFormsUI.Controls
             this.statisticsFilterPanel.Controls.Add(this.lblReportFilter);
             this.statisticsFilterPanel.Controls.Add(this.cmbReportType);
             this.statisticsFilterPanel.Controls.Add(this.lblReportType);
-            this.statisticsFilterPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.statisticsFilterPanel.Dock = DockStyle.Top;
             this.statisticsFilterPanel.Location = new System.Drawing.Point(3, 3);
             this.statisticsFilterPanel.Name = "statisticsFilterPanel";
             this.statisticsFilterPanel.Size = new System.Drawing.Size(686, 60);
@@ -131,7 +133,7 @@ namespace SchoolLab.WinFormsUI.Controls
             // 
             // cmbReportFilter
             // 
-            this.cmbReportFilter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbReportFilter.DropDownStyle = ComboBoxStyle.DropDownList;
             this.cmbReportFilter.FormattingEnabled = true;
             this.cmbReportFilter.Location = new System.Drawing.Point(421, 17);
             this.cmbReportFilter.Name = "cmbReportFilter";
@@ -150,7 +152,7 @@ namespace SchoolLab.WinFormsUI.Controls
             // 
             // cmbReportType
             // 
-            this.cmbReportType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbReportType.DropDownStyle = ComboBoxStyle.DropDownList;
             this.cmbReportType.FormattingEnabled = true;
             this.cmbReportType.Location = new System.Drawing.Point(95, 17);
             this.cmbReportType.Name = "cmbReportType";
